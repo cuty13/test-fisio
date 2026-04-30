@@ -404,6 +404,8 @@ select:focus {
   align-items: center;
   gap: 20px;
   text-align: center;
+  flex: 1;
+  min-height: 0;
 }
 
 .result-emoji {
@@ -488,7 +490,7 @@ h2 {
   display: flex;
   flex-direction: column;
   gap: 8px;
-  max-height: 300px;
+  flex: 1;
   overflow-y: auto;
   padding-right: 4px;
 }
@@ -529,6 +531,8 @@ h2 {
   display: flex;
   gap: 12px;
   width: 100%;
+  margin-top: auto;
+  padding-top: 4px;
 }
 .results-actions .btn {
   flex: 1;
