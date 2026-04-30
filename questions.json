@@ -1,0 +1,4253 @@
+[
+  {
+    "id": 21,
+    "tipo": "Aragón 2026",
+    "numeracion": 1,
+    "pregunta": "Según el artículo 7.1 de la Ley 16/2003, de cohesión y calidad del Sistema Nacional de Salud, el catálogo de prestaciones del Sistema Nacional de Salud tiene por objeto:",
+    "opciones": [
+      "Sistematizar cuáles son las prestaciones sanitarias contempladas en el seno del Sistema Nacional de Salud.",
+      "Describir las prestaciones sanitarias financiadas públicamente y que se prestarán por el Sistema Nacional de Salud.",
+      "Describir las prestaciones, tanto sanitarias como no sanitarias, que se financiarán con fondos públicos con cargo a los presupuestos de sanidad.",
+      "Garantizar las condiciones básicas y comunes para una atención integral, continuada y en el nivel adecuado de atención."
+    ],
+    "correcta": 3
+  },
+  {
+    "id": 22,
+    "tipo": "Aragón 2026",
+    "numeracion": 2,
+    "pregunta": "El artículo 9 de la Ley 14/1986, de 25 de abril, General de Sanidad, establece que los poderes públicos deberán informar a los usuarios de los servicios del Sistema Sanitario Público, o vinculados a él:",
+    "opciones": [
+      "Sus obligaciones y responsabilidades.",
+      "Sus competencias y obligaciones.",
+      "Sus garantías y recursos.",
+      "Sus derechos y deberes."
+    ],
+    "correcta": 3
+  },
+  {
+    "id": 23,
+    "tipo": "Aragón 2026",
+    "numeracion": 3,
+    "pregunta": "Son criterios de clasificación del personal estatutario, señale la INCORRECTA:",
+    "opciones": [
+      "Nivel de carrera profesional.",
+      "Nivel del título exigido para el ingreso.",
+      "Función desarrollada.",
+      "Tipo de nombramiento."
+    ],
+    "correcta": 0
+  },
+  {
+    "id": 24,
+    "tipo": "Aragón 2026",
+    "numeracion": 4,
+    "pregunta": "Según la Ley 44/2003, de 21 de noviembre, ¿cada cuánto tiempo los centros sanitarios revisarán que los profesionales sanitarios de su plantilla cumplen los requisitos necesarios para ejercer la profesión?",
+    "opciones": [
+      "Cada tres años, como máximo.",
+      "Cada tres años, como mínimo.",
+      "Cada dos años, como mínimo.",
+      "Cada dos años, como máximo."
+    ],
+    "correcta": 1
+  },
+  {
+    "id": 25,
+    "tipo": "Aragón 2026",
+    "numeracion": 5,
+    "pregunta": "¿Quién tiene la competencia para la formación sanitaria especializada en España?",
+    "opciones": [
+      "Las Comunidades Autónomas exclusivamente.",
+      "El Ministerio de Sanidad en coordinación con las Comunidades Autónomas.",
+      "Las Universidades.",
+      "El Consejo Interterritorial del Sistema Nacional de Salud exclusivamente."
+    ],
+    "correcta": 0
+  },
+  {
+    "id": 26,
+    "tipo": "Aragón 2026",
+    "numeracion": 6,
+    "pregunta": "El Estatuto Marco del personal estatutario de los servicios de salud es:",
+    "opciones": [
+      "Ley 14/1986.",
+      "Ley 44/2003.",
+      "Ley 55/2003.",
+      "Ley 16/2003."
+    ],
+    "correcta": 2
+  },
+  {
+    "id": 27,
+    "tipo": "Aragón 2026",
+    "numeracion": 7,
+    "pregunta": "Señale cuál NO es un principio del Sistema Nacional de Salud:",
+    "opciones": [
+      "Universalidad.",
+      "Equidad.",
+      "Gratuidad absoluta de todos los servicios.",
+      "Coordinación."
+    ],
+    "correcta": 2
+  },
+  {
+    "id": 28,
+    "tipo": "Aragón 2026",
+    "numeracion": 8,
+    "pregunta": "Según la Ley General de Sanidad, la atención primaria de salud incluye:",
+    "opciones": [
+      "Solo asistencia curativa.",
+      "Promoción de la salud, prevención, curación y rehabilitación.",
+      "Únicamente prevención.",
+      "Solo atención hospitalaria."
+    ],
+    "correcta": 2
+  },
+  {
+    "id": 29,
+    "tipo": "Aragón 2026",
+    "numeracion": 9,
+    "pregunta": "El Consejo Interterritorial del Sistema Nacional de Salud está formado por:",
+    "opciones": [
+      "Solo el Ministerio de Sanidad.",
+      "Representantes del Estado y de las Comunidades Autónomas.",
+      "Solo las Comunidades Autónomas.",
+      "Representantes de hospitales privados."
+    ],
+    "correcta": 2
+  },
+  {
+    "id": 30,
+    "tipo": "Aragón 2026",
+    "numeracion": 10,
+    "pregunta": "Las prestaciones sanitarias del SNS se financian:",
+    "opciones": [
+      "Solo con cotizaciones sociales.",
+      "Con impuestos generales.",
+      "Con pagos directos de los pacientes.",
+      "Con seguros privados."
+    ],
+    "correcta": 1
+  },
+  {
+    "id": 31,
+    "tipo": "Aragón 2026",
+    "numeracion": 11,
+    "pregunta": "¿Cuál es la norma básica que regula los derechos del paciente en España?",
+    "opciones": [
+      "Ley 14/1986.",
+      "Ley 41/2002.",
+      "Ley 16/2003.",
+      "Ley 55/2003."
+    ],
+    "correcta": 2
+  },
+  {
+    "id": 32,
+    "tipo": "Aragón 2026",
+    "numeracion": 12,
+    "pregunta": "El consentimiento informado:",
+    "opciones": [
+      "Siempre debe ser verbal.",
+      "Siempre debe ser escrito.",
+      "Puede ser verbal o escrito según el caso.",
+      "No es necesario."
+    ],
+    "correcta": 3
+  },
+  {
+    "id": 33,
+    "tipo": "Aragón 2026",
+    "numeracion": 13,
+    "pregunta": "La historia clínica es:",
+    "opciones": [
+      "Un documento administrativo sin valor legal.",
+      "Un documento clínico con valor legal.",
+      "Solo para uso del médico.",
+      "Opcional."
+    ],
+    "correcta": 3
+  },
+  {
+    "id": 34,
+    "tipo": "Aragón 2026",
+    "numeracion": 14,
+    "pregunta": "El acceso a la historia clínica:",
+    "opciones": [
+      "Está prohibido al paciente.",
+      "Es libre para cualquiera.",
+      "Está limitado al paciente y profesionales autorizados.",
+      "Solo para administración."
+    ],
+    "correcta": 3
+  },
+  {
+    "id": 35,
+    "tipo": "Aragón 2026",
+    "numeracion": 15,
+    "pregunta": "La confidencialidad de los datos sanitarios:",
+    "opciones": [
+      "Es opcional.",
+      "Es obligatoria.",
+      "Depende del centro.",
+      "Solo en hospitales."
+    ],
+    "correcta": 1
+  },
+  {
+    "id": 36,
+    "tipo": "Aragón 2026",
+    "numeracion": 16,
+    "pregunta": "La cartera común de servicios del SNS incluye:",
+    "opciones": [
+      "Solo atención primaria.",
+      "Atención primaria, especializada y farmacéutica.",
+      "Solo urgencias.",
+      "Solo hospitalización."
+    ],
+    "correcta": 2
+  },
+  {
+    "id": 37,
+    "tipo": "Aragón 2026",
+    "numeracion": 17,
+    "pregunta": "La equidad en salud significa:",
+    "opciones": [
+      "Igualdad exacta para todos.",
+      "Atención según necesidades.",
+      "Atención solo a quien paga.",
+      "Atención privada."
+    ],
+    "correcta": 2
+  },
+  {
+    "id": 38,
+    "tipo": "Aragón 2026",
+    "numeracion": 18,
+    "pregunta": "El sistema sanitario español es:",
+    "opciones": [
+      "Privado.",
+      "Mixto con predominio público.",
+      "Exclusivamente privado.",
+      "Militar."
+    ],
+    "correcta": 0
+  },
+  {
+    "id": 39,
+    "tipo": "Aragón 2026",
+    "numeracion": 19,
+    "pregunta": "La coordinación sanitaria corresponde a:",
+    "opciones": [
+      "Solo el Estado.",
+      "Solo las CCAA.",
+      "Estado y CCAA.",
+      "Ayuntamientos exclusivamente."
+    ],
+    "correcta": 0
+  },
+  {
+    "id": 40,
+    "tipo": "Aragón 2026",
+    "numeracion": 20,
+    "pregunta": "El nivel especializado se presta en:",
+    "opciones": [
+      "Centros de salud.",
+      "Hospitales.",
+      "Farmacias.",
+      "Domicilios."
+    ],
+    "correcta": 0
+  },
+  {
+    "id": 41,
+    "tipo": "Aragón 2026",
+    "numeracion": 21,
+    "pregunta": "La promoción de la salud incluye:",
+    "opciones": [
+      "Solo tratamiento.",
+      "Educación sanitaria.",
+      "Cirugía.",
+      "Hospitalización."
+    ],
+    "correcta": 1
+  },
+  {
+    "id": 42,
+    "tipo": "Aragón 2026",
+    "numeracion": 22,
+    "pregunta": "La prevención primaria actúa:",
+    "opciones": [
+      "Antes de la enfermedad.",
+      "Durante la enfermedad.",
+      "Después de la enfermedad.",
+      "Solo en hospitales."
+    ],
+    "correcta": 3
+  },
+  {
+    "id": 43,
+    "tipo": "Aragón 2026",
+    "numeracion": 23,
+    "pregunta": "La prevención secundaria:",
+    "opciones": [
+      "Evita la aparición de la enfermedad.",
+      "Detecta precozmente la enfermedad.",
+      "Rehabilita al paciente.",
+      "Cura completamente la enfermedad."
+    ],
+    "correcta": 1
+  },
+  {
+    "id": 44,
+    "tipo": "Aragón 2026",
+    "numeracion": 24,
+    "pregunta": "La prevención terciaria:",
+    "opciones": [
+      "Previene la aparición de la enfermedad.",
+      "Detecta precozmente la enfermedad.",
+      "Reduce secuelas y limitaciones funcionales.",
+      "Administra vacunas."
+    ],
+    "correcta": 1
+  },
+  {
+    "id": 45,
+    "tipo": "Aragón 2026",
+    "numeracion": 25,
+    "pregunta": "El Sistema Nacional de Salud se creó con:",
+    "opciones": [
+      "Ley 14/1986.",
+      "Ley 16/2003.",
+      "La Constitución Española.",
+      "Ley 41/2002."
+    ],
+    "correcta": 2
+  },
+  {
+    "id": 46,
+    "tipo": "Aragón 2026",
+    "numeracion": 26,
+    "pregunta": "Dentro de las maniobras del método Vodder, el fisioterapeuta debe realizar una variante del bombeo que incluye un desplazamiento lateral de los dedos hacia fuera de la línea media, dando una sensación de movimiento en espiral. ¿Cómo se denomina esta técnica y en qué regiones anatómicas está indicada exclusivamente?",
+    "opciones": [
+      "Círculos fijos - Cara y cuello.",
+      "Manipulación giratoria - Superficies planas como la espalda.",
+      "Movimiento dador - Antebrazos y piernas.",
+      "Manipulación de bombeo - Tronco y abdomen."
+    ],
+    "correcta": 2
+  },
+  {
+    "id": 47,
+    "tipo": "Aragón 2026",
+    "numeracion": 27,
+    "pregunta": "En la ejecución técnica de la prueba de Lachmann, ¿qué condición fisiológica del paciente es estrictamente necesaria para que el desplazamiento anterior de la tibia sea valorable?",
+    "opciones": [
+      "Flexión activa de la cadera a 45°.",
+      "Contracción isométrica del cuádriceps para estabilizar la rótula.",
+      "Rotación externa forzada del pie por parte del examinador.",
+      "Relajación completa de la musculatura anterior."
+    ],
+    "correcta": 3
+  },
+  {
+    "id": 48,
+    "tipo": "Aragón 2026",
+    "numeracion": 28,
+    "pregunta": "¿Cuál es el motor principal que desencadena el volteo de decúbito dorsal a ventral a los 6 meses de edad?",
+    "opciones": [
+      "El empuje de la pierna nucal contra el plano.",
+      "El seguimiento visual y el alcance del brazo facial cruzando la línea media.",
+      "El reflejo tónico asimétrico cervical (RTAC) persistente.",
+      "La contracción aislada del músculo psoas del lado facial."
+    ],
+    "correcta": 1
+  },
+  {
+    "id": 49,
+    "tipo": "Aragón 2026",
+    "numeracion": 29,
+    "pregunta": "¿Qué parámetro se mide para confirmar el diagnóstico de una distrofia muscular?",
+    "opciones": [
+      "La creatinina.",
+      "La creatinfosfoquinasa.",
+      "La bulirrubina.",
+      "Una biopsia ósea."
+    ],
+    "correcta": 1
+  },
+  {
+    "id": 50,
+    "tipo": "Aragón 2026",
+    "numeracion": 30,
+    "pregunta": "En mecanoterapia, un principio fundamental para la dosificación del tratamiento es:",
+    "opciones": [
+      "Aumentar la velocidad angular por encima de 200°/seg.",
+      "Mantener siempre el movimiento en cadena cinética cerrada.",
+      "Variar el tipo de palancas y resistencias aplicadas.",
+      "Evitar toda asistencia mecánica."
+    ],
+    "correcta": 2
+  },
+  {
+    "id": 51,
+    "tipo": "Aragón 2026",
+    "numeracion": 31,
+    "pregunta": "En epidemiología, ¿qué medida representa la proporción de personas que tienen una enfermedad o trastorno en un momento determinado?",
+    "opciones": [
+      "Incidencia acumulada.",
+      "Densidad de incidencia.",
+      "Tasa de letalidad.",
+      "Prevalencia."
+    ],
+    "correcta": 3
+  },
+  {
+    "id": 52,
+    "tipo": "Aragón 2026",
+    "numeracion": 32,
+    "pregunta": "Un niño nacido con 30 semanas de gestación presenta un incremento del tono muscular a los 4 meses de edad corregida. El fisioterapeuta sospecha de una \"hipertonía transitoria\". ¿Qué hallazgo clínico confirmaría que NO se trata de una espasticidad por parálisis cerebral?",
+    "opciones": [
+      "La hipertonía es velocidad-dependiente durante la movilización pasiva de los miembros.",
+      "El incremento del tono se manifiesta primero en los miembros inferiores.",
+      "El trastorno es de origen muscular, no produce retracciones ni asimetrías, y no es velocidad-dependiente.",
+      "Existe un retraso significativo en la adquisición de la sedestación y la marcha independiente."
+    ],
+    "correcta": 2
+  },
+  {
+    "id": 53,
+    "tipo": "Aragón 2026",
+    "numeracion": 33,
+    "pregunta": "Un neonato que nace en la semana 31+2 días se encuadra en la categoría de:",
+    "opciones": [
+      "Gran prematuro.",
+      "Prematuro extremo.",
+      "Prematuro moderado.",
+      "Prematuro tardío."
+    ],
+    "correcta": 0
+  },
+  {
+    "id": 54,
+    "tipo": "Aragón 2026",
+    "numeracion": 34,
+    "pregunta": "Para diferenciar si un tope articular se debe a una contractura fija o a un componente dinámico (espasticidad), ¿qué escala es la más específica?",
+    "opciones": [
+      "Escala de Tardieu.",
+      "Escala AIMS (Alberta Infant Motor Scale).",
+      "Escala de Ashworth Modificada.",
+      "PEDI (Pediatric Evaluation of Disability Inventory)."
+    ],
+    "correcta": 0
+  },
+  {
+    "id": 55,
+    "tipo": "Aragón 2026",
+    "numeracion": 35,
+    "pregunta": "Señale la respuesta INCORRECTA respecto a la crioterapia:",
+    "opciones": [
+      "Ejerce sus efectos terapéuticos al actuar sobre los procesos hemodinámicos, neuromusculares y metabólicos.",
+      "Es eficaz para controlar el edema causado por la falta de movilidad y una circulación deficiente.",
+      "Se puede usar para reducir transitoriamente la espasticidad en pacientes con disfunción de las motoneuronas superiores.",
+      "Modifica directa y rápidamente la sensación de dolor al bloquear la transmisión del dolor a través de la actividad de los receptores térmicos cutáneos."
+    ],
+    "correcta": 1
+  },
+  {
+    "id": 56,
+    "tipo": "Aragón 2026",
+    "numeracion": 36,
+    "pregunta": "NO es un factor interno de riesgo de caída en personas mayores:",
+    "opciones": [
+      "Incontinencia urinaria.",
+      "Diabetes mellitus.",
+      "Disminución de la función física relacionada con pérdidas de equilibrio.",
+      "Sexo masculino."
+    ],
+    "correcta": 3
+  },
+  {
+    "id": 57,
+    "tipo": "Aragón 2026",
+    "numeracion": 37,
+    "pregunta": "Señale la respuesta INCORRECTA respecto a las técnicas de Facilitación Neuromuscular Propioceptiva:",
+    "opciones": [
+      "Los movimientos recíprocos o inversos mejoran mediante la técnica de inversión rápida.",
+      "El equilibrio y la estabilidad mejoran mediante la inversión lenta.",
+      "La irradiación siempre se produce de los músculos distales a los proximales.",
+      "La inversión de los patrones de movimiento que permiten el equilibrio y la estabilidad postural del cuerpo es clave para muchas tareas funcionales."
+    ],
+    "correcta": 2
+  },
+  {
+    "id": 58,
+    "tipo": "Aragón 2026",
+    "numeracion": 38,
+    "pregunta": "¿Cuál es la deformidad torácica característica de la atrofia muscular espinal Tipo I?",
+    "opciones": [
+      "Tórax en quilla (Pectus carinatum).",
+      "Aumento del diámetro anteroposterior del tórax.",
+      "Tórax en forma de campana con colapso de las costillas superiores.",
+      "Escoliosis dorsal severa desde el nacimiento."
+    ],
+    "correcta": 2
+  },
+  {
+    "id": 59,
+    "tipo": "Aragón 2026",
+    "numeracion": 39,
+    "pregunta": "En un adulto en situación de parada cardiorrespiratoria, el fisioterapeuta debe:",
+    "opciones": [
+      "Comenzar con dos ventilaciones iniciales.",
+      "Aplicar directamente el desfibrilador.",
+      "Activar el sistema de emergencias y comenzar compresiones torácicas.",
+      "Colocar al paciente en posición lateral de seguridad."
+    ],
+    "correcta": 2
+  },
+  {
+    "id": 60,
+    "tipo": "Aragón 2026",
+    "numeracion": 40,
+    "pregunta": "En el contexto de la comunicación en la consulta, para que exista una negociación efectiva son necesarias varias condiciones. Señale la respuesta INCORRECTA:",
+    "opciones": [
+      "Para poder tomar decisiones, el paciente precisa información y consejo adecuados.",
+      "Ambas partes aceptan que haya diferentes puntos de vista e intentan resolver los problemas de forma conjunta.",
+      "Los dos reconocen que pueden no llegar a alcanzar sus propios objetivos y que el proceso exige flexibilidad.",
+      "Se acepta que el médico es el último responsable de la salud del paciente y tiene autonomía para decidir lo más conveniente para él."
+    ],
+    "correcta": 3
+  },
+  {
+    "id": 61,
+    "tipo": "Aragón 2026",
+    "numeracion": 41,
+    "pregunta": "Señale la respuesta correcta respecto a los materiales usados en las técnicas de vendajes funcionales:",
+    "opciones": [
+      "Las vendas elásticas cohesivas se adhieren a la piel y sobre sí mismas.",
+      "El prevendaje se debe colocar de distal a proximal para favorecer la circulación de retorno.",
+      "La venda elástica adhesiva es básicamente elástica a lo largo y moderadamente a lo ancho.",
+      "Las vendas elásticas adhesivas de nueva generación no deben ser usadas en deporte por la gran elasticidad que presentan."
+    ],
+    "correcta": 2
+  },
+  {
+    "id": 62,
+    "tipo": "Aragón 2026",
+    "numeracion": 42,
+    "pregunta": "Señale la respuesta correcta respecto a la incontinencia fecal:",
+    "opciones": [
+      "La incontinencia fecal activa tiende a relacionarse con disfunción anatómica, estructural o degenerativa del esfínter interno.",
+      "La incontinencia fecal de urgencia o estrés está relacionada con disfunción del esfínter externo (estructural o anatómica).",
+      "El recto hipersensible usualmente tiene una capacidad de reservorio rectal aumentada y síntomas de retención.",
+      "El recto hiposensible usualmente se acompaña de incontinencia de urgencia."
+    ],
+    "correcta": 1
+  },
+  {
+    "id": 63,
+    "tipo": "Aragón 2026",
+    "numeracion": 43,
+    "pregunta": "Al considerar la asociación entre dos variables, ¿cómo se denomina a la variable que se observa primero o que es más probable que sea causal?",
+    "opciones": [
+      "Variable de respuesta.",
+      "Variable dependiente.",
+      "Variable predictiva.",
+      "Variable de confusión residual."
+    ],
+    "correcta": 2
+  },
+  {
+    "id": 64,
+    "tipo": "Aragón 2026",
+    "numeracion": 44,
+    "pregunta": "¿Qué tipo de formación según la clasificación de Combs representaría un curso de punción seca acreditado por el Sistema Nacional de Salud?",
+    "opciones": [
+      "Educación formal.",
+      "Educación no formal.",
+      "Educación informal.",
+      "Educación básica obligatoria."
+    ],
+    "correcta": 1
+  },
+  {
+    "id": 65,
+    "tipo": "Aragón 2026",
+    "numeracion": 45,
+    "pregunta": "¿En cuál de las siguientes patologías deben evitarse las maniobras de Presión Inspiratoria Máxima durante el entrenamiento respiratorio?",
+    "opciones": [
+      "Infarto antiguo.",
+      "Insuficiencia cardíaca con fracción de eyección preservada.",
+      "Aneurisma aórtico.",
+      "Hipertensión bien controlada."
+    ],
+    "correcta": 2
+  },
+  {
+    "id": 66,
+    "tipo": "Aragón 2026",
+    "numeracion": 46,
+    "pregunta": "Señale la respuesta correcta respecto a las ortesis cervicales:",
+    "opciones": [
+      "La ortesis cervical rígida tipo SOMI no permite la flexoextensión.",
+      "El collar de Filadelfia no permite flexoextensión.",
+      "La ortesis cérvico-torácica tipo minerva permite la flexoextensión en 14%, inclinación lateral hasta de 16% y bloquea la rotación.",
+      "La ortesis cervical rígida de cuatro postes es el método de inmovilización más riguroso impidiendo completamente la flexoextensión y las rotaciones."
+    ],
+    "correcta": 2
+  },
+  {
+    "id": 67,
+    "tipo": "Aragón 2026",
+    "numeracion": 47,
+    "pregunta": "¿En qué año finalizó el proceso de transferencia de la gestión de los sistemas sanitarios a todas las Comunidades Autónomas?",
+    "opciones": [
+      "En el año 2000.",
+      "En el año 1999.",
+      "En el año 2002.",
+      "En el año 2007."
+    ],
+    "correcta": 2
+  },
+  {
+    "id": 68,
+    "tipo": "Aragón 2026",
+    "numeracion": 48,
+    "pregunta": "La prueba de Barlow positiva indica:",
+    "opciones": [
+      "Luxación reductible.",
+      "Luxación provocable.",
+      "Luxación irreductible.",
+      "Ausencia de luxación."
+    ],
+    "correcta": 1
+  },
+  {
+    "id": 69,
+    "tipo": "Aragón 2026",
+    "numeracion": 49,
+    "pregunta": "En un paciente hipersecretivo bajo ventilación mecánica, ¿cuál es la técnica más indicada para mejorar la mecánica ventilatoria?",
+    "opciones": [
+      "Drenaje postural prolongado.",
+      "Percusiones torácicas intensas.",
+      "AFE adaptada.",
+      "PEEP elevada mantenida."
+    ],
+    "correcta": 2
+  },
+  {
+    "id": 70,
+    "tipo": "Aragón 2026",
+    "numeracion": 50,
+    "pregunta": "Durante el Test de Rockwood, ¿en qué ángulo de abducción se considera que el hallazgo es positivo de forma determinante por una reacción de aprensión marcada?",
+    "opciones": [
+      "Con el codo junto al tórax (0° de abducción).",
+      "A 45° de abducción.",
+      "A 120° de abducción.",
+      "A 90° de abducción."
+    ],
+    "correcta": 3
+  },
+  {
+    "id": 71,
+    "tipo": "Aragón 2026",
+    "numeracion": 51,
+    "pregunta": "¿Qué ocurre con el Valor Predictivo Positivo (VPP) de una prueba diagnóstica si la prevalencia de la enfermedad en la población aumenta?",
+    "opciones": [
+      "El VPP aumenta.",
+      "El VPP disminuye.",
+      "El VPP no se modifica, ya que es una propiedad intrínseca de la prueba.",
+      "El VPP se vuelve igual a la sensibilidad."
+    ],
+    "correcta": 0
+  },
+  {
+    "id": 72,
+    "tipo": "Aragón 2026",
+    "numeracion": 52,
+    "pregunta": "¿Cuáles son los tres elementos esenciales que deben concurrir para que el procedimiento de consentimiento informado sea éticamente válido?",
+    "opciones": [
+      "Información, comprensión y voluntariedad.",
+      "Diagnóstico, pronóstico y alternativa terapéutica.",
+      "Capacidad jurídica, mayoría de edad y firma ante testigo.",
+      "Solicitud del paciente, valoración del riesgo y ejecución del tratamiento."
+    ],
+    "correcta": 0
+  },
+  {
+    "id": 73,
+    "tipo": "Aragón 2026",
+    "numeracion": 53,
+    "pregunta": "Señale la respuesta correcta respecto a los receptores tendinosos de Golgi:",
+    "opciones": [
+      "Estas estructuras indican cuán duramente trabaja el músculo, dado que reflejan la tensión muscular y no su longitud.",
+      "Detectan, evalúan, informan y ajustan la longitud del músculo en el que se encuentran, otorgándole su tono.",
+      "Proporcionan información acerca de la longitud.",
+      "Proporcionan información acerca de la velocidad de contracción y modificaciones de la velocidad."
+    ],
+    "correcta": 0
+  },
+  {
+    "id": 74,
+    "tipo": "Aragón 2026",
+    "numeracion": 54,
+    "pregunta": "Identifique la afirmación correcta en relación a la marcha y sus alteraciones:",
+    "opciones": [
+      "La debilidad del glúteo mayor suele provocar una marcha con inclinación ipsilateral del tronco.",
+      "La debilidad del cuádriceps suele provocar una marcha en genu flexo ipsilateral.",
+      "La debilidad del glúteo medio provoca una inclinación contralateral del tronco.",
+      "La debilidad del glúteo medio provoca una inclinación ipsilateral del tronco."
+    ],
+    "correcta": 3
+  },
+  {
+    "id": 75,
+    "tipo": "Aragón 2026",
+    "numeracion": 55,
+    "pregunta": "En la exploración mediante la maniobra de McMurray, ¿qué estructura específica se está evaluando prioritariamente cuando aparece dolor a la palpación o un chasquido?",
+    "opciones": [
+      "El cuerno posterior del menisco.",
+      "El cuerno anterior del menisco.",
+      "La cápsula articular posterior.",
+      "La porción media del menisco."
+    ],
+    "correcta": 0
+  },
+  {
+    "id": 76,
+    "tipo": "Aragón 2026",
+    "numeracion": 56,
+    "pregunta": "El proceso que garantiza que el paciente reciba los cuidados necesarios al pasar de un hospital a su domicilio se denomina:",
+    "opciones": [
+      "Protocolización asistencial.",
+      "Triaje asistencial.",
+      "Continuidad asistencial.",
+      "Alta administrativa coordinada."
+    ],
+    "correcta": 2
+  },
+  {
+    "id": 77,
+    "tipo": "Aragón 2026",
+    "numeracion": 57,
+    "pregunta": "Para integrar los resultados de la investigación a la práctica clínica (paso 4 de la MBE), se utiliza el acrónimo \"PILAR\". ¿A qué corresponde la letra \"A\"?",
+    "opciones": [
+      "Analizar la validez de la evidencia.",
+      "Adquirir las habilidades de búsqueda.",
+      "Aplicar los resultados integrando la experiencia clínica y los valores del paciente.",
+      "Archivar la información relevante encontrada."
+    ],
+    "correcta": 2
+  },
+  {
+    "id": 78,
+    "tipo": "Aragón 2026",
+    "numeracion": 58,
+    "pregunta": "Según el Manual Técnico de Higiene de Manos, ¿cuándo es obligatorio realizar el lavado con agua y jabón en lugar de la fricción con preparados de base alcohólica (PBA)?",
+    "opciones": [
+      "Siempre que se cambie de paciente dentro de una misma sala.",
+      "Cuando las manos están visiblemente sucias o manchadas de sangre u otros fluidos corporales.",
+      "Únicamente al entrar y salir del hospital.",
+      "Antes de tocar la piel intacta del paciente para realizar una movilización."
+    ],
+    "correcta": 1
+  },
+  {
+    "id": 79,
+    "tipo": "Aragón 2026",
+    "numeracion": 59,
+    "pregunta": "En una paciente que ha sido operada de cáncer de mama y sufre linforrea, ¿qué es y cómo lo abordamos?",
+    "opciones": [
+      "Líquido que se extravasa en la axila y mejora con reposo en las primeras 24-48 horas.",
+      "Líquido que se extravasa en la axila y mejora con la movilización.",
+      "Líquido que se acumula en la axila y mejora con el drenaje linfático.",
+      "Líquido que se acumula en la axila y mejora con el vendaje compresivo."
+    ],
+    "correcta": 0
+  },
+  {
+    "id": 80,
+    "tipo": "Aragón 2026",
+    "numeracion": 60,
+    "pregunta": "La incontinencia urinaria de urgencia es:",
+    "opciones": [
+      "La pérdida de orina que se produce simultáneamente a un esfuerzo como una tos.",
+      "La pérdida de orina que sugiere hipotonía del suelo pélvico y no suele acompañarse de aumento de la frecuencia miccional.",
+      "La pérdida de orina más frecuente en las mujeres y aparece cuando la capacidad de almacenamiento de la vejiga es superada.",
+      "La urgencia miccional es un síntoma muy común en la mujer con vejiga hiperactiva."
+    ],
+    "correcta": 3
+  },
+  {
+    "id": 81,
+    "tipo": "Aragón 2026",
+    "numeracion": 61,
+    "pregunta": "En relación con los efectos de la terapia con láser, ¿cuál es la afirmación INCORRECTA?",
+    "opciones": [
+      "Aumenta la velocidad de conducción nerviosa sensorial.",
+      "Activa la función de los fibroblastos.",
+      "Disminuye el edema tisular.",
+      "Incide en el trofismo de los tejidos blandos."
+    ],
+    "correcta": 0
+  },
+  {
+    "id": 82,
+    "tipo": "Aragón 2026",
+    "numeracion": 62,
+    "pregunta": "Señale la respuesta correcta respecto a los ejercicios de estabilización (estabilidad activa):",
+    "opciones": [
+      "La cocontraccíon se consigue mediante un ejercicio isométrico en la amplitud media frente a una resistencia y en posiciones de antigravedad.",
+      "Los ejercicios de estabilización suelen realizarse en posturas sin carga dentro de una cadena cinética abierta.",
+      "Se hace hincapié en la musculatura del tronco controlada isotónicamente y en los músculos distales de las extremidades.",
+      "Los ejercicios de estabilización rítmica y estabilización dinámica son formas de ejercicio isométrico e isotónico respectivamente pensadas para desarrollar la estabilidad articular y ortostática."
+    ],
+    "correcta": 0
+  },
+  {
+    "id": 83,
+    "tipo": "Aragón 2026",
+    "numeracion": 63,
+    "pregunta": "En el Síndrome de Rett, ¿qué característica describe mejor la alteración de la marcha?",
+    "opciones": [
+      "Dispraxia de la marcha y base de sustentación amplia.",
+      "Marcha de puntillas (equina) únicamente por acortamiento de gemelos.",
+      "Marcha espástica con tijereta por afectación piramidal.",
+      "Marcha en 'steppage' por denervación distal."
+    ],
+    "correcta": 0
+  },
+  {
+    "id": 84,
+    "tipo": "Aragón 2026",
+    "numeracion": 64,
+    "pregunta": "De acuerdo con el artículo 2 del Real Decreto 922/2024, de 17 de septiembre, en relación con la emisión de la tarjeta sanitaria en soporte virtual, ¿cuál de las siguientes afirmaciones es correcta?",
+    "opciones": [
+      "La tarjeta virtual siempre sustituirá automáticamente a la tarjeta física desde el momento de su emisión.",
+      "La tarjeta virtual solo será válida en la Comunidad Autónoma que la haya emitido.",
+      "El soporte virtual tendrá una validez administrativa inferior al soporte físico.",
+      "La tarjeta en soporte virtual podrá sustituir a la de soporte físico siempre que la persona titular exprese su conformidad."
+    ],
+    "correcta": 3
+  },
+  {
+    "id": 85,
+    "tipo": "Aragón 2026",
+    "numeracion": 65,
+    "pregunta": "En un paciente hemipléjico, la pérdida de reacciones posturales normales contra la gravedad al sentarse, se manifiesta porque:",
+    "opciones": [
+      "Se activan los extensores de tronco al inclinarse hacia delante.",
+      "Se contraen los flexores de tronco en lugar de los erectores de la columna.",
+      "Se inhiben completamente los músculos abdominales.",
+      "Se produce rigidez axial simétrica."
+    ],
+    "correcta": 1
+  },
+  {
+    "id": 86,
+    "tipo": "Aragón 2026",
+    "numeracion": 66,
+    "pregunta": "En el modelo de planificación de promoción de la salud PRECEDE-PROCEDE, ¿qué tipo de factores se relacionan con las habilidades del individuo para llevar a cabo la conducta?",
+    "opciones": [
+      "Factores predisponentes.",
+      "Factores reforzantes.",
+      "Factores biológicos.",
+      "Factores facilitadores."
+    ],
+    "correcta": 3
+  },
+  {
+    "id": 87,
+    "tipo": "Aragón 2026",
+    "numeracion": 67,
+    "pregunta": "¿Qué es la Neurotmesis?",
+    "opciones": [
+      "Una lesión axonal parcial.",
+      "Un bloqueo de la conducción por afectación de la mielina.",
+      "Una sección completa del nervio.",
+      "Una afectación exclusivamente de la función sensitiva."
+    ],
+    "correcta": 2
+  },
+  {
+    "id": 88,
+    "tipo": "Aragón 2026",
+    "numeracion": 68,
+    "pregunta": "En relación a la masoterapia en los procesos oncológicos, ¿cuál es la afirmación INCORRECTA?",
+    "opciones": [
+      "La masoterapia está indicada en caso de dolor crónico tras el cáncer de mama.",
+      "El masaje está indicado durante la fase de hospitalización y cuidados paliativos.",
+      "Los riesgos de la técnica de masaje son superiores a los beneficios potenciales.",
+      "El masaje se considera una técnica complementaria e integrativa en la Oncología."
+    ],
+    "correcta": 2
+  },
+  {
+    "id": 89,
+    "tipo": "Aragón 2026",
+    "numeracion": 69,
+    "pregunta": "¿Cuál de estas afirmaciones sobre la neuroplasticidad NO es correcta?",
+    "opciones": [
+      "Da respuesta a lesiones o enfermedades que causan pérdida o daño cerebral.",
+      "Establece nuevas sinapsis y activa nuevos circuitos cerebrales.",
+      "El aprendizaje y la memoria son modalidades de la neuroplasticidad.",
+      "La neuroplasticidad mantiene las viejas conexiones creando un modelo de reasignación cruzada."
+    ],
+    "correcta": 3
+  },
+  {
+    "id": 90,
+    "tipo": "Aragón 2026",
+    "numeracion": 70,
+    "pregunta": "En la escala de evidencia científica, ¿qué tipo de documento se sitúa en la cúspide para elaborar un protocolo?",
+    "opciones": [
+      "Opinión de expertos.",
+      "Casos clínicos.",
+      "Revisiones sistemáticas y metaanálisis.",
+      "Estudios descriptivos transversales."
+    ],
+    "correcta": 2
+  },
+  {
+    "id": 91,
+    "tipo": "Aragón 2026",
+    "numeracion": 71,
+    "pregunta": "La masoterapia mejora el retorno venoso y linfático gracias a:",
+    "opciones": [
+      "La fricción superficial exclusivamente.",
+      "Los movimientos rítmicos y direccionales que facilitan el drenaje.",
+      "El aumento de la presión arterial.",
+      "La contracción voluntaria del paciente."
+    ],
+    "correcta": 1
+  },
+  {
+    "id": 92,
+    "tipo": "Aragón 2026",
+    "numeracion": 72,
+    "pregunta": "En la valoración fisioterápica del paciente cardíaco, la prueba de marcha de 6 minutos (6MWT) se utiliza principalmente para:",
+    "opciones": [
+      "Diagnóstico de insuficiencia cardíaca.",
+      "Evaluar capacidad funcional submáxima.",
+      "Calcular el riesgo quirúrgico.",
+      "Valorar exclusivamente la saturación basal."
+    ],
+    "correcta": 1
+  },
+  {
+    "id": 93,
+    "tipo": "Aragón 2026",
+    "numeracion": 73,
+    "pregunta": "La prueba de Ludington positiva indica:",
+    "opciones": [
+      "Afectación del tendón subescapular.",
+      "Posible lesión de supraespinoso.",
+      "Rotura de la porción larga del tendón del bíceps.",
+      "Rotura del manguito de los rotadores."
+    ],
+    "correcta": 2
+  },
+  {
+    "id": 94,
+    "tipo": "Aragón 2026",
+    "numeracion": 74,
+    "pregunta": "Durante la exploración neurológica de un lactante de 6 meses de edad corregida, se realiza la maniobra del «signo de la bufanda» para valorar el tono pasivo de la cintura escapular. Si al realizar la prueba se observa que, aunque el rango de movimiento de ambos brazos se sitúa dentro de la normalidad (puntuación óptima), el codo supera la línea media en el lado derecho pero no en el izquierdo, ¿cuál es la conducta correcta según los criterios de estandarización de las escalas neurológicas infantiles (tipo HINE)?",
+    "opciones": [
+      "Asignar la puntuación máxima al ítem sin realizar anotaciones adicionales, al estar ambos lados en rango de normalidad.",
+      "Reducir la puntuación final del ítem a la mitad (puntuación intermedia) de forma automática por la diferencia observada.",
+      "Registrar la puntuación correspondiente a la casilla observada y anotar explícitamente la existencia de una asimetría.",
+      "Invalidar el resultado de la prueba y posponer la valoración 30 minutos hasta asegurar un estado de alerta óptimo."
+    ],
+    "correcta": 2
+  },
+  {
+    "id": 95,
+    "tipo": "Aragón 2026",
+    "numeracion": 75,
+    "pregunta": "Señale la respuesta INCORRECTA:",
+    "opciones": [
+      "Tanto el calor como el frío pueden disminuir el dolor y el espasmo muscular.",
+      "La crioterapia disminuye la extensibilidad del colágeno y aumenta la rigidez articular.",
+      "La crioterapia disminuye la espasticidad mientras que la termoterapia no tiene ningún efecto sobre la misma.",
+      "La termoterapia disminuye la velocidad de conducción nerviosa y la crioterapia la aumenta."
+    ],
+    "correcta": 3
+  },
+  {
+    "id": 96,
+    "tipo": "Aragón 2026",
+    "numeracion": 76,
+    "pregunta": "¿Cuál de las siguientes afirmaciones sobre trabajo en poleoterapia es correcta?",
+    "opciones": [
+      "Produce trabajo exclusivamente excéntrico.",
+      "Permite modificar la gravedad y rozamiento para ajustar el esfuerzo terapéutico.",
+      "No permite realizar movimientos analíticos.",
+      "Se usa únicamente en rehabilitación neurológica."
+    ],
+    "correcta": 1
+  },
+  {
+    "id": 97,
+    "tipo": "Aragón 2026",
+    "numeracion": 77,
+    "pregunta": "Señale la respuesta INCORRECTA respecto al método de los anillos de Bad Ragad:",
+    "opciones": [
+      "Es una terapia basada en el movimiento contrarresistencia por medio de patrones de movimiento en posición supina, con ayudas de flotación en el cuello, la pelvis y, según el caso, los tobillos.",
+      "Está basado en el concepto de la Facilitación Neuromuscular Propioceptiva.",
+      "La modulación del dolor no es uno de los objetivos generales del método.",
+      "La profundidad del agua es importante para el buen éxito del método. Se recomienda una inmersión del terapeuta como máximo hasta la novena vértebra torácica."
+    ],
+    "correcta": 2
+  },
+  {
+    "id": 98,
+    "tipo": "Aragón 2026",
+    "numeracion": 78,
+    "pregunta": "¿Qué dimensiones captura el Indicador Global de Limitación de Actividad (GALI) para el cálculo de los Años de Vida Saludable (AVS)?",
+    "opciones": [
+      "Presencia de limitación, para actividades habituales, debida a un problema de salud y duración de al menos veinticuatro meses.",
+      "Presencia de limitación, para actividades laborales, debida a enfermedad profesional y duración de al menos un año.",
+      "Presencia de limitación, para actividades habituales, debida a un problema de salud y duración de al menos seis meses.",
+      "Presencia de discapacidad física, para actividades de la vida diaria, debida a accidente y duración crónica."
+    ],
+    "correcta": 2
+  },
+  {
+    "id": 99,
+    "tipo": "Aragón 2026",
+    "numeracion": 79,
+    "pregunta": "Un fisioterapeuta evalúa el 'Reflejo de Galant' en un lactante de 5 meses y observa una incurvación del tronco marcada y constante. Según los biomarcadores de neurodesarrollo patológico, ¿qué pronóstico sugiere este hallazgo?",
+    "opciones": [
+      "Existe un riesgo aumentado de desarrollar una parálisis cerebral de tipo discinético.",
+      "Es un hallazgo normal, ya que el Galant no se integra hasta los 9 meses.",
+      "Indica una hipotonía axial transitoria que desaparecerá antes de los 18 meses.",
+      "Sugiere un desarrollo de parálisis cerebral espástica por afectación de la vía piramidal."
+    ],
+    "correcta": 0
+  },
+  {
+    "id": 100,
+    "tipo": "Aragón 2026",
+    "numeracion": 80,
+    "pregunta": "¿Qué es la Prevención Secundaria en el ámbito de la fisioterapia?",
+    "opciones": [
+      "El tratamiento de las secuelas crónicas.",
+      "La detección precoz y tratamiento temprano para evitar que una lesión progrese.",
+      "La rehabilitación tras una cirugía compleja.",
+      "La promoción de hábitos saludables en la infancia."
+    ],
+    "correcta": 1
+  },
+  {
+    "id": 101,
+    "tipo": "Aragón 2026",
+    "numeracion": 81,
+    "pregunta": "En un paciente post-neumonía con atelectasia segmentaria residual, la técnica más indicada sería:",
+    "opciones": [
+      "Ventilación paradojal voluntaria.",
+      "Técnicas de expansión torácica con control inspiratorio.",
+      "Tos repetitiva forzada.",
+      "Ejercicios de resistencia máxima."
+    ],
+    "correcta": 1
+  },
+  {
+    "id": 102,
+    "tipo": "Aragón 2026",
+    "numeracion": 82,
+    "pregunta": "Según Resolución de 2 de junio de 2023, de la Dirección General de Asistencia Sanitaria del Departamento de Sanidad del Gobierno de Aragón, ¿cuál de las siguientes Comisiones Centrales es de carácter obligatorio específicamente a nivel de hospital?",
+    "opciones": [
+      "Comisión de documentación clínica y herramientas digitales.",
+      "Comisión central de seguridad clínica, gestión de riesgos sanitarios y mortalidad.",
+      "Comisión central de formación continuada y desarrollo profesional.",
+      "Comité de sector de ética asistencial."
+    ],
+    "correcta": 1
+  },
+  {
+    "id": 103,
+    "tipo": "Aragón 2026",
+    "numeracion": 83,
+    "pregunta": "Según la organización sanitaria vigente en la Comunidad Autónoma de Aragón, ¿cuál es el instrumento mediante el que los equipos de Atención Primaria formalizan sus compromisos asistenciales, organizativos y de calidad con la Dirección de Atención Primaria?",
+    "opciones": [
+      "Contratos Programa de Área.",
+      "Unidades funcionales de Coordinación Asistencial.",
+      "Acuerdos de Gestión Clínica.",
+      "Plan estratégico de Continuidad Asistencial."
+    ],
+    "correcta": 2
+  },
+  {
+    "id": 104,
+    "tipo": "Aragón 2026",
+    "numeracion": 84,
+    "pregunta": "Si la amplitud de flexión del codo derecho en un paciente es de 87° y la del codo izquierdo es de 138°, ¿cuál es el coeficiente funcional de movilidad articular (CFMA) del codo derecho según los parámetros de la AAOS?",
+    "opciones": [
+      "58%.",
+      "63%.",
+      "87%.",
+      "50%."
+    ],
+    "correcta": 0
+  },
+  {
+    "id": 105,
+    "tipo": "Aragón 2026",
+    "numeracion": 85,
+    "pregunta": "En el contexto de la evaluación de programas, ¿cuál es la definición correcta de un \"Indicador de Proceso\"?",
+    "opciones": [
+      "Es aquel que mide las actividades y los resultados derivados de las propias actividades para verificar si el programa se implementa según lo planificado.",
+      "Es aquel que mide los cambios en el estado de salud a largo plazo.",
+      "Es aquel que mide la rentabilidad económica final del programa.",
+      "Es aquel que identifica únicamente las fuentes de financiación externas."
+    ],
+    "correcta": 0
+  },
+  {
+    "id": 106,
+    "tipo": "Aragón 2026",
+    "numeracion": 86,
+    "pregunta": "Durante la aplicación del masaje transverso profundo, ¿cuál de estas afirmaciones es INCORRECTA?",
+    "opciones": [
+      "Conviene utilizar una crema o gel con alto contenido graso.",
+      "Se realiza una fricción perpendicular a las fibras a tratar.",
+      "La profundidad e intensidad depende de la ubicación de la lesión.",
+      "Los dedos no deben deslizarse sobre la piel."
+    ],
+    "correcta": 0
+  },
+  {
+    "id": 107,
+    "tipo": "Aragón 2026",
+    "numeracion": 87,
+    "pregunta": "Respecto a los dispositivos de inmovilización, ¿cuál es la característica biomecánica del soporte cervical metálico de tracción de dos (Guilford) o cuatro barras?",
+    "opciones": [
+      "Restringe totalmente todos los movimientos de la columna cervical media y alta.",
+      "Se utiliza exclusivamente para la primera inmovilización y el traslado del paciente.",
+      "Limita la flexión y extensión de la cabeza y columna cervical media mediante apoyos mentonianos y occipitales.",
+      "Es el sistema más idóneo para lograr la estabilización total en fracturas de C1."
+    ],
+    "correcta": 2
+  },
+  {
+    "id": 108,
+    "tipo": "Aragón 2026",
+    "numeracion": 88,
+    "pregunta": "En la valoración de un paciente con Enfermedad Arterial Periférica (EAP), el fisioterapeuta observa la presencia de dolor punzante en reposo, localizado preferentemente en el antepié, que se intensifica durante el decúbito nocturno y mejora parcialmente cuando el paciente deja la pierna colgando fuera de la cama. En la inspección, mantiene la integridad cutánea en todo el pie. Atendiendo a la clasificación de Fontaine y los hallazgos exploratorios, ¿cuál de las siguientes afirmaciones es correcta?",
+    "opciones": [
+      "El paciente se encuentra en un Estadio II-b, ya que el dolor en reposo es una variante de la claudicación intermitente de corta distancia.",
+      "Estamos ante un Estadio III (Isquemia crítica), donde la presión de perfusión tisular es insuficiente y el alivio al bajar la pierna se debe al ligero aumento de la presión hidrostática que favorece el flujo capilar.",
+      "El signo descrito es la \"eritromelalgia de declive\", típica del Estadio IV, e indica que existe una obstrucción completa con presencia inminente de gangrena seca.",
+      "La mejoría al bajar la pierna indica que la causa es de origen venoso, por lo que el tratamiento de elección debería ser la compresión neumática inmediata."
+    ],
+    "correcta": 1
+  },
+  {
+    "id": 109,
+    "tipo": "Aragón 2026",
+    "numeracion": 89,
+    "pregunta": "Señale la respuesta INCORRECTA respecto a los pies protésicos:",
+    "opciones": [
+      "El pie protésico endoesquelético flexible de tobillo sólido (SAFE) permite cierto movimiento de dorsiflexión, inversión y eversión a través de la quilla flexible en el pie.",
+      "El pie protésico endoesquelético flexible de tobillo sólido (SAFE) tiene una gran capacidad de almacenamiento de energía.",
+      "El pie protésico con tobillo sólido y talón acolchado (SACH) no ofrece la capacidad de adaptarse eficazmente a superficies irregulares.",
+      "Algunos pies protésicos tienen la capacidad de ajustar la altura del talón para permitir que la persona amputada use zapatos con diferentes alturas de talón."
+    ],
+    "correcta": 1
+  },
+  {
+    "id": 110,
+    "tipo": "Aragón 2026",
+    "numeracion": 90,
+    "pregunta": "En la escala de Daniels de balance muscular, ¿qué significa la graduación 2?",
+    "opciones": [
+      "Realiza el movimiento completo contra una resistencia de 2Kg.",
+      "Rango incompleto de movilidad en posición desgravada.",
+      "Se aprecia contracción a la inspección y palpación, pero no logra movimiento.",
+      "Realiza el movimiento pero en ausencia de gravedad."
+    ],
+    "correcta": 3
+  },
+  {
+    "id": 111,
+    "tipo": "Aragón 2026",
+    "numeracion": 91,
+    "pregunta": "¿Bajo qué condición métrica específica se considera que una fractura combinada por estallido del atlas ('Fractura de Jefferson') es inestable?",
+    "opciones": [
+      "Cuando la suma del desplazamiento lateral de las masas de C1 sobre C2 es superior a 7 mm.",
+      "Cuando el desplazamiento lateral del atlas sobre el axis es superior a 5 mm.",
+      "Cuando el desplazamiento anterior del arco anterior del atlas supera los 4 mm.",
+      "Cuando el intervalo atlantodental (IAD) es superior a 3 mm en el adulto."
+    ],
+    "correcta": 0
+  },
+  {
+    "id": 112,
+    "tipo": "Aragón 2026",
+    "numeracion": 92,
+    "pregunta": "¿Cómo se define el \"p-valor\" (nivel de significación a posteriori) en el contexto de un contraste de hipótesis?",
+    "opciones": [
+      "La probabilidad de que la hipótesis alternativa sea cierta.",
+      "La probabilidad de observar, bajo la suposición de que la hipótesis nula es cierta, un valor del estadístico de contraste igual o más extremo que el observado.",
+      "El valor fijado a priori por el investigador (normalmente 0,05) para rechazar la hipótesis nula.",
+      "El porcentaje de individuos que se encuentran fuera del intervalo de confianza."
+    ],
+    "correcta": 1
+  },
+  {
+    "id": 113,
+    "tipo": "Aragón 2026",
+    "numeracion": 93,
+    "pregunta": "Señale la respuesta correcta respecto al ejercicio excéntrico:",
+    "opciones": [
+      "Una persona requiere más esfuerzo para controlar excéntricamente que concéntricamente una carga.",
+      "Las contracciones musculares excéntricas consumen menos oxígeno y menos reservas de energía que las contracciones musculares concéntricas con cargas similares.",
+      "El entrenamiento excéntrico aumenta sobre todo la fuerza isométrica, pero no influye en la fuerza concéntrica.",
+      "Las contracciones musculares excéntricas implican un trabajo positivo."
+    ],
+    "correcta": 1
+  },
+  {
+    "id": 114,
+    "tipo": "Aragón 2026",
+    "numeracion": 94,
+    "pregunta": "¿Cuál de estas características de la enfermedad de Reiter NO es cierta?",
+    "opciones": [
+      "Uretritis.",
+      "Artritis.",
+      "Conjuntivitis.",
+      "Depresiones ungueales."
+    ],
+    "correcta": 3
+  },
+  {
+    "id": 115,
+    "tipo": "Aragón 2026",
+    "numeracion": 95,
+    "pregunta": "¿Cuál de los siguientes métodos se considera cinesiterapia pasiva mecánica?",
+    "opciones": [
+      "Poleoterapia activa.",
+      "Pliometría asistida.",
+      "Sistema de movilización continua instrumental.",
+      "Ejercicios concéntricos progresivos."
+    ],
+    "correcta": 2
+  },
+  {
+    "id": 116,
+    "tipo": "Aragón 2026",
+    "numeracion": 96,
+    "pregunta": "Una artrosis interfalángica de la mano con engrosamiento óseo en la cara dorsal de las articulaciones interfalángicas proximales corresponde a:",
+    "opciones": [
+      "Nódulos de Heberden.",
+      "Nódulos de Bouchard.",
+      "Nódulos de Newman.",
+      "Nódulos de Garrod."
+    ],
+    "correcta": 1
+  },
+  {
+    "id": 117,
+    "tipo": "Aragón 2026",
+    "numeracion": 97,
+    "pregunta": "Señale la respuesta correcta respecto a las disfunciones sexuales femeninas:",
+    "opciones": [
+      "El dolor pélvico crónico es una patología exclusiva de la mujer.",
+      "La dispareunia es un dolor genital, persistente o recurrente, asociado a las relaciones sexuales sin penetración.",
+      "El vaginismo siempre va asociado a dolor e hipertonía de la musculatura del suelo pélvico.",
+      "La vulvodinia o síndrome doloroso vulvar se define como molestia crónica vulvar, frecuentemente de tipo quemazón, sin lesión visible y sin disfunción neurológica clínicamente identificable."
+    ],
+    "correcta": 3
+  },
+  {
+    "id": 118,
+    "tipo": "Aragón 2026",
+    "numeracion": 98,
+    "pregunta": "¿En qué casos existe una contraindicación en la aplicación de corrientes TENS?",
+    "opciones": [
+      "Aplicación en la zona del seno carotídeo.",
+      "Lesiones de médula espinal.",
+      "Neuropatía diabética.",
+      "Osteoartritis."
+    ],
+    "correcta": 0
+  },
+  {
+    "id": 119,
+    "tipo": "Aragón 2026",
+    "numeracion": 99,
+    "pregunta": "Dentro del Conjunto Mínimo de Datos (CMD) de un informe clínico de fisioterapia, ¿qué código de clasificación se utiliza actualmente para identificar los procedimientos de rehabilitación?",
+    "opciones": [
+      "Clasificación de Filadelfia.",
+      "CIE-10-ES.",
+      "Baremo de Movilidad Reducida.",
+      "Texto libre sin codificar."
+    ],
+    "correcta": 1
+  },
+  {
+    "id": 120,
+    "tipo": "Aragón 2026",
+    "numeracion": 100,
+    "pregunta": "Durante la aplicación del método Leduc en un linfedema de miembro inferior, tras realizar las maniobras de captación/reabsorción en los tres tercios del muslo (proximal, medio y distal), el protocolo exige una maniobra específica de \"limpieza\" antes de proceder al hueco poplíteo. ¿Cuál es esa maniobra y qué secuencia sigue exactamente?",
+    "opciones": [
+      "Realizar dos maniobras de presión en el hueco poplíteo y bajar directamente al tercio superior de la pierna.",
+      "Retroceder hasta las cadenas inguinales con una maniobra de llamada en cada lugar y después volver a bajar hasta el tercio inferior del fémur con maniobras de llamada.",
+      "Realizar una maniobra de captación en sentido ascendente desde el cóndilo femoral hasta la axila homolateral sin pasar por la ingle.",
+      "Aplicar un vendaje compresivo provisional en el muslo antes de trabajar la región supramaleolar para evitar el reflujo distal."
+    ],
+    "correcta": 1
+  },
+  {
+    "id": 121,
+    "tipo": "Aragón 2026",
+    "numeracion": 101,
+    "pregunta": "En el marco de la gestión de un centro sanitario, ¿cuáles se consideran \"procesos de apoyo\" que prestan soporte a los asistenciales?",
+    "opciones": [
+      "La docencia y la investigación.",
+      "Los hosteleros, de mantenimiento y administrativos.",
+      "El diagnóstico, tratamiento y rehabilitación.",
+      "La atención primaria y la medicina preventiva."
+    ],
+    "correcta": 1
+  },
+  {
+    "id": 122,
+    "tipo": "Aragón 2026",
+    "numeracion": 102,
+    "pregunta": "Una rotación III según NASH y MOE consiste en:",
+    "opciones": [
+      "Desaparece el pedículo de la concavidad y el de la convexidad se sitúa en la línea media.",
+      "Los pedículos están equidistantes.",
+      "El pedículo del lado convexo se sitúa en la posición del pedículo del lado cóncavo.",
+      "El pedículo de la convexidad se sitúa en la línea media."
+    ],
+    "correcta": 0
+  },
+  {
+    "id": 123,
+    "tipo": "Aragón 2026",
+    "numeracion": 103,
+    "pregunta": "Señale la respuesta INCORRECTA respecto a la técnica de contención o suave (blanda) de vendaje funcional:",
+    "opciones": [
+      "Limita el movimiento que produce dolor.",
+      "Se utilizan vendas elásticas.",
+      "Se utilizan vendas adhesivas.",
+      "La utilizaremos en lesiones leves musculares pero no en lesiones articulares."
+    ],
+    "correcta": 3
+  },
+  {
+    "id": 124,
+    "tipo": "Aragón 2026",
+    "numeracion": 104,
+    "pregunta": "¿Cuál es el rol del músculo multífido dentro de la sinergia del core?",
+    "opciones": [
+      "Producir flexión lumbar.",
+      "Estabilización segmentaria del raquis.",
+      "Generar rotación torácica.",
+      "Aumentar la presión intratorácica."
+    ],
+    "correcta": 1
+  },
+  {
+    "id": 125,
+    "tipo": "Aragón 2026",
+    "numeracion": 105,
+    "pregunta": "El dato \"diagnóstico secundario\" en el Conjunto Mínimo Básico de Datos (CMBD) sirve para:",
+    "opciones": [
+      "Generar alertas de fraude.",
+      "Registrar el diagnóstico más grave registrado durante la estancia.",
+      "Identificar comorbilidades y complicaciones.",
+      "Sustituir al diagnóstico principal."
+    ],
+    "correcta": 2
+  },
+  {
+    "id": 126,
+    "tipo": "Aragón 2026",
+    "numeracion": 106,
+    "pregunta": "¿Cómo se define y diferencia fisiopatológicamente la lesión de Bankart de la lesión de Hill-Sachs tras un episodio de inestabilidad de la articulación glenohumeral?",
+    "opciones": [
+      "Bankart afecta al margen anteroinferior del rodete glenoideo, mientras que Hill-Sachs es una fractura por impactación del margen posterolateral de la cabeza humeral.",
+      "Ambas son fracturas de la glenoides pero en diferentes márgenes (superior e inferior).",
+      "Hill-Sachs es la causa del 'hombro en charretera' y Bankart es la consecuencia.",
+      "Bankart es una lesión del nervio circunflejo y Hill-Sachs es una rotura del subescapular."
+    ],
+    "correcta": 0
+  },
+  {
+    "id": 127,
+    "tipo": "Aragón 2026",
+    "numeracion": 107,
+    "pregunta": "¿A quién corresponde la propiedad física de la historia clínica de un paciente dentro de un hospital?",
+    "opciones": [
+      "Al paciente.",
+      "Al fisioterapeuta.",
+      "A la institución sanitaria.",
+      "Al Ministerio de Sanidad."
+    ],
+    "correcta": 2
+  },
+  {
+    "id": 128,
+    "tipo": "Aragón 2026",
+    "numeracion": 108,
+    "pregunta": "En caso de obstrucción completa de la vía aérea por cuerpo extraño en un adulto consciente, la maniobra inicial recomendada es:",
+    "opciones": [
+      "Barrido digital.",
+      "Cinco compresiones abdominales (maniobra de Heimlich).",
+      "Cinco golpes interescapulares y, si no resuelve, cinco compresiones abdominales.",
+      "Ventilaciones de rescate."
+    ],
+    "correcta": 2
+  },
+  {
+    "id": 129,
+    "tipo": "Aragón 2026",
+    "numeracion": 109,
+    "pregunta": "Señale la respuesta correcta respecto a los efectos fisiológicos derivados de la inmersión:",
+    "opciones": [
+      "La presión hidrostática comprime el abdomen, elevando el centro diafragmático y disminuyendo la presión intratorácica transmural de los grandes vasos.",
+      "La presión hidrostática hace que aumente el volumen sanguíneo central y comprime la caja torácica, provocando la disminución de su perímetro y un mayor trabajo inspiratorio.",
+      "La presión hidrostática incrementa los retornos venoso y linfático, pero sin producir un aumento significativo del volumen central.",
+      "La presión hidrostática hace que el peso corporal disminuya con respecto al medio terrestre, mejorando la amplitud de movimiento y disminuyendo significativamente la sobrecarga articular."
+    ],
+    "correcta": 1
+  },
+  {
+    "id": 130,
+    "tipo": "Aragón 2026",
+    "numeracion": 110,
+    "pregunta": "La saturación límite que sugiere valoración urgente en lactantes con infección respiratoria es:",
+    "opciones": [
+      "99%.",
+      "94%.",
+      "92%.",
+      "88%."
+    ],
+    "correcta": 2
+  },
+  {
+    "id": 131,
+    "tipo": "Defensa 2025",
+    "numeracion": 1,
+    "pregunta": "En relación a la Estrategia 8 del Plan de calidad para el Sistema Nacional de Salud, ¿cuál de los siguientes no es uno de sus objetivos?",
+    "opciones": [
+      "Participación de los pacientes en la estrategia de seguridad de los pacientes.",
+      "Desarrollar sistemas de garantía de seguridad de los pacientes.",
+      "Promover la investigación en seguridad de los pacientes.",
+      "Diseñar y establecer sistemas de información y notificación de incidentes relacionados con la seguridad de los pacientes."
+    ],
+    "correcta": 1
+  },
+  {
+    "id": 132,
+    "tipo": "Defensa 2025",
+    "numeracion": 2,
+    "pregunta": "¿Cuál de las siguientes características no se corresponde con el enfisema centrolobulillar?",
+    "opciones": [
+      "Afecta de forma predominante a zonas superiores del pulmón.",
+      "Tiende a afectar a los bronquiolos respiratorios, de modo que la mayor parte de los alveolos siguen siendo normales.",
+      "Este tipo de enfisema es más frecuente en la población con carencia de alfa-1 antitripsina.",
+      "También se denomina enfisema centroacinar."
+    ],
+    "correcta": 2
+  },
+  {
+    "id": 133,
+    "tipo": "Defensa 2025",
+    "numeracion": 3,
+    "pregunta": "Las prendas de aislamiento se utilizan como medio de protección o barrera para impedir la transmisión y propagación de microorganismos patógenos y evitar la aparición de enfermedades infecciosas. Siguiendo el orden general de colocación, ¿cuál de las siguientes prendas de aislamiento se debería colocar en primer lugar?",
+    "opciones": [
+      "Bata.",
+      "Guantes.",
+      "Mascarilla.",
+      "Calzas."
+    ],
+    "correcta": 3
+  },
+  {
+    "id": 134,
+    "tipo": "Defensa 2025",
+    "numeracion": 4,
+    "pregunta": "¿Con qué otro nombre se conoce la atrofia muscular espinal tipo III?",
+    "opciones": [
+      "Atrofia muscular espinal del adulto.",
+      "Enfermedad de Dubowitz.",
+      "Enfermedad de Kugelberg-Welander.",
+      "Enfermedad de Werdning-Hoffmann."
+    ],
+    "correcta": 2
+  },
+  {
+    "id": 135,
+    "tipo": "Defensa 2025",
+    "numeracion": 5,
+    "pregunta": "¿Cómo se denominan los canales de ventilación intercomunicados entre bronquiolos y alveolos?",
+    "opciones": [
+      "Canales de Lambert.",
+      "Canales de Martin.",
+      "Poros de Bicheau.",
+      "Poros de Kohn."
+    ],
+    "correcta": 0
+  },
+  {
+    "id": 136,
+    "tipo": "Defensa 2025",
+    "numeracion": 6,
+    "pregunta": "El procedimiento ELTGOL (Espiración lenta total con glotis abierta en infralateral) se basa en:",
+    "opciones": [
+      "Volumen alto, flujo lento y posicionamiento.",
+      "Volumen alto, flujo rápido y posicionamiento.",
+      "Volumen bajo, flujo lento y posicionamiento.",
+      "Volumen bajo, flujo rápido y posicionamiento."
+    ],
+    "correcta": 2
+  },
+  {
+    "id": 137,
+    "tipo": "Defensa 2025",
+    "numeracion": 7,
+    "pregunta": "¿Cuál de las siguientes características no se corresponde con las corrientes de Träbert?",
+    "opciones": [
+      "Tiene una frecuencia de 120 Hercios.",
+      "El reposo entre impulso dura 5 milisegundos.",
+      "Tienen una duración de impulso de 2 milisegundos.",
+      "También se denominan ultraexcitantes."
+    ],
+    "correcta": 0
+  },
+  {
+    "id": 138,
+    "tipo": "Defensa 2025",
+    "numeracion": 8,
+    "pregunta": "Según el método de cuadrupedia de Klapp, ¿con cuál de las siguientes posturas se actuará sobre el nivel de columna D6-D7?",
+    "opciones": [
+      "Posición baja.",
+      "Posición erguida.",
+      "Posición semibaja.",
+      "Posición semierguida."
+    ],
+    "correcta": 2
+  },
+  {
+    "id": 139,
+    "tipo": "Defensa 2025",
+    "numeracion": 9,
+    "pregunta": "¿Cuál de los siguientes no es un efecto general sobre el organismo producido por la aplicación de termoterapia?",
+    "opciones": [
+      "Vasodilatación periférica general.",
+      "Disminución de la frecuencia respiratoria.",
+      "Mejora de la motilidad gástrica e intestinal.",
+      "Aumento de diuresis."
+    ],
+    "correcta": 1
+  },
+  {
+    "id": 140,
+    "tipo": "Defensa 2025",
+    "numeracion": 10,
+    "pregunta": "La radiación infrarroja:",
+    "opciones": [
+      "Tiene menor longitud de onda que la luz visible.",
+      "Es visible para el ojo humano.",
+      "Es menos energética que la radiación ultravioleta.",
+      "Tiene una longitud de onda entre 500nm y 650nm."
+    ],
+    "correcta": 2
+  },
+  {
+    "id": 141,
+    "tipo": "Defensa 2025",
+    "numeracion": 11,
+    "pregunta": "Para realizar un estiramiento del músculo extensor radial largo del carpo utilizaremos los parámetros de:",
+    "opciones": [
+      "Extensión de codo, pronación del antebrazo y flexión e inclinación radial de la muñeca.",
+      "Extensión de codo, pronación del antebrazo y flexión e inclinación cubital de la muñeca.",
+      "Extensión de codo, supinación del antebrazo y flexión e inclinación cubital de la muñeca.",
+      "Extensión de codo, pronación del antebrazo y flexión e inclinación radial de la muñeca."
+    ],
+    "correcta": 1
+  },
+  {
+    "id": 142,
+    "tipo": "Defensa 2025",
+    "numeracion": 12,
+    "pregunta": "Para realizar un estiramiento del músculo flexor largo de los dedos del pie utilizaremos los parámetros de:",
+    "opciones": [
+      "Flexión dorsal de tobillo, abducción y pronación del pie, más extensión de las metatarsofalángicas e interfalángicas de los últimos cuatro dedos.",
+      "Flexión dorsal de tobillo, aducción y supinación del pie, más extensión de las metatarsofalángicas e interfalángicas de los últimos cuatro dedos.",
+      "Flexión dorsal de tobillo, aducción y pronación del pie, más extensión de las metatarsofalángicas e interfalángicas de los últimos cuatro dedos.",
+      "Flexión dorsal de tobillo, abducción y supinación del pie, más extensión de las metatarsofalángicas e interfalángicas de los últimos cuatro dedos."
+    ],
+    "correcta": 0
+  },
+  {
+    "id": 143,
+    "tipo": "Defensa 2025",
+    "numeracion": 13,
+    "pregunta": "En un paciente con dolor en la zona del trapecio superior derecho al final de la rotación izquierda de cuello, consideraremos responsable al músculo:",
+    "opciones": [
+      "Elevador de la escápula izquierdo.",
+      "Trapecio derecho.",
+      "Trapecio izquierdo.",
+      "Elevador de la escápula derecho."
+    ],
+    "correcta": 1
+  },
+  {
+    "id": 144,
+    "tipo": "Defensa 2025",
+    "numeracion": 14,
+    "pregunta": "Al solicitar una contracción excéntrica en su máximo recorrido del músculo trapecio derecho, partiremos de la posición:",
+    "opciones": [
+      "Rotación izquierda de cuello.",
+      "Lateroflexión izquierda de cuello.",
+      "Rotación derecha de cuello.",
+      "Equidistante."
+    ],
+    "correcta": 0
+  },
+  {
+    "id": 145,
+    "tipo": "Defensa 2025",
+    "numeracion": 15,
+    "pregunta": "El músculo piriforme:",
+    "opciones": [
+      "Pertenece a la musculatura de la mano.",
+      "Se estira en rotación interna de cadera, con la cadera extendida.",
+      "Se acorta en aducción de cadera.",
+      "Se estira en rotación interna de cadera, con la cadera flexionada."
+    ],
+    "correcta": 1
+  },
+  {
+    "id": 146,
+    "tipo": "Defensa 2025",
+    "numeracion": 16,
+    "pregunta": "Paciente con dolor anterior en rodilla derecha. Si el origen fuese muscular, según los patrones descritos por Travell y Simons, podrían ser responsables los puntos gatillo miofasciales (PGM) del músculo:",
+    "opciones": [
+      "Aductor largo.",
+      "Aductor mayor.",
+      "Grácil.",
+      "Sartorio."
+    ],
+    "correcta": 0
+  },
+  {
+    "id": 147,
+    "tipo": "Defensa 2025",
+    "numeracion": 17,
+    "pregunta": "¿A qué nivel vertebral se produce la mayor parte de la rotación cervical?",
+    "opciones": [
+      "Entre occipucio y C1.",
+      "Entre C1 y C2.",
+      "Entre C5 y C6.",
+      "Entre C7 y D1."
+    ],
+    "correcta": 1
+  },
+  {
+    "id": 148,
+    "tipo": "Defensa 2025",
+    "numeracion": 18,
+    "pregunta": "La meralgia parestésica es una neuropatía por compresión del nervio:",
+    "opciones": [
+      "Ciático poplíteo externo.",
+      "Interóseo posterior.",
+      "Cutáneo femoral lateral.",
+      "Genitofemoral."
+    ],
+    "correcta": 2
+  },
+  {
+    "id": 149,
+    "tipo": "Defensa 2025",
+    "numeracion": 19,
+    "pregunta": "¿Qué tipo de señales sensitivas son transmitidas por los tractos espinocerebelosos de la médula espinal?",
+    "opciones": [
+      "Dolor.",
+      "Tacto fino y discriminación.",
+      "Tacto grueso y temperatura.",
+      "Señales propioceptivas de músculos y articulaciones."
+    ],
+    "correcta": 3
+  },
+  {
+    "id": 150,
+    "tipo": "Defensa 2025",
+    "numeracion": 20,
+    "pregunta": "Se denomina punto gatillo miofascial clave:",
+    "opciones": [
+      "Al que genera dolor de forma espontánea.",
+      "Al que al inactivarlo podemos inactivar los puntos gatillo que dependen de él.",
+      "Al que es activado por otro punto gatillo miofascial.",
+      "Al que no responde al tratamiento conservador."
+    ],
+    "correcta": 1
+  },
+  {
+    "id": 151,
+    "tipo": "Defensa 2025",
+    "numeracion": 21,
+    "pregunta": "¿Cuál de los siguientes patrones es correcto según el método de Facilitación Neuromuscular Propioceptiva?",
+    "opciones": [
+      "Flexión, aducción y rotación interna de miembro inferior.",
+      "Extensión, aducción y rotación externa de miembro inferior.",
+      "Extensión, aducción y rotación externa de miembro superior.",
+      "Flexión, aducción y rotación interna de miembro superior."
+    ],
+    "correcta": 1
+  },
+  {
+    "id": 152,
+    "tipo": "Defensa 2025",
+    "numeracion": 22,
+    "pregunta": "¿Qué estructura no delimita el cuadrilátero de Velpeau?",
+    "opciones": [
+      "Músculo redondo mayor.",
+      "Húmero.",
+      "Músculo redondo menor.",
+      "Borde lateral de la escápula."
+    ],
+    "correcta": 3
+  },
+  {
+    "id": 153,
+    "tipo": "Defensa 2025",
+    "numeracion": 23,
+    "pregunta": "¿Qué músculo no realiza la retrusión mandibular?",
+    "opciones": [
+      "Fascículo superficial del masetero.",
+      "Digástrico.",
+      "Fascículo profundo del masetero.",
+      "Temporal."
+    ],
+    "correcta": 0
+  },
+  {
+    "id": 154,
+    "tipo": "Defensa 2025",
+    "numeracion": 24,
+    "pregunta": "Según los trabajos de Jay Shah et al. en el estudio de los puntos gatillo miofasciales, la punción seca profunda de estos provoca:",
+    "opciones": [
+      "Un aumento del pH.",
+      "Un aumento de la sustancia P.",
+      "Un aumento del péptido relacionado con el gen de la calcitonina.",
+      "Un aumento de la serotonina."
+    ],
+    "correcta": 0
+  },
+  {
+    "id": 155,
+    "tipo": "Defensa 2025",
+    "numeracion": 25,
+    "pregunta": "Los pares craneales citados a continuación, se relacionan con las siguientes funciones. Señale la correcta:",
+    "opciones": [
+      "El VII par tiene un componente sensitivo para el sentido del gusto en el tercio posterior de la lengua.",
+      "El VI par eleva el párpado superior.",
+      "El V par es responsable de la inervación de músculos de la masticación como el masetero.",
+      "El III par cierra el ojo."
+    ],
+    "correcta": 2
+  },
+  {
+    "id": 156,
+    "tipo": "Defensa 2025",
+    "numeracion": 26,
+    "pregunta": "Con el fin de valorar las actividades instrumentales de la vida diaria en el paciente geriátrico, utilizaría el:",
+    "opciones": [
+      "Índice de Katz.",
+      "Índice de Barthel.",
+      "Cuestionario de Pfeifer.",
+      "Índice de Lawton y Brody."
+    ],
+    "correcta": 3
+  },
+  {
+    "id": 157,
+    "tipo": "Defensa 2025",
+    "numeracion": 27,
+    "pregunta": "Si el reflejo de Babinski es positivo, es cierto que:",
+    "opciones": [
+      "El primer dedo del pie se dorsiflexiona y los otros se pueden separar en abanico.",
+      "Sospechamos de una lesión de motoneurona inferior.",
+      "Se produce flexión plantar del primer dedo y flexión dorsal del resto.",
+      "Se produce flexión plantar de todos los dedos."
+    ],
+    "correcta": 0
+  },
+  {
+    "id": 158,
+    "tipo": "Defensa 2025",
+    "numeracion": 28,
+    "pregunta": "El nervio frénico, responsable de la inervación del músculo diafragma, está formado por ramos de los nervios espinales:",
+    "opciones": [
+      "C1-C2.",
+      "C3-C5.",
+      "C6-C7.",
+      "D1-D3."
+    ],
+    "correcta": 1
+  },
+  {
+    "id": 159,
+    "tipo": "Defensa 2025",
+    "numeracion": 29,
+    "pregunta": "El síndrome de Parsonage-Turner:",
+    "opciones": [
+      "Afecta a la musculatura inervada por el nervio facial.",
+      "Es un síndrome que afecta a la cola de caballo.",
+      "Afecta a los nervios periféricos de la cintura escapular y el brazo.",
+      "Es una mielopatía sensitivo motora."
+    ],
+    "correcta": 2
+  },
+  {
+    "id": 160,
+    "tipo": "Defensa 2025",
+    "numeracion": 30,
+    "pregunta": "En epidemiología, el término prevalencia hace referencia a:",
+    "opciones": [
+      "Medida de frecuencia de aparición de una enfermedad en una población en riesgo durante un periodo de tiempo determinado.",
+      "Proporción de individuos de una población en riesgo que desarrolla un suceso durante un periodo de tiempo determinado.",
+      "Tasa que mide la frecuencia de aparición de un suceso o enfermedad.",
+      "Proporción de individuos de una población que tienen una enfermedad o una característica determinada en un momento del tiempo."
+    ],
+    "correcta": 3
+  },
+  {
+    "id": 161,
+    "tipo": "Defensa 2025",
+    "numeracion": 31,
+    "pregunta": "¿La afectación de qué nervio puede provocar un patrón de marcha en estepaje?",
+    "opciones": [
+      "Peroneo común.",
+      "Tibial.",
+      "Sural.",
+      "Glúteo superior."
+    ],
+    "correcta": 0
+  },
+  {
+    "id": 162,
+    "tipo": "Defensa 2025",
+    "numeracion": 32,
+    "pregunta": "En un paciente afectado por una radiculopatía en la raíz nerviosa situada en el espacio C7-D1, es cierto que:",
+    "opciones": [
+      "Habrá una afectación en la raíz nerviosa C7.",
+      "Puede verse comprometido el reflejo estilo radial.",
+      "Puede afectar a la sensibilidad en la cara medial del antebrazo.",
+      "Para su valoración exploraremos fundamentalmente la fuerza del músculo bíceps braquial."
+    ],
+    "correcta": 2
+  },
+  {
+    "id": 163,
+    "tipo": "Defensa 2025",
+    "numeracion": 33,
+    "pregunta": "En un estudio sobre los beneficios del ejercicio de fuerza en mujeres operadas de cáncer de mama, la fuerza de prensión medida en kilogramos mediante un dinamómetro se considera una variable:",
+    "opciones": [
+      "Discreta.",
+      "Continua.",
+      "Nominal.",
+      "Politómica."
+    ],
+    "correcta": 1
+  },
+  {
+    "id": 164,
+    "tipo": "Defensa 2025",
+    "numeracion": 34,
+    "pregunta": "La lesión conocida como \"Triada terrible de codo\", es una lesión compleja que asocia:",
+    "opciones": [
+      "Fractura de olecranon, apófisis coronoides y lesión del nervio cubital.",
+      "Fractura transcondílea, luxación de codo y lesión del nervio mediano.",
+      "Luxación de codo, fractura de cabeza del radio y de la apófisis coronoides.",
+      "Fractura transcondílea, lesión del nervio mediano y nervio radial."
+    ],
+    "correcta": 2
+  },
+  {
+    "id": 165,
+    "tipo": "Defensa 2025",
+    "numeracion": 35,
+    "pregunta": "¿Cuál de las siguientes técnicas de muestreo se considera no probabilístico?",
+    "opciones": [
+      "Muestreo estratificado.",
+      "Muestreo por cuotas.",
+      "Muestreo aleatorio simple.",
+      "Muestreo sistemático."
+    ],
+    "correcta": 1
+  },
+  {
+    "id": 166,
+    "tipo": "Defensa 2025",
+    "numeracion": 36,
+    "pregunta": "Un niño diagnosticado de enfermedad de Blount, presentará:",
+    "opciones": [
+      "Artritis séptica.",
+      "Hipercifosis congénita.",
+      "Tibia vara.",
+      "Parálisis braquial obstétrica."
+    ],
+    "correcta": 2
+  },
+  {
+    "id": 167,
+    "tipo": "Defensa 2025",
+    "numeracion": 37,
+    "pregunta": "Al realizar la goniometría de la articulación escapulohumeral para medir la abducción, sin compensación escapular, ¿cuál es la alineación correcta del goniómetro?",
+    "opciones": [
+      "El eje sobre el acromion, el brazo fijo paralelo al esternón y el brazo móvil alineado con la línea media longitudinal del húmero tomado como referencia ósea el epicóndilo.",
+      "El eje sobre el borde lateral del acromion, el brazo fijo alineado con la clavícula y el brazo móvil con la diáfisis humeral.",
+      "El eje sobre la espina de la escápula, el brazo fijo alineado sobre la columna vertebral y el brazo móvil con el cúbito.",
+      "El eje en el epicóndilo lateral del húmero, el brazo fijo alineado con el húmero y el brazo móvil con la escápula."
+    ],
+    "correcta": 0
+  },
+  {
+    "id": 168,
+    "tipo": "Defensa 2025",
+    "numeracion": 38,
+    "pregunta": "¿Cuál es el objetivo principal de la prueba de compresión de Jackson?",
+    "opciones": [
+      "Evaluar la estabilidad de la articulación sacroilíaca.",
+      "Detectar la compresión del nervio ciático en la región lumbar.",
+      "Detectar la presencia de radiculopatía cervical al comprimir la columna cervical y observar si se provoca dolor radicular.",
+      "Identificar la presencia de una luxación de la articulación glenohumeral."
+    ],
+    "correcta": 2
+  },
+  {
+    "id": 169,
+    "tipo": "Defensa 2025",
+    "numeracion": 39,
+    "pregunta": "¿Cuál es el objetivo principal del test Straight leg raise (SRL)?",
+    "opciones": [
+      "Evaluar la debilidad muscular en los músculos flexores de la cadera.",
+      "Evaluar la movilidad de la articulación sacroilíaca en la pierna afectada.",
+      "Detectar la presencia de puntos gatillo en la musculatura isquiotibial.",
+      "Evaluar radiculopatía lumbar, especialmente en casos de hernia discal."
+    ],
+    "correcta": 3
+  },
+  {
+    "id": 170,
+    "tipo": "Defensa 2025",
+    "numeracion": 40,
+    "pregunta": "¿Cuál de las siguientes articulaciones no es una anfiartrosis?",
+    "opciones": [
+      "Articulación distal entre tibia y peroné.",
+      "Sínfisis del pubis.",
+      "Articulación sacrococcígea.",
+      "Articulación radiocubital distal."
+    ],
+    "correcta": 3
+  },
+  {
+    "id": 171,
+    "tipo": "Defensa 2025",
+    "numeracion": 41,
+    "pregunta": "¿Cuál de las siguientes situaciones no sucede durante el mecanismo de la defecación?",
+    "opciones": [
+      "Aumento de la prensa abdominal.",
+      "Cierre reflejo del esfínter anal interno.",
+      "El ángulo recto anal se verticaliza.",
+      "Apertura voluntaria del esfínter anal externo."
+    ],
+    "correcta": 1
+  },
+  {
+    "id": 172,
+    "tipo": "Defensa 2025",
+    "numeracion": 42,
+    "pregunta": "¿En qué caso no estaría contraindicada la electroestimulación intravaginal?",
+    "opciones": [
+      "Embarazo.",
+      "Portadora de marcapasos.",
+      "Prolapso.",
+      "Infección vaginal."
+    ],
+    "correcta": 2
+  },
+  {
+    "id": 173,
+    "tipo": "Defensa 2025",
+    "numeracion": 43,
+    "pregunta": "¿Cuál de los siguientes síntomas no es característico del síndrome del elevador del ano?",
+    "opciones": [
+      "Episodios de dolor que duran desde varios segundos a minutos con una duración máxima de 30 minutos.",
+      "Dolor o picor ano rectal crónico o recurrente.",
+      "Sensibilidad al estiramiento del músculo puborrectal.",
+      "Dolor o sensibilidad a la palpación del músculo elevador del ano."
+    ],
+    "correcta": 0
+  },
+  {
+    "id": 174,
+    "tipo": "Defensa 2025",
+    "numeracion": 44,
+    "pregunta": "¿Cuál de las siguientes respuestas es incorrecta?",
+    "opciones": [
+      "De las leyes físicas del agua, en la aplicación de la hidroterapia, dos de las más importantes son la flotación y la presión hidrostática.",
+      "La cuantía del apoyo o resistencia en el agua ofrecida a un paciente mediante flotadores hinchables puede variarse aumentando o disminuyendo la cantidad de aire de los mismos.",
+      "La flotación es la fuerza experimentada hacia arriba que actúa en sentido opuesto a la gravedad.",
+      "La flotación puede utilizarse para ayudar al movimiento cuando el segmento corporal se lleva desde la superficie del agua hacia la posición vertical."
+    ],
+    "correcta": 3
+  },
+  {
+    "id": 175,
+    "tipo": "Defensa 2025",
+    "numeracion": 45,
+    "pregunta": "¿Qué músculos inerva el nervio musculocutáneo?",
+    "opciones": [
+      "Bíceps braquial y braquiorradial.",
+      "Tríceps y ancóneo.",
+      "Bíceps braquial, braquial y coracobraquial.",
+      "Bíceps braquial y deltoides."
+    ],
+    "correcta": 2
+  },
+  {
+    "id": 176,
+    "tipo": "Defensa 2025",
+    "numeracion": 46,
+    "pregunta": "¿Qué nervio inerva al músculo glúteo mayor?",
+    "opciones": [
+      "Nervio glúteo inferior.",
+      "Nervio glúteo superior.",
+      "Nervio ciático.",
+      "Ramos del plexo lumbar procedentes de nervios espinales L3 y L4."
+    ],
+    "correcta": 0
+  },
+  {
+    "id": 177,
+    "tipo": "Defensa 2025",
+    "numeracion": 47,
+    "pregunta": "En el síndrome de dolor regional complejo (SDRC), ¿cuál de las siguientes opciones no es correcta?",
+    "opciones": [
+      "El SDRC de tipo I hace referencia a los casos en los que no hay una lesión nerviosa apreciable.",
+      "Los criterios de Budapest son una buena herramienta para su diagnóstico.",
+      "Este cuadro fue conocido durante mucho tiempo con el término causalgia.",
+      "La distrofia simpática refleja de Evans se considera un SDRC de tipo II."
+    ],
+    "correcta": 3
+  },
+  {
+    "id": 178,
+    "tipo": "Defensa 2025",
+    "numeracion": 48,
+    "pregunta": "¿Cuál de las siguientes pruebas puede ayudar al diagnóstico de una posible alteración del nervio mediano en el síndrome del túnel carpiano?",
+    "opciones": [
+      "Prueba de Phalen, juntando las palmas de las manos.",
+      "Prueba de Finkelstein.",
+      "Signo de Tinel.",
+      "Prueba de Phalen inversa, juntando los dorsos de las manos."
+    ],
+    "correcta": 2
+  },
+  {
+    "id": 179,
+    "tipo": "Defensa 2025",
+    "numeracion": 49,
+    "pregunta": "Según la clasificación de Tile de 1988 sobre las fracturas del anillo pélvico, ¿a qué grupo de los siguientes correspondería una fractura por avulsión de la espina iliaca antero-superior?",
+    "opciones": [
+      "Tipo O.",
+      "Tipo A.",
+      "Tipo B.",
+      "Tipo C."
+    ],
+    "correcta": 1
+  },
+  {
+    "id": 180,
+    "tipo": "Defensa 2025",
+    "numeracion": 50,
+    "pregunta": "Si el test de Froment es positivo, ¿qué nervio se encuentra afectado?",
+    "opciones": [
+      "Nervio radial.",
+      "Nervio mediano.",
+      "Nervio cubital.",
+      "Nervio axilar."
+    ],
+    "correcta": 2
+  },
+  {
+    "id": 181,
+    "tipo": "Defensa 2025",
+    "numeracion": 51,
+    "pregunta": "¿Qué estructura se intenta valorar específicamente mediante el test de Steinmann I?",
+    "opciones": [
+      "Articulación patelo-femoral.",
+      "Meniscos de la rodilla.",
+      "Tendón rotuliano.",
+      "Ligamento cruzado posterior."
+    ],
+    "correcta": 1
+  },
+  {
+    "id": 182,
+    "tipo": "Defensa 2025",
+    "numeracion": 52,
+    "pregunta": "¿Qué musculatura es la responsable principal de la mirada hacia arriba del ojo?",
+    "opciones": [
+      "Recto superior y oblicuo inferior.",
+      "Elevador del párpado.",
+      "Recto inferior.",
+      "Oblicuo superior."
+    ],
+    "correcta": 0
+  },
+  {
+    "id": 183,
+    "tipo": "Defensa 2025",
+    "numeracion": 53,
+    "pregunta": "Según Busquet, ¿cuál de los siguientes músculos no forma parte de la cadena muscular de extensión del miembro inferior?",
+    "opciones": [
+      "Crural.",
+      "Sóleo.",
+      "Cuadrado plantar.",
+      "Interóseos."
+    ],
+    "correcta": 2
+  },
+  {
+    "id": 184,
+    "tipo": "Defensa 2025",
+    "numeracion": 54,
+    "pregunta": "Según Busquet, ¿cuál de los siguientes músculos no forma parte de la cadena muscular de flexión del miembro superior?",
+    "opciones": [
+      "Coracobraquial.",
+      "Lumbricales.",
+      "Interóseos dorsales.",
+      "Interóseos palmares."
+    ],
+    "correcta": 1
+  },
+  {
+    "id": 185,
+    "tipo": "Defensa 2025",
+    "numeracion": 55,
+    "pregunta": "¿Cuál de los siguientes músculos está inervado por el miotoma C6 del ramo primario anterior?",
+    "opciones": [
+      "Pronador redondo.",
+      "Flexor largo del pulgar.",
+      "Pronador cuadrado.",
+      "Flexor profundo de los dedos."
+    ],
+    "correcta": 0
+  },
+  {
+    "id": 186,
+    "tipo": "Defensa 2025",
+    "numeracion": 56,
+    "pregunta": "¿Cuál de los siguientes ligamentos se sitúa posteriormente al canal medular en la columna cervical?",
+    "opciones": [
+      "Ligamento intertransverso.",
+      "Ligamento longitudinal anterior.",
+      "Ligamento longitudinal posterior.",
+      "Ligamento amarillo."
+    ],
+    "correcta": 3
+  },
+  {
+    "id": 187,
+    "tipo": "Defensa 2025",
+    "numeracion": 57,
+    "pregunta": "Según Rodríguez Martín, ¿cuál de los siguientes fármacos utilizados en iontoforesis tiene una polaridad positiva?",
+    "opciones": [
+      "Celestone® (Betametasona).",
+      "Heparina.",
+      "Salicilato de sosa.",
+      "Cloruro de adrenalina."
+    ],
+    "correcta": 3
+  },
+  {
+    "id": 188,
+    "tipo": "Defensa 2025",
+    "numeracion": 58,
+    "pregunta": "¿Qué longitud de onda aproximada tiene la radiación infrarroja empleada generalmente en fisioterapia?",
+    "opciones": [
+      "3.000-10.000 nm.",
+      "1.500-3.000 nm.",
+      "770-1.500 nm.",
+      "315-400 nm."
+    ],
+    "correcta": 2
+  },
+  {
+    "id": 189,
+    "tipo": "Defensa 2025",
+    "numeracion": 59,
+    "pregunta": "¿Cuál de las siguientes opciones sobre los fundamentos físicos de los ultrasonidos no es correcta?",
+    "opciones": [
+      "El haz de ultrasonido no es uniforme.",
+      "En la zona de Fresnel se pueden producir picos de intensidad superiores a lo programado en el aparato de ultrasonidos.",
+      "La zona de Fraunhofer es especialmente divergente.",
+      "La profundidad de penetración media es independiente de la frecuencia empleada."
+    ],
+    "correcta": 3
+  },
+  {
+    "id": 190,
+    "tipo": "Defensa 2025",
+    "numeracion": 60,
+    "pregunta": "Según Rodríguez Martín, ¿cuál de las siguientes corrientes diadinámicas tendría un menor efecto galvánico?",
+    "opciones": [
+      "Difásica fija sin base de galvánica.",
+      "Largos periodos con base de galvánica.",
+      "Cortos periodos con base de galvánica.",
+      "Ritmo sincopado con base de galvánica."
+    ],
+    "correcta": 3
+  },
+  {
+    "id": 191,
+    "tipo": "Defensa 2025",
+    "numeracion": 61,
+    "pregunta": "¿Cuál de las siguientes afirmaciones es falsa?",
+    "opciones": [
+      "El índice de Katz valora seis ítems.",
+      "El índice de Lawton y Brody valora diez ítems.",
+      "La escala de autocuidado de Kenny valora seis áreas mediante diecisiete preguntas.",
+      "La escala de Tinetti valora dieciséis ítems."
+    ],
+    "correcta": 1
+  },
+  {
+    "id": 192,
+    "tipo": "Defensa 2025",
+    "numeracion": 62,
+    "pregunta": "La deformidad en \"pala de jardín\" es un signo característico de una de las siguientes fracturas:",
+    "opciones": [
+      "Fractura de Colles Pouteau.",
+      "Fractura de Goyrand-Smith.",
+      "Fractura de Galeazzi-Piedemont.",
+      "Fractura de Hutchinson."
+    ],
+    "correcta": 1
+  },
+  {
+    "id": 193,
+    "tipo": "Defensa 2025",
+    "numeracion": 63,
+    "pregunta": "¿Cuál de los siguientes patrones patomecánicos no fue postulado por Sohier?",
+    "opciones": [
+      "Movilización.",
+      "Pinzamiento de la interlínea articular.",
+      "Perturbación de tensiones periarticulares.",
+      "Disarmonía en la repartición de presiones articulares."
+    ],
+    "correcta": 0
+  },
+  {
+    "id": 194,
+    "tipo": "Defensa 2025",
+    "numeracion": 64,
+    "pregunta": "¿Cuál de los siguientes músculos no forma parte de la laringe?",
+    "opciones": [
+      "Cricotiroideo.",
+      "Estapedio.",
+      "Aritenoideo.",
+      "Ariepiglótico."
+    ],
+    "correcta": 1
+  },
+  {
+    "id": 195,
+    "tipo": "Defensa 2025",
+    "numeracion": 65,
+    "pregunta": "¿Cuál de las siguientes articulaciones es un encaje recíproco o en silla de montar?",
+    "opciones": [
+      "Articulación peroneotibial superior.",
+      "Articulación calcáneo-cuboidea.",
+      "Articulación húmero-cubital.",
+      "Articulación occipito-atloidea."
+    ],
+    "correcta": 1
+  },
+  {
+    "id": 196,
+    "tipo": "Defensa 2025",
+    "numeracion": 66,
+    "pregunta": "Según Framingham, ¿cuál de las siguientes respuestas es un criterio menor para el diagnóstico de la insuficiencia cardíaca?",
+    "opciones": [
+      "Hepatomegalia.",
+      "Estertores.",
+      "Aumento de la presión venosa.",
+      "Disnea paroxística nocturna."
+    ],
+    "correcta": 0
+  },
+  {
+    "id": 197,
+    "tipo": "Defensa 2025",
+    "numeracion": 67,
+    "pregunta": "La clasificación ASIA (American Spinal Injury Association), permite determinar si una lesión medular es completa o incompleta. Teniendo esto en cuenta, señale la respuesta correcta:",
+    "opciones": [
+      "La afectación neurológica se clasifica en 5 grados (A, B, C, D y E). El grado C corresponde a una lesión incompleta, donde se conserva la función motora por debajo del nivel neurológico. Más de la mitad de los músculos clave tienen un balance muscular inferior a 3.",
+      "La afectación neurológica se clasifica en 3 grados (A, B y C). El grado B corresponde a una lesión incompleta. Más de la mitad de los músculos clave tienen un balance muscular superior a 3.",
+      "La afectación neurológica se clasifica en 5 grados (A, B, C, D y E). El grado E corresponde a una lesión incompleta, donde se conserva la función motora por debajo del nivel neurológico. Más de la mitad de los músculos tienen un balance muscular superior a 3.",
+      "La afectación neurológica se clasifica en 5 grados (A, B, C, D y E). El grado B corresponde a una lesión completa, donde no existe función sensitiva ni motora preservada en los segmentos sacros S4 y S5."
+    ],
+    "correcta": 0
+  },
+  {
+    "id": 198,
+    "tipo": "Defensa 2025",
+    "numeracion": 68,
+    "pregunta": "¿Cuál de estos test valora la movilidad de la columna lumbar?",
+    "opciones": [
+      "Test de Bicheau.",
+      "Test de Adams.",
+      "Test de Schober.",
+      "Test de Klippel-Feil."
+    ],
+    "correcta": 2
+  },
+  {
+    "id": 199,
+    "tipo": "Defensa 2025",
+    "numeracion": 69,
+    "pregunta": "¿Cuál de las siguientes medidas epidemiológicas utilizaría para cuantificar el impacto potencial de un programa preventivo en la población?",
+    "opciones": [
+      "Riesgo atribuible.",
+      "Odds ratio.",
+      "Riesgo relativo.",
+      "Razón de prevalencias."
+    ],
+    "correcta": 0
+  },
+  {
+    "id": 200,
+    "tipo": "Defensa 2025",
+    "numeracion": 70,
+    "pregunta": "¿Cuál de las siguientes opciones no es una medida de prevención de eficacia probada?",
+    "opciones": [
+      "Lavado de manos.",
+      "Sistemas de flujo laminar.",
+      "Uso de guantes.",
+      "Vacunación del personal sanitario."
+    ],
+    "correcta": 1
+  },
+  {
+    "id": 201,
+    "tipo": "Defensa 2025",
+    "numeracion": 71,
+    "pregunta": "¿Cuál de los siguientes métodos o registros diagnósticos no está relacionado con la incontinencia urinaria?",
+    "opciones": [
+      "Diario miccional.",
+      "Pad test.",
+      "Test del hisopo (Q tip test).",
+      "Test de Graham."
+    ],
+    "correcta": 3
+  },
+  {
+    "id": 202,
+    "tipo": "Defensa 2025",
+    "numeracion": 72,
+    "pregunta": "¿Cómo se denomina la contracción del suelo pélvico antes y durante la ejecución de actividades que generen incrementos súbitos de presión intraabdominal (toser, estornudar, saltar, reír, etc…)?",
+    "opciones": [
+      "Maniobra de Knack.",
+      "Maniobra de Kegel.",
+      "Maniobra de Caufriez.",
+      "Maniobra de Burch."
+    ],
+    "correcta": 0
+  },
+  {
+    "id": 203,
+    "tipo": "Defensa 2025",
+    "numeracion": 73,
+    "pregunta": "¿Cuál de los siguientes enunciados es verdadero?",
+    "opciones": [
+      "El esfínter interno del ano es músculo estriado y de carácter voluntario.",
+      "El esfínter externo del ano es músculo estriado y de carácter voluntario.",
+      "El esfínter externo del ano es músculo liso y de carácter involuntario.",
+      "Ambos esfínteres están integrados, son músculos estriados y de carácter voluntario."
+    ],
+    "correcta": 1
+  },
+  {
+    "id": 204,
+    "tipo": "Defensa 2025",
+    "numeracion": 74,
+    "pregunta": "¿Cuál de las siguientes características acerca de la incontinencia por rebosamiento es falsa?",
+    "opciones": [
+      "Se caracteriza por una contracción del músculo detrusor descoordinada e intermitente.",
+      "Aparece cuando la capacidad de almacenamiento de la vejiga se ha superado.",
+      "Se manifiesta por pérdidas de orina en forma de goteo.",
+      "Se asocia a una pobre contracción del músculo detrusor o vejiga hipoactiva."
+    ],
+    "correcta": 0
+  },
+  {
+    "id": 205,
+    "tipo": "Defensa 2025",
+    "numeracion": 75,
+    "pregunta": "En relación con la fisiología de la micción, ¿cuál de las siguientes opciones es falsa?",
+    "opciones": [
+      "La fase de vaciado se inicia con la relajación voluntaria del esfínter externo.",
+      "La fase de llenado está garantizada por la gran distensibilidad del músculo detrusor.",
+      "Durante la fase de llenado la presión intravesical es superior a la presión uretral.",
+      "Durante la fase de llenado la presión intravesical es inferior a la presión uretral."
+    ],
+    "correcta": 2
+  },
+  {
+    "id": 206,
+    "tipo": "Defensa 2025",
+    "numeracion": 76,
+    "pregunta": "En relación a los músculos rectos del abdomen, ¿cuál de las siguientes opciones es falsa?",
+    "opciones": [
+      "Por encima del ombligo se estrechan y dan lugar a un tendón de inserción común para el conjunto de fibras musculares y aponeuróticas que se insertan en el esternón.",
+      "Son dos bandas musculares separadas por la línea alba, con una dirección vertical que se dirige desde el esternón y los últimos arcos costales hasta el pubis.",
+      "Están envueltos por una vaina aponeurótica formada por las aponeurosis de terminación de los músculos oblicuo interno y externo y transverso del abdomen.",
+      "Están separados por tres bandas tendinosas horizontales sobre las que se insertan fibras musculares del oblicuo externo."
+    ],
+    "correcta": 0
+  },
+  {
+    "id": 207,
+    "tipo": "Defensa 2025",
+    "numeracion": 77,
+    "pregunta": "Se recomienda que una mujer sedentaria embarazada:",
+    "opciones": [
+      "Comience con los programas de preparación física en el primer trimestre de embarazo.",
+      "Inicie el programa de preparación física durante el segundo trimestre de gestación.",
+      "No realice ejercicio durante todo el embarazo.",
+      "Permanezca el mayor tiempo posible tumbada."
+    ],
+    "correcta": 1
+  },
+  {
+    "id": 208,
+    "tipo": "Defensa 2025",
+    "numeracion": 78,
+    "pregunta": "Señale cuál de las siguientes opciones hace referencia a valoración del dolor:",
+    "opciones": [
+      "Prueba de Bonney.",
+      "Estrella de Maigne.",
+      "Escala de Ashworth modificada.",
+      "Test de Wells."
+    ],
+    "correcta": 1
+  },
+  {
+    "id": 209,
+    "tipo": "Defensa 2025",
+    "numeracion": 79,
+    "pregunta": "Señale cuál de las siguientes opciones no corresponde al ángulo formado por el apéndice xifoides y los dos arcos costales:",
+    "opciones": [
+      "Ángulo de Charpy.",
+      "Ángulo epigástrico.",
+      "Ángulo de Rett.",
+      "Ángulo infraesternal."
+    ],
+    "correcta": 2
+  },
+  {
+    "id": 210,
+    "tipo": "Defensa 2025",
+    "numeracion": 80,
+    "pregunta": "¿Qué gasto energético medido en METS corresponde a una actividad de marcha a 4 km/h o bicicleta a 10 km/h para un sujeto de 70 kg de peso?",
+    "opciones": [
+      "2.5 a 3 METS.",
+      "3.5 a 4 METS.",
+      "4.5 a 5 METS.",
+      "5.5 a 6 METS."
+    ],
+    "correcta": 1
+  },
+  {
+    "id": 211,
+    "tipo": "Defensa 2025",
+    "numeracion": 81,
+    "pregunta": "¿Qué arteria es la que más territorio cardiaco irriga?",
+    "opciones": [
+      "Arteria coronaria derecha.",
+      "Arteria coronaria izquierda.",
+      "Arteria circunflejo.",
+      "Arteria descendente posterior."
+    ],
+    "correcta": 1
+  },
+  {
+    "id": 212,
+    "tipo": "Defensa 2025",
+    "numeracion": 82,
+    "pregunta": "¿A qué hace referencia el término FEVI en fisiología cardiaca?",
+    "opciones": [
+      "Fuerza de contracción del músculo cardiaco.",
+      "Frecuencia de latido del corazón.",
+      "Volumen de sangre expulsado en la sístole cardiaca.",
+      "Volumen de sangre expulsado en la diástole cardiaca."
+    ],
+    "correcta": 2
+  },
+  {
+    "id": 213,
+    "tipo": "Defensa 2025",
+    "numeracion": 83,
+    "pregunta": "Un paciente cardiaco sufre una oclusión completa de una arteria coronaria. ¿Con qué término se denomina esta patología que presenta alteración en el electrocardiograma?",
+    "opciones": [
+      "Angina inestable.",
+      "IAMSEST.",
+      "SCASEST.",
+      "SCACEST."
+    ],
+    "correcta": 3
+  },
+  {
+    "id": 214,
+    "tipo": "Defensa 2025",
+    "numeracion": 84,
+    "pregunta": "¿Qué cavidades comunica la fosa oval en el corazón durante la vida fetal?",
+    "opciones": [
+      "Comunica aurícula derecha y ventrículo derecho.",
+      "Comunica aurícula izquierda y ventrículo izquierdo.",
+      "Comunica ventrículo izquierdo y ventrículo derecho.",
+      "Comunica aurícula izquierda y aurícula derecha."
+    ],
+    "correcta": 3
+  },
+  {
+    "id": 215,
+    "tipo": "Defensa 2025",
+    "numeracion": 85,
+    "pregunta": "Dentro de los distintos tipos de fibras musculares, ¿qué tipo de fibras se consideran especialmente oxidativas en su metabolismo?",
+    "opciones": [
+      "Fibras tipo II C.",
+      "Fibras tipo II A.",
+      "Fibras tipo I.",
+      "Fibras tipo II X."
+    ],
+    "correcta": 2
+  },
+  {
+    "id": 216,
+    "tipo": "Defensa 2025",
+    "numeracion": 86,
+    "pregunta": "En el mecanismo lesional inicial del ligamento cruzado anterior, ¿qué menisco es lesionado con mayor frecuencia?",
+    "opciones": [
+      "Menisco interno.",
+      "Menisco externo.",
+      "Ambos meniscos se suelen lesionar indistintamente.",
+      "No es frecuente la rotura de menisco en este tipo de esguince articular."
+    ],
+    "correcta": 1
+  },
+  {
+    "id": 217,
+    "tipo": "Defensa 2025",
+    "numeracion": 87,
+    "pregunta": "Según la Resolución 400/38239/2009, de 23 de octubre, de la Subsecretaría, por la que se delegan competencias en materia de personal estatutario de la Red Hospitalaria del Ministerio de Defensa, la competencia de reconocimiento de trienios se delega en:",
+    "opciones": [
+      "El Director General de Personal.",
+      "El Director General de Recursos Humanos.",
+      "El Subdirector General de Personal Civil.",
+      "Los Gerentes o, en su defecto, Directores de los Hospitales de la Red Hospitalaria de la Defensa."
+    ],
+    "correcta": 2
+  },
+  {
+    "id": 218,
+    "tipo": "Defensa 2025",
+    "numeracion": 88,
+    "pregunta": "Según la Resolución 400/38239/2009, de 23 de octubre, de la Subsecretaría, por la que se delegan competencias en materia de personal estatutario de la Red Hospitalaria del Ministerio de Defensa, ¿cuál de las siguientes competencias no está delegada al Director General de Personal?",
+    "opciones": [
+      "Informar las solicitudes sobre incompatibilidades.",
+      "Prolongar la permanencia en el servicio activo.",
+      "Autorizar las comisiones de servicio.",
+      "Declarar la situación de servicios especiales."
+    ],
+    "correcta": 1
+  },
+  {
+    "id": 219,
+    "tipo": "Defensa 2025",
+    "numeracion": 89,
+    "pregunta": "Según el Real Decreto 372/2020, de 18 de febrero, por el que se desarrolla la estructura orgánica básica del Ministerio de Defensa, el Jefe de Estado Mayor de la Defensa (JEMAD), tiene rango de:",
+    "opciones": [
+      "Secretario General.",
+      "Subsecretario de Estado.",
+      "Director General.",
+      "Secretario de Estado."
+    ],
+    "correcta": 3
+  },
+  {
+    "id": 220,
+    "tipo": "Defensa 2025",
+    "numeracion": 90,
+    "pregunta": "Según la Ley 55/2003, de 16 de diciembre, del Estatuto Marco del personal estatutario de los servicios de salud, tendrá consideración de falta grave:",
+    "opciones": [
+      "El abuso de autoridad en el ejercicio de sus funciones.",
+      "El incumplimiento de las normas sobre incompatibilidades, cuando suponga el mantenimiento de una situación de incompatibilidad.",
+      "El abandono del servicio.",
+      "La exigencia de cualquier tipo de compensación por los servicios prestados a los usuarios de los servicios de salud."
+    ],
+    "correcta": 0
+  },
+  {
+    "id": 221,
+    "tipo": "Defensa 2025",
+    "numeracion": 91,
+    "pregunta": "Según la Ley 4/2023, de 28 de febrero, para la igualdad real y efectiva de las personas trans y para la garantía de los derechos de las personas LGTBI:",
+    "opciones": [
+      "Las infracciones muy graves prescribirán a los dos años, las graves al año y las leves a los seis meses.",
+      "Las infracciones muy graves prescribirán a los tres años, las graves a los dos años y las leves a los seis meses.",
+      "Las infracciones muy graves prescribirán a los tres años, las graves a los dos años y las leves al año.",
+      "Las infracciones muy graves prescribirán a los tres años, las graves a los dos años y las leves a los nueve meses."
+    ],
+    "correcta": 3
+  },
+  {
+    "id": 222,
+    "tipo": "Defensa 2025",
+    "numeracion": 92,
+    "pregunta": "Según la Ley 4/2023, de 28 de febrero, para la igualdad real y efectiva de las personas trans y para la garantía de los derechos de las personas LGTBI, en relación al artículo 44. Procedimiento para la rectificación registral de la mención relativa al sexo, es falso que:",
+    "opciones": [
+      "En el plazo máximo de un mes desde la comparecencia inicial reiterando la solicitud de rectificación inicial, la persona encargada del Registro Civil deberá citar a la persona legitimada para que comparezca de nuevo y ratifique su solicitud, aseverando la persistencia de su decisión.",
+      "Tras la información facilitada por la persona encargada del Registro Civil, la persona legitimada suscribirá, de estar conforme, la comparecencia inicial reiterando su petición de rectificación registral del sexo mencionado en su inscripción de nacimiento.",
+      "De tratarse de personas menores de dieciocho años y mayores de catorce, todos los intervinientes en el procedimiento tendrán en consideración en todo momento el interés superior de la persona menor, a quién se dará audiencia en los casos del artículo 43.2 de esta ley.",
+      "Reiterada y ratificada nuevamente la solicitud, la persona encargada del Registro Civil, previa comprobación de la documentación obrante en el expediente, dictará resolución sobre la rectificación registral solicitada dentro del plazo máximo de un mes a contar desde la fecha de la segunda comparecencia."
+    ],
+    "correcta": 0
+  },
+  {
+    "id": 223,
+    "tipo": "Defensa 2025",
+    "numeracion": 93,
+    "pregunta": "El artículo 38 de la Ley 31/1995 de 8 de noviembre, de prevención de Riesgos Laborales (BOE núm. 269, de 10 de noviembre de 1995), establece la composición del Comité de Seguridad y Salud. Señale la opción incorrecta:",
+    "opciones": [
+      "Se constituirá un Comité de Seguridad y Salud en todas las empresas o centros de trabajo que cuenten con 50 o más trabajadores.",
+      "El Comité estará formado por los Delegados de Prevención, de una parte, y por el empresario y/o sus representantes en número igual al de los Delegados de Prevención, de la otra.",
+      "El Comité se reunirá semestralmente y siempre que lo solicite alguna de las representaciones en el mismo.",
+      "El Comité adoptará sus propias normas de funcionamiento."
+    ],
+    "correcta": 2
+  },
+  {
+    "id": 224,
+    "tipo": "Defensa 2025",
+    "numeracion": 94,
+    "pregunta": "El artículo 30 de la Ley 44/2003, de 21 de noviembre, de ordenación de las profesiones sanitarias (BOE núm. 280, de 22 de noviembre de 2003), regula la composición y funcionamiento del Consejo Nacional de Especialidades en Ciencias de la Salud. Indique la opción correcta:",
+    "opciones": [
+      "En el Consejo habrá, entre otros miembros, dos representantes del Ministerio de Educación, Cultura y Deporte, y tres representantes del Ministerio de Sanidad y Consumo.",
+      "El Consejo elegirá, de entre sus miembros, al Presidente y al Secretario.",
+      "El Consejo elegirá, de entre sus miembros, cuatro vocales de la Comisión Consultiva Profesional.",
+      "En el Consejo habrá, entre otros miembros, un representante de las comunidades autónomas designado por la Comisión de Recursos Humanos del Sistema Nacional de Salud."
+    ],
+    "correcta": 2
+  },
+  {
+    "id": 225,
+    "tipo": "Defensa 2025",
+    "numeracion": 95,
+    "pregunta": "¿Qué Ley regula la organización de la atención primaria y especializada?",
+    "opciones": [
+      "La ley 14/1986, de 22 de abril de 1986, General de Sanidad (B.O.E. nº103, de 29 de abril).",
+      "La ley 14/1984, de 25 de abril de 1984, General de Sanidad (B.O.E. nº102, de 29 de abril).",
+      "La ley 14/1986, de 25 de abril de 1986, General de Sanidad (B.O.E. nº102, de 29 de abril).",
+      "La ley 14/1986, de 25 de abril de 1986, General de Sanidad (B.O.E. nº103, de 29 de abril)."
+    ],
+    "correcta": 2
+  },
+  {
+    "id": 226,
+    "tipo": "Defensa 2025",
+    "numeracion": 96,
+    "pregunta": "Tal y como se recoge en el capítulo V artículo 35 de la Ley 31/1995, de 8 de noviembre, de Prevención de Riesgos Laborales, ¿cuál de las siguientes respuestas es falsa respecto a los Delegados de Prevención?",
+    "opciones": [
+      "De 50 a 100 trabajadores: 2 Delegados de Prevención.",
+      "De 501 a 1.000 trabajadores: 3 Delegados de Prevención.",
+      "De 3.001 a 4.000 trabajadores: 7 Delegados de Prevención.",
+      "De 2.001 a 3.000 trabajadores: 6 Delegados de Prevención."
+    ],
+    "correcta": 1
+  },
+  {
+    "id": 227,
+    "tipo": "Defensa 2025",
+    "numeracion": 97,
+    "pregunta": "Según el Real Decreto 372/2020, de 18 de febrero, por el que se desarrolla la estructura orgánica básica del Ministerio de Defensa, a la Dirección de Comunicación Institucional de la Defensa no le corresponde una de las siguientes funciones:",
+    "opciones": [
+      "Planificar, desarrollar, programar y gestionar las políticas relativas a los sistemas y tecnologías de la información y las comunicaciones, la transformación digital y seguridad de la información.",
+      "Coordinar la acción informativa exterior que desarrollan las consejerías y agregadurías de Defensa de las representaciones diplomáticas de España.",
+      "Analizar la legislación vigente en materia informativa, estudiar la incorporación de nuevas tecnologías de la información a la acción informativa del Ministerio de Defensa y proponer medidas para su mejora.",
+      "Dirigir la comunicación de la cultura y conciencia de Defensa."
+    ],
+    "correcta": 0
+  },
+  {
+    "id": 228,
+    "tipo": "Defensa 2025",
+    "numeracion": 98,
+    "pregunta": "Según el Real Decreto 372/2020, de 18 de febrero, por el que se desarrolla la estructura orgánica básica del Ministerio de Defensa, ¿cuál de las siguientes respuestas es falsa?",
+    "opciones": [
+      "La Dirección General de Armamento y Material depende de la Secretaría de Estado de Defensa.",
+      "La Secretaría General Técnica depende de la Subsecretaría de Defensa.",
+      "La Inspección General de Sanidad de la Defensa depende de la Subsecretaría de Defensa.",
+      "La Dirección General de Infraestructura depende de la Subsecretaría de Defensa."
+    ],
+    "correcta": 3
+  },
+  {
+    "id": 230,
+    "tipo": "Defensa 2025",
+    "numeracion": 100,
+    "pregunta": "¿Cuál de las siguientes afirmaciones es falsa según lo establecido en el artículo 16 de la Ley 41/2002, de 14 de noviembre, básica reguladora de la autonomía del paciente y de derechos y obligaciones en materia de información y documentación clínica?",
+    "opciones": [
+      "La historia clínica es un instrumento destinado fundamentalmente a garantizar una asistencia adecuada al paciente.",
+      "Cada centro establecerá los métodos que posibiliten en todo momento el acceso a la historia clínica de cada paciente por los profesionales que le asisten.",
+      "El personal de administración y gestión de los centros sanitarios sólo puede acceder a los datos de la historia clínica relacionados con sus propias funciones.",
+      "El procedimiento para que quede constancia del acceso a la historia clínica y de su uso será el regulado por la normativa vigente del Ministerio de Sanidad."
+    ],
+    "correcta": 3
+  },
+  {
+    "id": 231,
+    "tipo": "Defensa 2025",
+    "numeracion": 101,
+    "pregunta": "¿Qué norma define el consentimiento informado como la conformidad libre, voluntaria y consciente de un paciente, manifestada en el pleno uso de sus facultades después de recibir la información adecuada, para que tenga lugar una actuación que afecta a su salud?",
+    "opciones": [
+      "La Constitución española de 1978, en su artículo 34.",
+      "La Ley 14/86, General de Sanidad.",
+      "La Ley 41/2002, de 14 de noviembre, de Autonomía del paciente.",
+      "La Ley 14/2003, de 17 de septiembre, de Protección Básica de los derechos del paciente."
+    ],
+    "correcta": 2
+  },
+  {
+    "id": 232,
+    "tipo": "Defensa 2025",
+    "numeracion": 102,
+    "pregunta": "¿Qué artículo de la Constitución, en su inciso final, precisa que la ley regulará los casos en que, por razón de parentesco o de secreto profesional, no se estará obligado a declarar sobre hechos presuntamente delictivos?",
+    "opciones": [
+      "El artículo 24.2.",
+      "El artículo 14.2.",
+      "El artículo 31.3.",
+      "El artículo 25.7."
+    ],
+    "correcta": 0
+  },
+  {
+    "id": 233,
+    "tipo": "Defensa 2025",
+    "numeracion": 103,
+    "pregunta": "¿Qué artículo del Código Penal castiga la conducta del profesional que incumple su deber de sigilo y viola el secreto profesional?",
+    "opciones": [
+      "El artículo 221.1.",
+      "El artículo 201.",
+      "El artículo 202.2.",
+      "El artículo 199.2."
+    ],
+    "correcta": 3
+  },
+  {
+    "id": 234,
+    "tipo": "Defensa 2025",
+    "numeracion": 104,
+    "pregunta": "¿Qué organismo es el encargado de establecer los principios y criterios generales para la homologación del reconocimiento del desarrollo profesional en todo el Sistema Nacional de Salud, especialmente en lo relativo a las denominaciones de los distintos grados, a los sistemas de valoración de los méritos, a la composición de los comités de evaluación y al reconocimiento mutuo de los grados alcanzados por los profesionales de los distintos servicios de salud?",
+    "opciones": [
+      "El Ministerio de Sanidad.",
+      "El Consejo Interterritorial del Sistema Nacional de Salud.",
+      "La Comisión de Recursos Humanos.",
+      "La Comisión Consultiva Profesional."
+    ],
+    "correcta": 1
+  },
+  {
+    "id": 236,
+    "tipo": "Defensa 2025",
+    "numeracion": 106,
+    "pregunta": "¿Qué músculos se consideran estriados dentro de la musculatura humana?",
+    "opciones": [
+      "Músculo esquelético y cardiaco.",
+      "Solo el músculo esquelético.",
+      "Músculo esquelético y liso.",
+      "Músculo esquelético, liso y cardiaco."
+    ],
+    "correcta": 0
+  },
+  {
+    "id": 237,
+    "tipo": "Defensa 2025",
+    "numeracion": 107,
+    "pregunta": "¿Qué nervio inerva al músculo tensor de la fascia lata?",
+    "opciones": [
+      "Nervio ciático.",
+      "Ramos del nervio glúteo inferior.",
+      "Ramos del nervio glúteo superior.",
+      "Nervio femoral o crural."
+    ],
+    "correcta": 2
+  },
+  {
+    "id": 238,
+    "tipo": "Defensa 2025",
+    "numeracion": 108,
+    "pregunta": "¿Cuál es el objetivo principal del test de Lachman?",
+    "opciones": [
+      "Evaluar la integridad del ligamento cruzado anterior (LCA) de la rodilla.",
+      "Evaluar la integridad del ligamento colateral medial (LCM) de la rodilla.",
+      "Evaluar lesiones en los meniscos de la rodilla.",
+      "Evaluar la integridad del ligamento cruzado posterior (LCP) de la rodilla."
+    ],
+    "correcta": 0
+  },
+  {
+    "id": 239,
+    "tipo": "Defensa 2025",
+    "numeracion": 109,
+    "pregunta": "¿Cuál es el objetivo principal del test de Neer?",
+    "opciones": [
+      "Evaluar la presencia de pinzamiento subacromial del hombro.",
+      "Evaluar lesiones en el manguito rotador, específicamente en el músculo supraespinoso.",
+      "Evaluar la inestabilidad de la articulación acromioclavicular.",
+      "Detectar la compresión del nervio radial en la región del hombro."
+    ],
+    "correcta": 0
+  },
+  {
+    "id": 240,
+    "tipo": "Defensa 2025",
+    "numeracion": 110,
+    "pregunta": "¿Cuál es el objetivo principal del test de Thomas?",
+    "opciones": [
+      "Evaluar la rigidez de la cápsula articular de la cadera.",
+      "Detectar la debilidad de los músculos extensores de la cadera.",
+      "Detectar la integridad de los ligamentos de la rodilla.",
+      "Evaluar la extensibilidad y acortamiento del músculo iliopsoas."
+    ],
+    "correcta": 3
+  },
+  {
+    "id": 241,
+    "tipo": "Defensa 2024",
+    "numeracion": 1,
+    "pregunta": "¿A cuántas atmósferas de presión se aplica según el método de Fey el denominado chorro de Fey?",
+    "opciones": [
+      "1.",
+      "2.",
+      "3.",
+      "4."
+    ],
+    "correcta": 2
+  },
+  {
+    "id": 242,
+    "tipo": "Defensa 2024",
+    "numeracion": 2,
+    "pregunta": "El signo de Kirmisson es una:",
+    "opciones": [
+      "Equimosis en flexura de codo en fractura supracondílea de húmero.",
+      "Equimosis transversal sobre los nudillos en fracturas de los metacarpianos.",
+      "Equimosis de escroto en fracturas de acetábulo.",
+      "Equimosis en la cara interna del brazo y lateral de tórax en fracturas de cuello quirúrgico de húmero."
+    ],
+    "correcta": 0
+  },
+  {
+    "id": 243,
+    "tipo": "Defensa 2024",
+    "numeracion": 3,
+    "pregunta": "El Síndrome de Brown-Séquard se manifiesta clínicamente por:",
+    "opciones": [
+      "Pérdida de la función motora ipsilateral, pérdida de la sensibilidad vibratoria y posicional contralateral a la lesión, hipoalgesia y alteración de la sensibilidad térmica ipsilateral a la lesión, junto con sensibilidad táctil normal o mínimamente disminuida.",
+      "Pérdida de la función motora ipsilateral, pérdida de la sensibilidad vibratoria y posicional ipsilateral a la lesión, hipoalgesia y alteración de la sensibilidad térmica contralateral a la lesión, junto con sensibilidad táctil normal o mínimamente disminuida.",
+      "Pérdida de la función motora contralateral, pérdida de la sensibilidad vibratoria y posicional contralateral a la lesión, hipoalgesia y alteración de la sensibilidad térmica ipsilateral a la lesión, junto con sensibilidad táctil normal o mínimamente disminuida.",
+      "Pérdida de la función motora contralateral, pérdida de la sensibilidad vibratoria y posicional ipsilateral a la lesión, hipoalgesia y alteración de la sensibilidad térmica contralateral a la lesión, junto con sensibilidad táctil normal o mínimamente disminuida."
+    ],
+    "correcta": 1
+  },
+  {
+    "id": 244,
+    "tipo": "Defensa 2024",
+    "numeracion": 4,
+    "pregunta": "La Enfermedad de Panner es una:",
+    "opciones": [
+      "Osteonecrosis avascular de la zona distal del húmero con localización en el capitellum.",
+      "Necrosis avascular de la cabeza del fémur de los niños.",
+      "Necrosis avascular del cartílago de crecimiento del calcáneo.",
+      "Necrosis avascular que afecta a las epífisis de las falanges de las manos y pies."
+    ],
+    "correcta": 0
+  },
+  {
+    "id": 245,
+    "tipo": "Defensa 2024",
+    "numeracion": 5,
+    "pregunta": "El tramo de línea que va desde el punto de origen, umbral galvano tétano, hasta el ángulo de deflexión y se caracteriza por su forma y ángulo de inclinación, se denomina:",
+    "opciones": [
+      "Rama de acomodación anódica.",
+      "Rama de faradización o acomodación catódica.",
+      "Rama reobásica.",
+      "Rama cronáxica."
+    ],
+    "correcta": 0
+  },
+  {
+    "id": 246,
+    "tipo": "Defensa 2024",
+    "numeracion": 6,
+    "pregunta": "La raíz cuadrada de la varianza se denomina:",
+    "opciones": [
+      "Coeficiente de variación.",
+      "Desviación asimétrica.",
+      "Coeficiente de desviación.",
+      "Desviación típica."
+    ],
+    "correcta": 3
+  },
+  {
+    "id": 247,
+    "tipo": "Defensa 2024",
+    "numeracion": 7,
+    "pregunta": "En un contraste de hipótesis, la probabilidad máxima con que se está dispuesto a cometer un Error de tipo I se denomina:",
+    "opciones": [
+      "Nivel de confianza.",
+      "Nivel de error.",
+      "Nivel de significación.",
+      "Nivel de potencia del test."
+    ],
+    "correcta": 2
+  },
+  {
+    "id": 248,
+    "tipo": "Defensa 2024",
+    "numeracion": 9,
+    "pregunta": "¿Cuál de los siguientes no es un rasgo clínico de afectación de motoneurona superior?",
+    "opciones": [
+      "Espasticidad.",
+      "Fasciculaciones.",
+      "Hiperreflexia.",
+      "Signo de la navaja."
+    ],
+    "correcta": 1
+  },
+  {
+    "id": 249,
+    "tipo": "Defensa 2024",
+    "numeracion": 10,
+    "pregunta": "Los receptores localizados en el músculo detrusor vesical sobre los que actúa la actividad simpática son:",
+    "opciones": [
+      "Alfa-adrenérgicos.",
+      "Beta-adrenérgicos.",
+      "Colinérgicos.",
+      "Muscarínicos."
+    ],
+    "correcta": 1
+  },
+  {
+    "id": 250,
+    "tipo": "Defensa 2024",
+    "numeracion": 11,
+    "pregunta": "Según la técnica de facilitación neuromuscular propioceptiva, ¿qué afirmación de las siguientes no es correcta para los patrones de cuello?",
+    "opciones": [
+      "El componente proximal en los patrones de cuello es la columna cervical inferior y la columna torácica superior hasta T6.",
+      "El movimiento de la mandíbula se asocia con el movimiento de la cabeza sobre el cuello, de manera que la apertura de la boca y la extensión cervical superior se refuerzan mutuamente.",
+      "El recorrido del movimiento del cuello se verá limitado si el paciente no mira en el sentido del movimiento de la cabeza.",
+      "La rotación completa del cuello facilita la inclinación lateral de tronco."
+    ],
+    "correcta": 1
+  },
+  {
+    "id": 251,
+    "tipo": "Defensa 2024",
+    "numeracion": 12,
+    "pregunta": "Según la técnica de facilitación neuromuscular propioceptiva, ¿qué diagonal de las siguientes es la correcta para el miembro inferior?",
+    "opciones": [
+      "Flexión-aducción-rotación interna y extensión-abducción-rotación externa.",
+      "Flexión-abducción-rotación externa y extensión-aducción-rotación interna.",
+      "Flexión-aducción-rotación interna y extensión-abducción-rotación interna.",
+      "Flexión-aducción-rotación externa y extensión-abducción-rotación interna."
+    ],
+    "correcta": 3
+  },
+  {
+    "id": 252,
+    "tipo": "Defensa 2024",
+    "numeracion": 13,
+    "pregunta": "Según Panjabi, ¿qué afirmación sobre los ligamentos alares en el raquis cervical no es correcta?",
+    "opciones": [
+      "Están formados por dos porciones: los ligamentos occipitoalares y los atlantoalares.",
+      "Alcanzan el máximo grado de tensión en rotación y flexión.",
+      "No son capaces de limitar la flexión lateral.",
+      "Pueden verse afectados en el síndrome de Grisel."
+    ],
+    "correcta": 2
+  },
+  {
+    "id": 253,
+    "tipo": "Defensa 2024",
+    "numeracion": 14,
+    "pregunta": "Según la escala modificada de Beighton de 1973, ¿qué afirmación sobre la misma no es correcta?",
+    "opciones": [
+      "Intenta evaluar el grado de hiperlaxitud sistémica.",
+      "Comprende una puntuación entre 0 y 12 puntos.",
+      "Hiperextender pasivamente ambos codos hasta ≥ 10° otorga 2 puntos.",
+      "Ser capaz de flexionar el tronco y colocar activamente las manos planas en el suelo sin doblar las rodillas otorga 1 punto."
+    ],
+    "correcta": 1
+  },
+  {
+    "id": 254,
+    "tipo": "Defensa 2024",
+    "numeracion": 15,
+    "pregunta": "¿Qué se mide con un dinamómetro Jamar manual?",
+    "opciones": [
+      "La fuerza generada en los movimientos de pronación y supinación de muñeca.",
+      "La fuerza generada al intentar juntar las palmas de las manos para aproximar las dos láminas del dinamómetro, con una flexión dorsal de muñeca de 90°.",
+      "La fuerza de agarre o presión de la mano y, adaptado convenientemente, la de la pinza subtérminolateral entre otras.",
+      "La fuerza necesaria para mantener aproximadas con las manos las dos láminas del dinamómetro, manteniendo una aducción horizontal de los hombros flexionados a 90° y con los codos en extensión completa."
+    ],
+    "correcta": 2
+  },
+  {
+    "id": 255,
+    "tipo": "Defensa 2024",
+    "numeracion": 16,
+    "pregunta": "¿Qué músculo no pertenece al miotoma C8?",
+    "opciones": [
+      "Extensor corto del pulgar.",
+      "Flexor profundo de los dedos.",
+      "Pronador redondo.",
+      "Pronador cuadrado."
+    ],
+    "correcta": 2
+  },
+  {
+    "id": 256,
+    "tipo": "Defensa 2024",
+    "numeracion": 17,
+    "pregunta": "¿Cuál de las siguientes pruebas puede valorar una lesión de los meniscos de la rodilla?",
+    "opciones": [
+      "Signo de Mennell.",
+      "Signo de Adams.",
+      "Prueba de Abott-Saunders.",
+      "Prueba de Merke."
+    ],
+    "correcta": 3
+  },
+  {
+    "id": 257,
+    "tipo": "Defensa 2024",
+    "numeracion": 18,
+    "pregunta": "¿Cuál de las siguientes pruebas no es adecuada para valorar una inestabilidad en la rodilla?",
+    "opciones": [
+      "Prueba de Martens.",
+      "Prueba de Losee.",
+      "Prueba de Slocum.",
+      "Prueba de Lowenberg."
+    ],
+    "correcta": 3
+  },
+  {
+    "id": 258,
+    "tipo": "Defensa 2024",
+    "numeracion": 19,
+    "pregunta": "¿Cuál de las siguientes pruebas no es adecuada para valorar una epicondilitis lateral del codo?",
+    "opciones": [
+      "Prueba de Bowden.",
+      "Prueba de Lippman.",
+      "Prueba de Cozen.",
+      "Prueba de Mill."
+    ],
+    "correcta": 1
+  },
+  {
+    "id": 259,
+    "tipo": "Defensa 2024",
+    "numeracion": 20,
+    "pregunta": "¿Cuál de las siguientes pruebas valora específicamente el cajón anterior de la cabeza humeral?",
+    "opciones": [
+      "Prueba de Hawkins-Kennedy.",
+      "Signo de Hueter.",
+      "Prueba de Ludington.",
+      "Prueba de Leffert."
+    ],
+    "correcta": 3
+  },
+  {
+    "id": 260,
+    "tipo": "Defensa 2024",
+    "numeracion": 21,
+    "pregunta": "¿Qué es la capacidad residual funcional?",
+    "opciones": [
+      "Es la cantidad de aire que se exhala en una espiración máxima después de una inspiración máxima.",
+      "Es el volumen de aire que permanece en el pulmón después de efectuar una espiración máxima.",
+      "Es la cantidad de aire que permanece en los pulmones después de efectuar una espiración normal.",
+      "Es el volumen extra de aire que se puede inspirar después de una inspiración normal, sobre el volumen tidal."
+    ],
+    "correcta": 2
+  },
+  {
+    "id": 261,
+    "tipo": "Defensa 2024",
+    "numeracion": 22,
+    "pregunta": "¿Cuál de los siguientes dispositivos destinados a la permeabilización de la vía aérea se considera incluido en la vibración instrumental exógena?",
+    "opciones": [
+      "RC-Cornet®.",
+      "Flutter®/Shaker®.",
+      "Vest®.",
+      "Acapella® (PEP oscilante)."
+    ],
+    "correcta": 2
+  },
+  {
+    "id": 262,
+    "tipo": "Defensa 2024",
+    "numeracion": 23,
+    "pregunta": "Según A.I. Kapandji, ¿qué factores limitan la primera fase de la flexión del hombro de 0° a 50°-60°?",
+    "opciones": [
+      "La tensión del ligamento coracohumeral, la resistencia de los músculos dorsal ancho y de la porción inferior del músculo pectoral mayor.",
+      "La tensión del ligamento coracohumeral, la resistencia de los músculos redondo menor, redondo mayor e infraespinoso.",
+      "La resistencia de los músculos dorsal ancho y de la porción inferior del músculo pectoral mayor.",
+      "Únicamente la tensión del ligamento coracohumeral."
+    ],
+    "correcta": 1
+  },
+  {
+    "id": 263,
+    "tipo": "Defensa 2024",
+    "numeracion": 24,
+    "pregunta": "Según A.I. Kapandji, en la coaptación muscular del hombro en una visión posterior ¿cuáles son todos los músculos coaptadores transversales?",
+    "opciones": [
+      "El músculo supraespinoso, el músculo subescapular y redondo mayor.",
+      "El músculo supraespinoso, el músculo subescapular y el redondo menor.",
+      "El músculo supraespinoso, el músculo infraespinoso y el redondo menor.",
+      "El músculo supraespinoso, el músculo infraespinoso y el redondo mayor."
+    ],
+    "correcta": 2
+  },
+  {
+    "id": 264,
+    "tipo": "Defensa 2024",
+    "numeracion": 25,
+    "pregunta": "Según A.I. Kapandji, ¿cuáles son las tres fases de la abducción del hombro?",
+    "opciones": [
+      "Primera fase de la abducción de 0° a 80°, segunda fase de la abducción de 80° a 140° y tercera fase de la abducción de 140° a 180°.",
+      "Primera fase de la abducción de 0° a 50°, segunda fase de la abducción de 50° a 140° y tercera fase de la abducción de 140° a 180°.",
+      "Primera fase de la abducción de 0° a 40°, segunda fase de la abducción de 40° a 120° y tercera fase de la abducción de 120° a 180°.",
+      "Primera fase de la abducción de 0° a 60°, segunda fase de la abducción de 60° a 120° y tercera fase de la abducción de 120° a 180°."
+    ],
+    "correcta": 3
+  },
+  {
+    "id": 265,
+    "tipo": "Defensa 2024",
+    "numeracion": 26,
+    "pregunta": "Según A.I. Kapandji, ¿cuáles son todos los músculos motores principales en la primera fase de la abducción de hombro?",
+    "opciones": [
+      "El músculo deltoides y el músculo infraespinoso.",
+      "El músculo deltoides y el músculo supraespinoso.",
+      "El músculo deltoides, el músculo supraespinoso y el músculo serrato anterior.",
+      "El músculo deltoides, el músculo infraespinoso y el músculo serrato anterior."
+    ],
+    "correcta": 1
+  },
+  {
+    "id": 266,
+    "tipo": "Defensa 2024",
+    "numeracion": 27,
+    "pregunta": "Según A.I. Kapandji, ¿cuáles son todos los músculos motores del pulgar?",
+    "opciones": [
+      "Músculo abductor largo del pulgar, músculo extensor corto del pulgar, músculo extensor largo del pulgar, músculo oponente del pulgar, músculo abductor corto del pulgar, músculo aductor corto del pulgar y músculo interóseo palmar.",
+      "Músculo abductor largo del pulgar, músculo extensor corto del pulgar, músculo extensor largo del pulgar, músculo flexor largo del pulgar, músculo flexor corto del pulgar, músculo oponente del pulgar, músculo abductor corto del pulgar y músculo aductor corto del pulgar.",
+      "Músculo abductor largo del pulgar, músculo extensor corto del pulgar, músculo extensor largo del pulgar, músculo flexor largo del pulgar, músculo flexor corto del pulgar, músculo oponente del pulgar, músculo abductor corto del pulgar, músculo aductor corto del pulgar y músculo interóseo palmar.",
+      "Músculo abductor largo del pulgar, músculo extensor corto del pulgar, músculo extensor largo del pulgar, músculo flexor largo del pulgar, músculo flexor corto del pulgar, músculo oponente del pulgar."
+    ],
+    "correcta": 2
+  },
+  {
+    "id": 267,
+    "tipo": "Defensa 2024",
+    "numeracion": 28,
+    "pregunta": "La radiación infrarroja:",
+    "opciones": [
+      "Tiene menor longitud de onda que la luz visible.",
+      "Es visible para el ojo humano.",
+      "Es más energética que la radiación ultravioleta.",
+      "Tiene una longitud de onda entre 700nm y 1mm."
+    ],
+    "correcta": 3
+  },
+  {
+    "id": 268,
+    "tipo": "Defensa 2024",
+    "numeracion": 29,
+    "pregunta": "Para realizar un estiramiento del músculo sartorio utilizaremos los parámetros de:",
+    "opciones": [
+      "Flexión, aducción y rotación interna de cadera.",
+      "Extensión, abducción y rotación externa de cadera.",
+      "Flexión, abducción y rotación externa de cadera.",
+      "Extensión, aducción y rotación interna de cadera."
+    ],
+    "correcta": 3
+  },
+  {
+    "id": 269,
+    "tipo": "Defensa 2024",
+    "numeracion": 30,
+    "pregunta": "Para realizar un estiramiento del músculo tibial posterior utilizaremos los parámetros de:",
+    "opciones": [
+      "Flexión dorsal de tobillo y abducción de pie.",
+      "Flexión plantar de tobillo y aducción de pie.",
+      "Flexión plantar de tobillo y abducción de pie.",
+      "Flexión dorsal de tobillo y aducción de pie."
+    ],
+    "correcta": 0
+  },
+  {
+    "id": 270,
+    "tipo": "Defensa 2024",
+    "numeracion": 31,
+    "pregunta": "Para realizar un estiramiento del músculo extensor largo de los dedos del pie utilizaremos los parámetros de:",
+    "opciones": [
+      "Flexión dorsal de tobillo, abducción y supinación del pie, más flexión de los dedos.",
+      "Flexión plantar de tobillo, aducción y supinación del pie, más flexión de los dedos.",
+      "Flexión plantar de tobillo, aducción y pronación del pie, más flexión de los dedos.",
+      "Flexión plantar de tobillo, abducción y supinación del pie, más flexión de los dedos."
+    ],
+    "correcta": 1
+  },
+  {
+    "id": 271,
+    "tipo": "Defensa 2024",
+    "numeracion": 32,
+    "pregunta": "En un paciente con dolor en la zona del trapecio superior derecho cuando realiza una rotación máxima derecha de cuello, consideraremos responsable al músculo:",
+    "opciones": [
+      "Trapecio derecho.",
+      "Elevador de la escápula derecho.",
+      "Trapecio izquierdo.",
+      "Elevador de la escápula izquierdo."
+    ],
+    "correcta": 1
+  },
+  {
+    "id": 272,
+    "tipo": "Defensa 2024",
+    "numeracion": 33,
+    "pregunta": "Al solicitar una contracción excéntrica en su máximo recorrido del músculo esternocleidomastoideo derecho partiremos de la posición:",
+    "opciones": [
+      "Lateroflexión izquierda del cuello.",
+      "Rotación derecha del cuello.",
+      "Lateroflexión derecha del cuello.",
+      "Equidistante."
+    ],
+    "correcta": 2
+  },
+  {
+    "id": 273,
+    "tipo": "Defensa 2024",
+    "numeracion": 34,
+    "pregunta": "En relación a la técnica ELTGOL (espiración lenta y total con glotis abierta en decúbito lateral), no es cierto que:",
+    "opciones": [
+      "Es una técnica de permeabilización de la vía aérea.",
+      "Se sitúa al paciente en decúbito lateral con el objetivo de drenar el pulmón supralateral.",
+      "La espiración se realiza hasta alcanzar el volumen residual.",
+      "Se asiste a través de contactos manuales."
+    ],
+    "correcta": 1
+  },
+  {
+    "id": 274,
+    "tipo": "Defensa 2024",
+    "numeracion": 35,
+    "pregunta": "Paciente corredor habitual que acude a nuestra consulta que presenta dolor en el tendón de Aquiles. ¿Cuál de los siguientes puntos gatillo miofasciales (PGM), según los patrones descritos por Travell y Simons, podría ser el principal causante de su dolor?",
+    "opciones": [
+      "PGM 2 de los gastrocnemios.",
+      "PGM del tibial anterior.",
+      "PGM del tibial posterior.",
+      "PGM del flexor largo de los dedos."
+    ],
+    "correcta": 2
+  },
+  {
+    "id": 275,
+    "tipo": "Defensa 2024",
+    "numeracion": 36,
+    "pregunta": "Paciente con dolor anterior en rodilla derecha. Si el origen fuese muscular, según los patrones descritos por Travell y Simons, podrían ser responsables los puntos gatillo miofasciales (PGM) del músculo:",
+    "opciones": [
+      "Pectíneo.",
+      "Grácil.",
+      "Sartorio.",
+      "Aductor corto."
+    ],
+    "correcta": 3
+  },
+  {
+    "id": 276,
+    "tipo": "Defensa 2024",
+    "numeracion": 37,
+    "pregunta": "De acuerdo con los patrones de dolor referido de Travell y Simons, el patrón de dolor referido más habitual del punto gatillo del elevador de la escápula se extiende por:",
+    "opciones": [
+      "Base del cráneo, regiones temporal y parietal homolaterales, sien y ángulo inferior de la mandíbula.",
+      "Zona axilar y medial del brazo.",
+      "Región del trapecio superior y borde espinal de la escápula.",
+      "Base del cráneo, cuello y apófisis mastoides."
+    ],
+    "correcta": 2
+  },
+  {
+    "id": 277,
+    "tipo": "Defensa 2024",
+    "numeracion": 38,
+    "pregunta": "¿Qué diferencia a un punto gatillo miofascial activo de uno latente?",
+    "opciones": [
+      "Que la zona de un punto gatillo activo presenta un pH más básico que la zona de uno latente.",
+      "Que el activo limita la extensibilidad del músculo y el latente no.",
+      "Que la zona de un punto gatillo activo presenta un pH más ácido que la zona de uno latente.",
+      "Que el latente nunca genera dolor referido."
+    ],
+    "correcta": 2
+  },
+  {
+    "id": 278,
+    "tipo": "Defensa 2024",
+    "numeracion": 39,
+    "pregunta": "Para mejorar la velocidad de reacción en un sujeto con un esguince interno de rodilla:",
+    "opciones": [
+      "Aplicaremos estímulos de desequilibrio y los retiraremos de forma lenta y progresiva.",
+      "Pediremos que resista un empuje desde la zona medial de la rodilla y posteriormente lo retiraremos de forma rápida y súbita.",
+      "Aplicaremos estímulos de desequilibrio hasta que el sujeto se desequilibre totalmente.",
+      "Pediremos que resista un empuje desde la zona lateral de la rodilla y posteriormente lo retiraremos de forma rápida y súbita."
+    ],
+    "correcta": 1
+  },
+  {
+    "id": 279,
+    "tipo": "Defensa 2024",
+    "numeracion": 40,
+    "pregunta": "Los husos neuromusculares codifican:",
+    "opciones": [
+      "Tensión muscular.",
+      "Presión.",
+      "Elasticidad muscular.",
+      "Velocidad de alargamiento muscular."
+    ],
+    "correcta": 3
+  },
+  {
+    "id": 280,
+    "tipo": "Defensa 2024",
+    "numeracion": 41,
+    "pregunta": "Si hablamos de una corriente eléctrica de 10 MHz, ¿a qué tipo de corriente nos referimos?",
+    "opciones": [
+      "D'Arsonval.",
+      "Diatermia.",
+      "Microondas.",
+      "Onda corta."
+    ],
+    "correcta": 1
+  },
+  {
+    "id": 281,
+    "tipo": "Defensa 2024",
+    "numeracion": 42,
+    "pregunta": "Un paciente con espasticidad en el tríceps sural… (Señalar la opción incorrecta).",
+    "opciones": [
+      "Puede contactar con antepié.",
+      "Se inhibe el rodillo de tobillo.",
+      "Puede inclinar posteriormente el tronco para progresar en apoyo medio.",
+      "Puede utilizar la hiperextensión de rodilla para progresar en apoyo medio."
+    ],
+    "correcta": 2
+  },
+  {
+    "id": 282,
+    "tipo": "Defensa 2024",
+    "numeracion": 43,
+    "pregunta": "Señale la afirmación falsa acerca de la ventilación mecánica no invasiva domiciliaria:",
+    "opciones": [
+      "Es una técnica de tratamiento de la insuficiencia respiratoria crónica, que en fase estable presente hipoventilación alveolar.",
+      "Esta técnica permite el control de la hipoventilación secundaria a enfermedades neuromusculares.",
+      "Esta técnica permite el control de la ventilación en el síndrome de hipoventilación-obesidad.",
+      "Esta técnica no está indicada en enfermedades restrictivas de la caja torácica, como por ejemplo la cifoescoliosis."
+    ],
+    "correcta": 3
+  },
+  {
+    "id": 283,
+    "tipo": "Defensa 2024",
+    "numeracion": 44,
+    "pregunta": "¿Qué prueba valora específicamente una alteración del tendón de la porción larga del bíceps?",
+    "opciones": [
+      "Prueba de Mill.",
+      "Prueba de Yergason.",
+      "Prueba de Hawkins y Kennedy.",
+      "Prueba de Spurling."
+    ],
+    "correcta": 1
+  },
+  {
+    "id": 284,
+    "tipo": "Defensa 2024",
+    "numeracion": 45,
+    "pregunta": "¿Cuál de las siguientes pruebas no valora la articulación de la rodilla?",
+    "opciones": [
+      "Signo de Zohlen.",
+      "Jerk-test.",
+      "Prueba de Phalen.",
+      "Prueba de McMurray."
+    ],
+    "correcta": 2
+  },
+  {
+    "id": 285,
+    "tipo": "Defensa 2024",
+    "numeracion": 46,
+    "pregunta": "Indique cuál de las siguientes opciones no se utiliza para la valoración del equilibrio:",
+    "opciones": [
+      "Test de Risser.",
+      "Test de Tinetti.",
+      "Escala de Berg.",
+      "Test 'Up and go' cronometrado."
+    ],
+    "correcta": 0
+  },
+  {
+    "id": 286,
+    "tipo": "Defensa 2024",
+    "numeracion": 47,
+    "pregunta": "Respecto a los ultrasonidos, señale la opción incorrecta:",
+    "opciones": [
+      "Según penetra el haz, la intensidad aumenta por la absorción y la reflexión.",
+      "La profundidad de la penetración es la distancia en la que la intensidad equivale al 10% de la inicial.",
+      "La penetración media es la profundidad en la que la intensidad es el 50% del valor inicial.",
+      "La frecuencia de la emisión pulsada es de 50-100Hz."
+    ],
+    "correcta": 0
+  },
+  {
+    "id": 287,
+    "tipo": "Defensa 2024",
+    "numeracion": 48,
+    "pregunta": "Indique cuál de las siguientes afirmaciones es incorrecta acerca de las neuropatías periféricas por atrapamiento:",
+    "opciones": [
+      "La compresión del nervio cubital se puede producir en el canal de Guyón en la muñeca.",
+      "La compresión del nervio mediano se puede producir en el túnel del carpo en la muñeca.",
+      "La compresión del nervio radial se puede producir en la fosa supracondílea del codo.",
+      "La compresión del nervio cubital se puede producir en el canal epitroclear en el codo."
+    ],
+    "correcta": 2
+  },
+  {
+    "id": 288,
+    "tipo": "Defensa 2024",
+    "numeracion": 49,
+    "pregunta": "En reposo, a nivel del canal anal, ¿qué afirmación es correcta?",
+    "opciones": [
+      "El esfínter interno formado por musculatura lisa, asegura con su tono muscular el 70-80% del cierre del conducto anal.",
+      "El esfínter externo formado por musculatura estriada, asegura con su tono muscular el 70-80% del cierre del conducto anal.",
+      "El esfínter interno formado por musculatura estriada, asegura con su tono muscular el 70-80% del cierre del conducto anal.",
+      "El esfínter externo formado por musculatura lisa, asegura el 80-70% del cierre del conducto anal."
+    ],
+    "correcta": 0
+  },
+  {
+    "id": 289,
+    "tipo": "Defensa 2024",
+    "numeracion": 50,
+    "pregunta": "En relación con la fisiología de la micción, ¿cuál de las siguientes opciones es incorrecta?",
+    "opciones": [
+      "La fase de vaciado se inicia con la relajación voluntaria del esfínter externo.",
+      "La fase de llenado está garantizada por la distensibilidad del músculo detrusor.",
+      "Durante la fase de llenado la presión intravesical es superior a la presión uretral.",
+      "Durante la fase de vaciado no debe existir actividad en el esfínter uretral."
+    ],
+    "correcta": 2
+  },
+  {
+    "id": 290,
+    "tipo": "Defensa 2024",
+    "numeracion": 51,
+    "pregunta": "Respecto al diario miccional, señale la afirmación incorrecta:",
+    "opciones": [
+      "Es un registro de la actividad miccional del paciente.",
+      "No tiene capacidad para detectar y valorar la incontinencia urinaria de urgencia.",
+      "Es un estudio simple, de bajo coste y no invasivo recomendable antes de realizar otras pruebas más invasivas.",
+      "Se registra la cantidad de líquidos ingeridos y el volumen de cada micción."
+    ],
+    "correcta": 1
+  },
+  {
+    "id": 291,
+    "tipo": "Defensa 2024",
+    "numeracion": 52,
+    "pregunta": "Según Godelieve Denys-Struyf, cuando describe las diferentes tipologías existentes en función de la respiración, en los pacientes con 'tórax asténico' se encuentran las siguientes características (señalar la incorrecta):",
+    "opciones": [
+      "Proyección anterior de la cabeza.",
+      "Tórax hundido en posición inspiratoria.",
+      "Pelvis proyectada hacia delante.",
+      "Rodillas en genu recuvatum."
+    ],
+    "correcta": 1
+  },
+  {
+    "id": 292,
+    "tipo": "Defensa 2024",
+    "numeracion": 53,
+    "pregunta": "De los siguientes músculos, ¿cuál no interviene en la inspiración?",
+    "opciones": [
+      "Diafragma.",
+      "Músculos elevadores de las costillas.",
+      "Músculos intercostales externos.",
+      "Músculos intercostales internos."
+    ],
+    "correcta": 3
+  },
+  {
+    "id": 293,
+    "tipo": "Defensa 2024",
+    "numeracion": 54,
+    "pregunta": "Según Pursach, ¿cómo se valora la diástasis abdominal?",
+    "opciones": [
+      "Se coloca al paciente en decúbito supino con rodillas flexionadas y con los pies apoyados en el suelo. Se coloca la falange distal del dedo índice transversalmente por encima del ombligo primero y después por debajo mientras se le pide que levante la cabeza como si quisiera verse los pies.",
+      "Se coloca al paciente en decúbito supino con caderas y rodillas extendidas. Colocamos nuestras manos sobre la línea alba y pedimos que tosa.",
+      "Se coloca al paciente en decúbito supino con rodillas flexionadas y pies apoyados en el suelo. Colocamos nuestras manos sobre el ombligo mientras pedimos la maniobra de Valsava.",
+      "Se coloca al paciente en decúbito supino con caderas y rodillas en extensión. Colocamos nuestras manos sobre la línea alba y pedimos una inspiración máxima manteniendo el aire inspirado durante al menos 5 segundos."
+    ],
+    "correcta": 0
+  },
+  {
+    "id": 294,
+    "tipo": "Defensa 2024",
+    "numeracion": 55,
+    "pregunta": "¿Cuáles de los siguientes receptores son los responsables de la sensación de calor?",
+    "opciones": [
+      "Corpúsculos de Golgi.",
+      "Corpúsculos de Krause.",
+      "Corpúsculos de Pacini.",
+      "Corpúsculos de Ruffini."
+    ],
+    "correcta": 3
+  },
+  {
+    "id": 295,
+    "tipo": "Defensa 2024",
+    "numeracion": 56,
+    "pregunta": "¿Cuál de las siguientes leyes no se aplica a los tratamientos de fototerapia (infrarrojos, ultravioleta, láser...)?",
+    "opciones": [
+      "Ley de Lambert.",
+      "Ley de Gilenhall.",
+      "Ley de Bunsen-Roscoe.",
+      "Ley de Grotthus-Draper."
+    ],
+    "correcta": 1
+  },
+  {
+    "id": 296,
+    "tipo": "Defensa 2024",
+    "numeracion": 57,
+    "pregunta": "Para evaluar específicamente el equilibrio y la marcha en el anciano, utilizaría:",
+    "opciones": [
+      "Índice de Lawton y Brody.",
+      "Índice de Katz.",
+      "Escala de Tinetti.",
+      "Funcional Independence Measure (FMI)."
+    ],
+    "correcta": 2
+  },
+  {
+    "id": 297,
+    "tipo": "Defensa 2024",
+    "numeracion": 58,
+    "pregunta": "¿Qué tipo de variable se consideran el peso y la talla?",
+    "opciones": [
+      "Cualitativa ordinal.",
+      "Cuantitativa discreta.",
+      "Cuantitativa continua.",
+      "Cuantitativa mixta."
+    ],
+    "correcta": 2
+  },
+  {
+    "id": 298,
+    "tipo": "Defensa 2024",
+    "numeracion": 59,
+    "pregunta": "¿Cuál de los siguientes es el estudio de elección para evaluar los efectos de una intervención terapéutica?",
+    "opciones": [
+      "Serie de casos transversales.",
+      "Ensayo clínico aleatorio.",
+      "Estudio de casos y controles.",
+      "Estudio de cohortes."
+    ],
+    "correcta": 1
+  },
+  {
+    "id": 299,
+    "tipo": "Defensa 2024",
+    "numeracion": 60,
+    "pregunta": "¿Qué tipo de estudio es el más adecuado para estimar la incidencia de una enfermedad en una población?",
+    "opciones": [
+      "Transversal descriptivo.",
+      "Evaluación de pruebas diagnósticas.",
+      "Analítico observacional.",
+      "Descriptivo longitudinal."
+    ],
+    "correcta": 3
+  },
+  {
+    "id": 300,
+    "tipo": "Defensa 2024",
+    "numeracion": 61,
+    "pregunta": "Indique cuál de los siguientes músculos de la mano no estará afectado en un paciente con una lesión del nervio mediano:",
+    "opciones": [
+      "Abductor corto del pulgar.",
+      "Oponente del pulgar.",
+      "Aductor del pulgar.",
+      "1º y 2º lumbricales."
+    ],
+    "correcta": 2
+  },
+  {
+    "id": 301,
+    "tipo": "Defensa 2024",
+    "numeracion": 62,
+    "pregunta": "La enfermedad de Scheuermann:",
+    "opciones": [
+      "Se trata de una alteración en el desarrollo de ambas caderas del niño.",
+      "Es una enfermedad congénita de la escápula, con un inadecuado descenso de ésta.",
+      "Se caracteriza por el acuñamiento en el cuerpo vertebral.",
+      "Es una enfermedad de origen neuromuscular."
+    ],
+    "correcta": 2
+  },
+  {
+    "id": 302,
+    "tipo": "Defensa 2024",
+    "numeracion": 63,
+    "pregunta": "Señale la opción correcta con respecto al signo de Stemmer:",
+    "opciones": [
+      "También se conoce como signo de la fóvea.",
+      "Es un signo patognomónico del linfedema.",
+      "Se produce por la extravasación de glóbulos rojos en un paciente con edema.",
+      "Es positivo si hay edema en el dorso del pie."
+    ],
+    "correcta": 1
+  },
+  {
+    "id": 303,
+    "tipo": "Defensa 2024",
+    "numeracion": 64,
+    "pregunta": "¿Cuál de las siguientes respuestas es incorrecta con respecto al Índice de Barthel?",
+    "opciones": [
+      "Puntúa cada actividad con 0, 5, 10 o 15 puntos según la actividad.",
+      "Evalúa 12 actividades básicas de la vida diaria.",
+      "La puntuación máxima es 100 y la mínima 0.",
+      "Evalúa entre otras la alimentación y el vestido."
+    ],
+    "correcta": 1
+  },
+  {
+    "id": 304,
+    "tipo": "Defensa 2024",
+    "numeracion": 65,
+    "pregunta": "La osteonecrosis juvenil avascular idiopática de la cabeza femoral, se denomina:",
+    "opciones": [
+      "Enfermedad de Osgood-Schlatter.",
+      "Síndrome de Rett.",
+      "Enfermedad de Perthes.",
+      "Enfermedad de Blount."
+    ],
+    "correcta": 2
+  },
+  {
+    "id": 305,
+    "tipo": "Defensa 2024",
+    "numeracion": 66,
+    "pregunta": "La meralgia parestésica se debe a la afectación del nervio:",
+    "opciones": [
+      "Cutáneo femoral posterior.",
+      "Cutáneo femoral lateral.",
+      "Safeno.",
+      "Cutáneo sural medial."
+    ],
+    "correcta": 1
+  },
+  {
+    "id": 306,
+    "tipo": "Defensa 2024",
+    "numeracion": 67,
+    "pregunta": "¿Dentro de qué nivel de prevención se incluiría un programa de fisioterapia para la detección y tratamiento precoz del dolor de espalda en trabajadores del hospital?",
+    "opciones": [
+      "Prevención precoz.",
+      "Prevención primaria.",
+      "Prevención secundaria.",
+      "Prevención terciaria."
+    ],
+    "correcta": 2
+  },
+  {
+    "id": 307,
+    "tipo": "Defensa 2024",
+    "numeracion": 68,
+    "pregunta": "¿Cuál de los siguientes pares craneales tiene exclusivamente función motora?",
+    "opciones": [
+      "Nervio facial.",
+      "Nervio trigémino.",
+      "Nervio accesorio.",
+      "Nervio vago."
+    ],
+    "correcta": 2
+  },
+  {
+    "id": 308,
+    "tipo": "Defensa 2024",
+    "numeracion": 69,
+    "pregunta": "La dificultad para realizar movimientos alternantes rápidos que puede presentar un paciente con daño cerebeloso se denomina:",
+    "opciones": [
+      "Dismetría.",
+      "Disdiadococinesia.",
+      "Disinergia.",
+      "Atetosis."
+    ],
+    "correcta": 1
+  },
+  {
+    "id": 309,
+    "tipo": "Defensa 2024",
+    "numeracion": 70,
+    "pregunta": "La escala de valoración del dolor que consta de seis caras que muestran diferentes expresiones ordenadas de la más sonriente hasta una que llora, recibe el nombre de:",
+    "opciones": [
+      "Escala FLACC.",
+      "Escala de Wong-Baker.",
+      "Escala CRIES.",
+      "Escala de malestar infantil de Manchester."
+    ],
+    "correcta": 1
+  },
+  {
+    "id": 310,
+    "tipo": "Defensa 2024",
+    "numeracion": 71,
+    "pregunta": "¿Cuál de los siguientes tipos de cadena cinética se conoce como cadena cinética frenada?",
+    "opciones": [
+      "Cadena cinética con extremo distal libre móvil y extremo proximal fijo.",
+      "Cadena cinética en la que se mueven el extremo proximal y distal.",
+      "Cadena cinética con extremo distal fijo y extremo proximal libre móvil.",
+      "Cadena cinética en la que permanecen fijos el extremo proximal y distal."
+    ],
+    "correcta": 1
+  },
+  {
+    "id": 311,
+    "tipo": "Defensa 2024",
+    "numeracion": 72,
+    "pregunta": "¿Cuál de los siguientes métodos de potenciación muscular emplea resistencias progresivamente decrecientes?",
+    "opciones": [
+      "Dotte.",
+      "Rocher.",
+      "Zinovieff.",
+      "Ritchie."
+    ],
+    "correcta": 2
+  },
+  {
+    "id": 312,
+    "tipo": "Defensa 2024",
+    "numeracion": 73,
+    "pregunta": "La ausencia de presión en el agua es una característica de la técnica hidroterápica denominada:",
+    "opciones": [
+      "Ducha escocesa.",
+      "Afusión de Kneipp.",
+      "Ducha de Pichy.",
+      "Chorro de Fey."
+    ],
+    "correcta": 1
+  },
+  {
+    "id": 313,
+    "tipo": "Defensa 2024",
+    "numeracion": 74,
+    "pregunta": "¿Cuál es la inervación del músculo ancóneo?",
+    "opciones": [
+      "Nervio cubital.",
+      "Nervio musculocutáneo.",
+      "Nervio radial.",
+      "Nervio circunflejo."
+    ],
+    "correcta": 2
+  },
+  {
+    "id": 314,
+    "tipo": "Defensa 2024",
+    "numeracion": 75,
+    "pregunta": "¿Cómo se denomina el error que consiste en rechazar la hipótesis nula, siendo ésta verdadera?",
+    "opciones": [
+      "Error alfa o tipo I.",
+      "Error sistemático.",
+      "Error beta o tipo II.",
+      "Error estándar."
+    ],
+    "correcta": 0
+  },
+  {
+    "id": 315,
+    "tipo": "Defensa 2024",
+    "numeracion": 76,
+    "pregunta": "¿Qué entendemos por platipnea?",
+    "opciones": [
+      "Respiraciones intensas y profundas a modo de suspiros.",
+      "Incapacidad para respirar cómodamente sentado.",
+      "Respiración con movimiento paradójico del tórax.",
+      "Incapacidad para respirar cómodamente en decúbito prono."
+    ],
+    "correcta": 1
+  },
+  {
+    "id": 316,
+    "tipo": "Defensa 2024",
+    "numeracion": 77,
+    "pregunta": "¿A qué lóbulo pertenece el segmento 6 o de Nelson?",
+    "opciones": [
+      "Al lóbulo superior.",
+      "Al lóbulo medio.",
+      "No existe.",
+      "Al lóbulo inferior."
+    ],
+    "correcta": 3
+  },
+  {
+    "id": 317,
+    "tipo": "Defensa 2024",
+    "numeracion": 78,
+    "pregunta": "¿En qué hueso está situada la silla turca?",
+    "opciones": [
+      "Hueso temporal.",
+      "Hueso esfenoides.",
+      "Hueso etmoides.",
+      "Hueso maxilar superior."
+    ],
+    "correcta": 1
+  },
+  {
+    "id": 318,
+    "tipo": "Defensa 2024",
+    "numeracion": 79,
+    "pregunta": "¿Qué músculo encontramos en el plano medio del suelo pélvico?",
+    "opciones": [
+      "Músculo isquiocavernoso.",
+      "Músculo bulbocavernoso.",
+      "Músculo transverso superficial del periné.",
+      "Músculo transverso profundo del periné."
+    ],
+    "correcta": 3
+  },
+  {
+    "id": 319,
+    "tipo": "Defensa 2024",
+    "numeracion": 80,
+    "pregunta": "¿Cómo se denomina la agenesia del fascículo esternocostal inferior del músculo pectoral mayor?",
+    "opciones": [
+      "Síndrome de Jeune.",
+      "Síndrome de Apert.",
+      "Deformidad de Sprengel.",
+      "Síndrome de Poland."
+    ],
+    "correcta": 3
+  },
+  {
+    "id": 320,
+    "tipo": "Defensa 2024",
+    "numeracion": 81,
+    "pregunta": "¿Cómo se denominan los ejercicios pendulares de hombro realizados en decúbito prono?",
+    "opciones": [
+      "Ejercicios de Codman.",
+      "Ejercicios de Chandler.",
+      "Ejercicios de McKenzie.",
+      "Ejercicios de Gerber."
+    ],
+    "correcta": 1
+  },
+  {
+    "id": 321,
+    "tipo": "Defensa 2024",
+    "numeracion": 82,
+    "pregunta": "¿Cuál de las siguientes afirmaciones es correcta en relación a los pares craneales?",
+    "opciones": [
+      "El nervio olfatorio corresponde al I par, el nervio óptico al II par y el nervio troclear al V par.",
+      "El nervio facial corresponde al VII par y el nervio vago al IX par.",
+      "El nervio facial corresponde al VII par y el nervio hipogloso al XI par.",
+      "El nervio olfatorio corresponde al I par, el nervio glosofaríngeo al IX par y el nervio accesorio al XI par."
+    ],
+    "correcta": 3
+  },
+  {
+    "id": 322,
+    "tipo": "Defensa 2024",
+    "numeracion": 83,
+    "pregunta": "¿Cuál de las siguientes afirmaciones es correcta en relación al test de Apgar?",
+    "opciones": [
+      "Se realiza a los 15 minutos después del nacimiento.",
+      "Un recién nacido que tiene un test de Apgar 2, presenta una frecuencia cardíaca superior a 100 latidos por minuto.",
+      "Se utiliza para diferenciar el grado de afectación respiratoria en el neonato.",
+      "Un recién nacido que tiene un test de Apgar 2, presenta una respiración lenta e irregular."
+    ],
+    "correcta": 1
+  },
+  {
+    "id": 323,
+    "tipo": "Defensa 2024",
+    "numeracion": 84,
+    "pregunta": "¿Cuál es la inervación del músculo redondo menor?",
+    "opciones": [
+      "Nervio musculocutáneo (C6-C7).",
+      "Nervio axilar (C5-C6).",
+      "Nervio subescapular inferior (C5-C6).",
+      "Nervio supraescapular (C5)."
+    ],
+    "correcta": 1
+  },
+  {
+    "id": 324,
+    "tipo": "Defensa 2024",
+    "numeracion": 85,
+    "pregunta": "¿Qué polineuropatía se define como una desmielinización inflamatoria aguda que altera la conducción saltatoria y ralentiza o bloquea la conducción nerviosa?",
+    "opciones": [
+      "Enfermedad de Charcot-Marie-Tooth tipo 1.",
+      "Enfermedad de Charcot-Marie-Tooth tipo 2.",
+      "Síndrome de Guillain Barré.",
+      "Esclerosis múltiple."
+    ],
+    "correcta": 2
+  },
+  {
+    "id": 325,
+    "tipo": "Defensa 2024",
+    "numeracion": 86,
+    "pregunta": "Indique cuál de estas pruebas no indica una neuropatía del nervio mediano:",
+    "opciones": [
+      "Prueba de Ochsner.",
+      "Prueba de la botella según Lüthy.",
+      "Prueba de Phalen.",
+      "Prueba funcional de Bunnel."
+    ],
+    "correcta": 3
+  },
+  {
+    "id": 326,
+    "tipo": "Defensa 2024",
+    "numeracion": 87,
+    "pregunta": "De las sustancias que aparecen a continuación, ¿cuál se aplica en el electrodo de polo positivo en la iontoforesis?",
+    "opciones": [
+      "Cloruro cálcico.",
+      "Cloruro sódico.",
+      "Thyomucase.",
+      "Hidrocortisona."
+    ],
+    "correcta": 0
+  },
+  {
+    "id": 327,
+    "tipo": "Defensa 2024",
+    "numeracion": 88,
+    "pregunta": "¿Qué explica el esquema de Gauer en hidroterapia?",
+    "opciones": [
+      "Desarrolla la teoría por la que un cuerpo dentro del agua solo pesa un 10% de su peso real.",
+      "Los cambios que se producen al sumergir un cuerpo dentro del agua en el aparato cardiovascular, tórax y abdomen por la presión hidrostática.",
+      "Explica los efectos que produce la fuerza de empuje en un cuerpo sumergido en agua.",
+      "Los efectos que provoca la resistencia por rozamiento que ejerce el agua sobre la piel."
+    ],
+    "correcta": 1
+  },
+  {
+    "id": 328,
+    "tipo": "Defensa 2024",
+    "numeracion": 89,
+    "pregunta": "¿Cuál de estas es una contraindicación absoluta para la realización de un programa de rehabilitación cardiaca?",
+    "opciones": [
+      "En pacientes con cardiopatía isquémica.",
+      "Trasplante cardiaco.",
+      "Aneurisma disecante de aorta.",
+      "Marcapasos o desfibriladores implantados."
+    ],
+    "correcta": 2
+  },
+  {
+    "id": 329,
+    "tipo": "Defensa 2024",
+    "numeracion": 90,
+    "pregunta": "¿Cuál de las siguientes actuaciones tiene más importancia en el desarrollo de un programa de rehabilitación cardiaca?",
+    "opciones": [
+      "Control de la dislipemia.",
+      "Ejercicio físico.",
+      "Adecuado control de la diabetes y sobrepeso.",
+      "Control de la HTA y el tabaquismo."
+    ],
+    "correcta": 1
+  },
+  {
+    "id": 330,
+    "tipo": "Defensa 2024",
+    "numeracion": 91,
+    "pregunta": "Según la resolución 400/38239/2009 de 23 de octubre, por la que se delegan competencias en materia de personal estatutario de la Red Hospitalaria del Ministerio de Defensa, el Subdirector General de Personal Civil es el encargado de:",
+    "opciones": [
+      "Conceder permisos sin sueldo por un período superior a tres meses.",
+      "Autorizar las comisiones de servicio.",
+      "Declarar la excedencia por cuidado de familiares.",
+      "Negociar los servicios mínimos en caso de huelga."
+    ],
+    "correcta": 0
+  },
+  {
+    "id": 331,
+    "tipo": "Defensa 2024",
+    "numeracion": 92,
+    "pregunta": "Según la resolución 400/38239/2009 de 23 de octubre, declarar la jubilación forzosa y autorizar la promoción interna temporal son competencias delegadas en:",
+    "opciones": [
+      "El Director General de Personal.",
+      "El Subdirector General de Personal Civil.",
+      "El Gerente o en su defecto, los Directores de los Hospitales de la Red Hospitalaria de la Defensa.",
+      "El Secretario General del Ministerio de Defensa."
+    ],
+    "correcta": 2
+  },
+  {
+    "id": 332,
+    "tipo": "Defensa 2024",
+    "numeracion": 93,
+    "pregunta": "A efectos de la Ley 4/2023 de 28 de febrero, para la igualdad real y efectiva de las personas trans y para la garantía de los derechos de las personas LGTBI, en el artículo 3 se entiende que 'cuando una disposición, criterio o práctica aparentemente neutros ocasiona o puede ocasionar a una o varias personas una desventaja particular con respecto a otras por razón de orientación sexual, e identidad sexual, expresión de género o características sexuales' se está produciendo una:",
+    "opciones": [
+      "Discriminación indirecta.",
+      "Discriminación colateral.",
+      "Discriminación transversal.",
+      "Discriminación interseccional."
+    ],
+    "correcta": 0
+  },
+  {
+    "id": 333,
+    "tipo": "Defensa 2024",
+    "numeracion": 94,
+    "pregunta": "¿Cuál de estas afirmaciones es falsa respecto al Consejo Nacional de Especialidades en Ciencias de la Salud, tal y como se explica en el artículo 30 de la Ley 44/2003 de ordenación de las profesiones sanitarias?",
+    "opciones": [
+      "Funcionará en Pleno o en las comisiones y grupos de trabajo que el propio Consejo decida constituir.",
+      "Elegirá de entre sus miembros al Presidente y al Vicepresidente.",
+      "Aprobará su propio reglamento de régimen interior, que se adaptará a lo dispuesto respecto a los órganos colegiados en la Ley 30/1992.",
+      "Elegirá de entre sus miembros a dos vocales de la Comisión Consultiva Profesional."
+    ],
+    "correcta": 3
+  },
+  {
+    "id": 334,
+    "tipo": "Defensa 2024",
+    "numeracion": 95,
+    "pregunta": "El Ministerio de Defensa, bajo la dirección de la persona titular del Departamento, se estructura en:",
+    "opciones": [
+      "Las Fuerzas Armadas, la Subsecretaría de Estado de Defensa, la Secretaría de Defensa y la Secretaría General de Política de Defensa.",
+      "Las Fuerzas Armadas, la Secretaría de Estado de Defensa, la Subsecretaría de Defensa y la Subsecretaría General de Defensa.",
+      "Las Fuerzas Armadas, la Secretaría de Estado de Defensa, la Subsecretaría de Defensa y la Secretaría General de Política de Defensa.",
+      "Las Fuerzas Armadas, la Secretaría de Estado de Defensa, la Secretaría de Defensa y la Secretaría General de Defensa."
+    ],
+    "correcta": 2
+  },
+  {
+    "id": 335,
+    "tipo": "Defensa 2024",
+    "numeracion": 96,
+    "pregunta": "¿Qué afirmación es falsa respecto a la Inspección General de Sanidad de la Defensa?",
+    "opciones": [
+      "Se encarga de gestionar la red sanitaria militar y la ordenación farmacéutica, así como coordinar las actividades sanitario-periciales y de prevención sanitaria en el ámbito de la Defensa.",
+      "El cargo de Inspector General de Sanidad será desempeñado por un General de Brigada del Cuerpo Militar de Sanidad.",
+      "Se encarga de coordinar y, en su caso, aportar, con los Ejércitos y la Armada, el apoyo veterinario.",
+      "Es el órgano al que le corresponde la planificación y desarrollo de la política sanitaria."
+    ],
+    "correcta": 1
+  },
+  {
+    "id": 336,
+    "tipo": "Defensa 2024",
+    "numeracion": 97,
+    "pregunta": "Tal y como se recoge en el capítulo II artículo 13 de la Ley 31/1995 de 8 de noviembre, de prevención de Riesgos Laborales, ¿cómo se llama el órgano asesor de las Administraciones públicas en la formulación de las políticas de prevención y de participación institucional en materia de seguridad y salud en el trabajo?",
+    "opciones": [
+      "Consejo interterritorial de Seguridad y Salud en el Trabajo.",
+      "Comisión Consultiva Profesional de Seguridad y Salud en el Trabajo.",
+      "Comisión Nacional de Seguridad y Salud en el Trabajo.",
+      "Consejo Nacional de Seguridad y Salud en el Trabajo."
+    ],
+    "correcta": 2
+  },
+  {
+    "id": 337,
+    "tipo": "Defensa 2024",
+    "numeracion": 98,
+    "pregunta": "Según el Real Decreto 372/2020, por el cual se desarrolla la estructura orgánica básica del Ministerio de Defensa, ¿a qué órgano directivo corresponde la función de 'impulsar y coordinar la elaboración normativa, así como informar las disposiciones generales, tramitar las consultas al Consejo de Estado y proponer la revisión y refundición de textos legales'?",
+    "opciones": [
+      "Secretaría General Técnica.",
+      "Subsecretaría de Defensa.",
+      "Asesoría Jurídica General de la Defensa.",
+      "Dirección General de Programas."
+    ],
+    "correcta": 0
+  },
+  {
+    "id": 338,
+    "tipo": "Defensa 2024",
+    "numeracion": 99,
+    "pregunta": "Tal y como se recoge en el capítulo V artículo 38 de la Ley 31/1995 de 8 de noviembre, de prevención de Riesgos Laborales, ¿Cuál de las siguientes afirmaciones es falsa respecto al Comité de Seguridad y Salud?",
+    "opciones": [
+      "Estará formado por los Delegados de Prevención de una parte, y por el empresario y/o sus representantes en número igual al de los Delegados de Prevención, de la otra.",
+      "Se constituirá un Comité de Seguridad y Salud en todas las empresas o centros de trabajo que cuenten con 50 o más trabajadores.",
+      "Se reunirá cuatrimestralmente y siempre que lo solicite alguna de las representaciones en el mismo.",
+      "Participarán con voz pero sin voto los Delegados Sindicales y los responsables técnicos de la prevención en la empresa que no estén incluidos en la composición del Comité de Seguridad y Salud."
+    ],
+    "correcta": 2
+  },
+  {
+    "id": 339,
+    "tipo": "Defensa 2024",
+    "numeracion": 100,
+    "pregunta": "Señale cuál de las siguientes funciones no corresponde a la Dirección General de Personal en el Ministerio de Defensa:",
+    "opciones": [
+      "Planificar y coordinar los procesos de captación y selección del personal militar y de los reservistas voluntarios, así como su mejora continua.",
+      "Realizar la programación y la gestión de la formación y la acción social del personal civil.",
+      "Prestar apoyo a los heridos y a los familiares de los fallecidos y heridos en acto de servicio.",
+      "Preparar las propuestas de planificación prospectiva y estratégica de los recursos humanos en la organización del Ministerio de Defensa."
+    ],
+    "correcta": 0
+  },
+  {
+    "id": 340,
+    "tipo": "Defensa 2024",
+    "numeracion": 101,
+    "pregunta": "¿En qué parte de la Ley Orgánica 1/2004 de 28 de diciembre, de Medidas de Protección Integral contra la Violencia de Género se habla de las medidas de sensibilización, prevención y detección en el ámbito sanitario?",
+    "opciones": [
+      "En el Título I capítulo IV.",
+      "En el Título I capítulo III.",
+      "En el Título I capítulo II.",
+      "En el Título I capítulo V."
+    ],
+    "correcta": 1
+  },
+  {
+    "id": 341,
+    "tipo": "Defensa 2024",
+    "numeracion": 102,
+    "pregunta": "En el artículo 27, capítulo II de la Ley Orgánica 3/2007, de 22 de marzo, para la igualdad efectiva de hombres y mujeres se describen las actuaciones que deberán desarrollar las Administraciones Públicas a través de sus Servicios de Salud. Señale cuál de las siguientes actuaciones no aparece descrita en dicho artículo:",
+    "opciones": [
+      "La consideración, dentro de la protección, promoción y mejora de la salud laboral, del acoso sexual y el acoso por razón de sexo.",
+      "La inclusión e implantación, siempre que sea posible, de un lenguaje no sexista en el ámbito administrativo sanitario y su fomento en las relaciones entre mujeres y hombres.",
+      "La presencia equilibrada de mujeres y hombres en los puestos directivos y de responsabilidad profesional del conjunto del Sistema Nacional de Salud.",
+      "La obtención y el tratamiento desagregados por sexo, siempre que sea posible, de los datos contenidos en registros, encuestas, estadísticas u otros sistemas de información médica y sanitaria."
+    ],
+    "correcta": 2
+  },
+  {
+    "id": 342,
+    "tipo": "Defensa 2024",
+    "numeracion": 103,
+    "pregunta": "Tal y como se contempla en la Ley 55/2003 de 16 de diciembre del Estatuto Marco del personal estatutario de los servicios de salud, el personal estatutario ostenta como derecho colectivo el derecho…",
+    "opciones": [
+      "A la acción social en los términos y ámbitos subjetivos que se determinen en las normas, acuerdos o convenios aplicables.",
+      "A disponer de servicios de prevención y de órganos representativos en materia de seguridad laboral.",
+      "A la movilidad voluntaria, promoción interna y desarrollo profesional, en la forma en que prevean las disposiciones en cada caso aplicables.",
+      "Al encuadramiento en el Régimen General de las Seguridad Social, con los derechos y obligaciones que de ello se derivan."
+    ],
+    "correcta": 0
+  },
+  {
+    "id": 343,
+    "tipo": "Defensa 2024",
+    "numeracion": 104,
+    "pregunta": "El artículo 43 de la Constitución Española reconoce el derecho a la protección de la salud. ¿Cuál de los enunciados siguientes no aparece recogido en este artículo?",
+    "opciones": [
+      "Compete a los poderes públicos organizar y tutelar la salud pública a través de medidas preventivas y de las prestaciones y servicios necesarios.",
+      "La ley definirá las bases y modalidades para el acceso a los servicios de salud y establecerá la concurrencia del Estado y las Comunidades Autónomas en materia de Salud general, conforme a lo dispuesto en este artículo.",
+      "Los poderes públicos facilitarán la adecuada utilización del ocio.",
+      "Los poderes públicos fomentarán la educación sanitaria, la educación física y el deporte."
+    ],
+    "correcta": 1
+  },
+  {
+    "id": 344,
+    "tipo": "Defensa 2024",
+    "numeracion": 105,
+    "pregunta": "¿Cuál de las siguientes afirmaciones no es cierta?",
+    "opciones": [
+      "Los programas de rehabilitación cardiaca (PRC), en la actualidad son considerados seguros y eficaces con indicación Clase 1.",
+      "El número de los pacientes incluidos en los PRC no supera el 3% de las indicaciones en España.",
+      "Los pacientes con cardiopatía isquémica han sido los principales beneficiarios de los PRC.",
+      "El porcentaje de cardiópatas incluidos en PRC es elevado gracias al interés de los médicos, cardiólogos y familia a la hora de aconsejar este tipo de tratamientos."
+    ],
+    "correcta": 3
+  },
+  {
+    "id": 345,
+    "tipo": "Defensa 2024",
+    "numeracion": 106,
+    "pregunta": "Las intervenciones en las fases inicial e intermedia en la enfermedad de Huntington, deben centrarse en (señale la opción incorrecta):",
+    "opciones": [
+      "Facilitar estrategias sensitivas y motoras específicas de actividad, necesarias para satisfacer las demandas del control postural.",
+      "Practicar la conservación del control postural en diferentes actividades y ambientes.",
+      "Reestablecer las deficiencias subyacentes cuando sea posible.",
+      "Implementar estrategias compensadoras, como el uso de señales sensitivas o de estrategias de atención, así como recomendar aparatos de ayuda y material de seguridad."
+    ],
+    "correcta": 2
+  },
+  {
+    "id": 346,
+    "tipo": "Defensa 2024",
+    "numeracion": 107,
+    "pregunta": "Origen, inserción, función e inervación del músculo cuadrado crural:",
+    "opciones": [
+      "De la mayor parte del borde interno del agujero obturador, cara interna porción superior del agujero sacrociático mayor y parte inferior e interna del agujero obturador a través de la escotadura ciática menor, a la porción anterior y superior media del mayor, trocánter cerca de la fosa trocantérea. Función: Rotador interno de cadera. Inervación: S1, S2, S3.",
+      "De la cara anterior del sacro, entre primer y cuarto agujeros sacros anteriores y el borde superior del agujero ciático mayor y superficie anterior del ligamento sacrociático mayor a través del agujero sacrociático mayor al borde superior del trocánter mayor del fémur. Función: Rotador externo de cadera. Inervación: S1, S2.",
+      "De la porción interna del reborde óseo del agujero obturador, dos tercios internos de la superficie exterior de la membrana obturatriz, rama del pubis y ramas del isquion, se inserta desde la superficie posterior del cuello del fémur a la cavidad digital del trocánter mayor. Función: Rotador externo de cadera. Inervación: N. Obturador (L3-L4).",
+      "De la parte superior del borde externo de la tuberosidad isquiática a la línea que continúa al borde posterior del trocánter mayor. Función: Rotador externo de cadera. Inervación: L5-S1."
+    ],
+    "correcta": 3
+  },
+  {
+    "id": 347,
+    "tipo": "Defensa 2024",
+    "numeracion": 108,
+    "pregunta": "En la marcha de Trendelenburg, la inclinación lateral del tronco…",
+    "opciones": [
+      "Se realiza hacia el lado de la pierna de apoyo.",
+      "En esta marcha no se produce una inclinación lateral del tronco.",
+      "Se realiza como consecuencia del mecanismo patológico.",
+      "Se realiza contralateral a la pierna de apoyo."
+    ],
+    "correcta": 0
+  },
+  {
+    "id": 348,
+    "tipo": "Defensa 2024",
+    "numeracion": 109,
+    "pregunta": "En el método Schroth, ¿cuál de las siguientes afirmaciones es falsa?",
+    "opciones": [
+      "Se basa en la división del cuerpo en al menos 3 bloques.",
+      "En personas con escoliosis, en una visión frontal se observan bloques rectangulares que se encuentran uno sobre otro en una misma línea vertical.",
+      "En personas sin escoliosis, en una visión lateral las desviaciones fisiológicas de la columna se observan bloques con forma de trapecio.",
+      "Los lados más cortos de los bloques trapezoidales concuerdan con los lados cóncavos correspondientes a las curvas."
+    ],
+    "correcta": 1
+  },
+  {
+    "id": 349,
+    "tipo": "Defensa 2024",
+    "numeracion": 110,
+    "pregunta": "¿Cuál de los siguientes huesos no está presente en la fila distal del carpo?",
+    "opciones": [
+      "Trapecio.",
+      "Piramidal.",
+      "Hueso grande.",
+      "Hueso ganchoso."
+    ],
+    "correcta": 1
+  }
+]

@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Test Fisio</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ===== PANTALLA DE INICIO ===== -->
+  <div id="screen-home" class="screen active">
+    <div class="card home-card">
+      <div class="home-icon">🧠</div>
+      <h1>Test Fisio</h1>
+      <p class="subtitle">Pon a prueba tus conocimientos</p>
+
+      <div class="category-section">
+        <label for="category-select">Examen</label>
+        <select id="category-select">
+          <option value="all">Todos los exámenes</option>
+        </select>
+      </div>
+
+      <div class="options-section">
+        <label for="question-count">Número de preguntas</label>
+        <select id="question-count">
+          <option value="5">5 preguntas</option>
+          <option value="10" selected>10 preguntas</option>
+          <option value="15">15 preguntas</option>
+          <option value="all">Todas</option>
+        </select>
+      </div>
+
+      <div class="toggle-row">
+        <span>Temporizador</span>
+        <label class="toggle">
+          <input type="checkbox" id="timer-toggle" checked />
+          <span class="slider"></span>
+        </label>
+      </div>
+
+      <button id="btn-start" class="btn btn-primary">Empezar</button>
+
+      <button id="btn-start-failed" class="btn btn-failed" disabled>
+        Repasar falladas &nbsp;<span id="failed-count-badge" class="failed-badge">0</span>
+      </button>
+      <button id="btn-clear-failed" class="btn-link-danger">🗑 Limpiar historial de fallos</button>
+    </div>
+  </div>
+
+  <!-- ===== PANTALLA DE PREGUNTA ===== -->
+  <div id="screen-quiz" class="screen">
+    <div class="quiz-header">
+      <div class="quiz-meta">
+        <span id="question-counter">1 / 10</span>
+        <span id="category-badge" class="badge">Historia</span>
+      </div>
+      <div id="timer-container" class="timer-container">
+        <svg class="timer-ring" viewBox="0 0 44 44">
+          <circle class="timer-bg" cx="22" cy="22" r="18"/>
+          <circle id="timer-circle" class="timer-arc" cx="22" cy="22" r="18"/>
+        </svg>
+        <span id="timer-text">30</span>
+      </div>
+    </div>
+
+    <div class="progress-bar-wrapper">
+      <div id="progress-bar" class="progress-bar"></div>
+    </div>
+
+    <div class="card question-card">
+      <p id="question-text" class="question-text"></p>
+
+      <div id="options-container" class="options-container"></div>
+
+      <button id="btn-next" class="btn btn-primary btn-next hidden">
+        Siguiente →
+      </button>
+    </div>
+  </div>
+
+  <!-- ===== PANTALLA DE RESULTADOS ===== -->
+  <div id="screen-results" class="screen">
+    <div class="card results-card">
+      <div id="result-emoji" class="result-emoji">🏆</div>
+      <h2 id="result-title">¡Excelente!</h2>
+      <p id="result-subtitle" class="subtitle"></p>
+
+      <div class="score-circle">
+        <svg viewBox="0 0 120 120">
+          <circle class="score-bg" cx="60" cy="60" r="54"/>
+          <circle id="score-arc" class="score-arc" cx="60" cy="60" r="54"/>
+        </svg>
+        <div class="score-text">
+          <span id="score-value">0</span>
+          <span class="score-total" id="score-total">/ 10</span>
+        </div>
+      </div>
+
+      <div id="review-container" class="review-container"></div>
+
+      <div class="results-actions">
+        <button id="btn-restart" class="btn btn-secondary">Repetir quiz</button>
+        <button id="btn-home" class="btn btn-primary">Inicio</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
