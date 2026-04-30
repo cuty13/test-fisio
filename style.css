@@ -396,9 +396,7 @@ select:focus {
 }
 
 .result-emoji {
-  font-size: 64px;
-  line-height: 1;
-  animation: pop 0.5s cubic-bezier(.36,.07,.19,.97);
+  display: none;
 }
 @keyframes pop {
   0%   { transform: scale(0); }
@@ -411,16 +409,35 @@ h2 {
   font-weight: 800;
   color: var(--primary);
 }
+.results-card h2 {
+  font-size: 1.30rem;
+}
+
+.result-header-row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+  gap: 12px;
+}
+.result-header-row h2 {
+  flex: 1;
+  text-align: left;
+  margin: 0;
+}
+.result-header-row .score-circle {
+  flex-shrink: 0;
+}
 
 /* Score donut */
 .score-circle {
   position: relative;
-  width: 140px;
-  height: 140px;
+  width: 55px;
+  height: 55px;
 }
 .score-circle svg {
-  width: 140px;
-  height: 140px;
+  width: 55px;
+  height: 55px;
   transform: rotate(-90deg);
 }
 .score-bg  { fill: none; stroke: var(--border); stroke-width: 8; }
@@ -443,13 +460,13 @@ h2 {
   justify-content: center;
 }
 #score-value {
-  font-size: 2.4rem;
+  font-size: 1.2rem;
   font-weight: 900;
   color: var(--primary);
   line-height: 1;
 }
 .score-total {
-  font-size: 0.9rem;
+  font-size: 0.45rem;
   color: var(--text-muted);
   font-weight: 600;
 }
@@ -489,6 +506,12 @@ h2 {
 }
 .review-item .review-a {
   color: var(--text-muted);
+}
+.review-wrong {
+  color: var(--danger);
+}
+.review-correct {
+  color: var(--success);
 }
 
 .results-actions {

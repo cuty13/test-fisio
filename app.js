@@ -337,16 +337,14 @@ function showResults() {
   // Review list
   reviewContainer.innerHTML = '';
   answers.forEach((a, i) => {
+    if (a.isRight) return;
     const item = document.createElement('div');
     item.className = 'review-item';
     item.innerHTML = `
-      <span class="review-icon">${a.isRight ? '✅' : '❌'}</span>
       <div>
         <div class="review-q">${i + 1}. ${a.question}</div>
         <div class="review-a">
-          ${a.isRight
-            ? `Correcto: <strong>${a.correct}</strong>`
-            : `Tu respuesta: <strong>${a.chosen ?? 'Sin respuesta'}</strong> · Correcta: <strong>${a.correct}</strong>`}
+          Tu respuesta: <strong class="review-wrong">${a.chosen ?? 'Sin respuesta'}</strong><br>Correcta: <strong class="review-correct">${a.correct}</strong>
         </div>
       </div>`;
     reviewContainer.appendChild(item);
