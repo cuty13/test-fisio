@@ -4249,5 +4249,1435 @@
       "Hueso ganchoso."
     ],
     "correcta": 1
+  },
+  {
+    "id": 350,
+    "tipo": "Defensa 2026",
+    "numeracion": 1,
+    "pregunta": "En relación con el derecho a la protección de la salud recogido en la Constitución Española y desarrollado por la Ley General de Sanidad, señale la respuesta correcta:",
+    "opciones": [
+      "Los poderes públicos organizarán y tutelarán la salud pública a través de medidas preventivas y de las prestaciones y servicios necesarios.",
+      "La Constitución establece que la organización y tutela de la salud pública corresponde exclusivamente a las entidades locales.",
+      "El derecho a la protección de la salud tiene carácter fundamental y está incluido en el Capítulo II del Título I.",
+      "La Ley General de Sanidad establece un modelo sanitario basado exclusivamente en el aseguramiento obligatorio."
+    ],
+    "correcta": 0
+  },
+  {
+    "id": 351,
+    "tipo": "Defensa 2026",
+    "numeracion": 2,
+    "pregunta": "De acuerdo con la Ley 41/2002, de 14 de noviembre, básica reguladora de la autonomía del paciente, señale la afirmación correcta:",
+    "opciones": [
+      "El consentimiento informado se prestará por escrito en toda actuación sanitaria, con independencia de su naturaleza o riesgos.",
+      "El titular del derecho a la información asistencial es exclusivamente el representante legal del paciente, salvo renuncia expresa.",
+      "El paciente tiene derecho a decidir libremente entre las opciones clínicas disponibles tras recibir la información adecuada.",
+      "La historia clínica pertenece al profesional sanitario responsable del proceso asistencial."
+    ],
+    "correcta": 2
+  },
+  {
+    "id": 352,
+    "tipo": "Defensa 2026",
+    "numeracion": 3,
+    "pregunta": "Según la Ley 44/2003, de 21 de noviembre, de Ordenación de las Profesiones Sanitarias, señale la afirmación correcta en relación con su objeto y ámbito de aplicación:",
+    "opciones": [
+      "Regula el ejercicio de las profesiones sanitarias en el sistema sanitario público.",
+      "Regula únicamente la formación especializada de médicos y farmacéuticos.",
+      "Regula los aspectos básicos del ejercicio de las profesiones sanitarias, la estructura general de su formación y su desarrollo profesional, siendo aplicable tanto en el ámbito público como privado.",
+      "Se limita a establecer normas sobre colegiación profesional obligatoria."
+    ],
+    "correcta": 2
+  },
+  {
+    "id": 353,
+    "tipo": "Defensa 2026",
+    "numeracion": 4,
+    "pregunta": "Según la Ley 44/2003, de 21 de noviembre, de Ordenación de las Profesiones Sanitarias, en relación con el reconocimiento del desarrollo profesional, señale la afirmación correcta:",
+    "opciones": [
+      "El reconocimiento del desarrollo profesional consiste en una acreditación automática por antigüedad en el puesto de trabajo.",
+      "El acceso al sistema de desarrollo profesional es obligatorio para todos los profesionales sanitarios que ejerzan en España.",
+      "El reconocimiento del desarrollo profesional se articula en un sistema público e individualizado basado en la evaluación de méritos como conocimientos, experiencia, actividad docente e investigadora y resultados asistenciales.",
+      "El desarrollo profesional solo puede ser reconocido en el ámbito de los centros sanitarios públicos."
+    ],
+    "correcta": 2
+  },
+  {
+    "id": 354,
+    "tipo": "Defensa 2026",
+    "numeracion": 5,
+    "pregunta": "Según la Ley 44/2003, de 21 de noviembre, de Ordenación de las Profesiones Sanitarias, en relación con la formación continuada, señale la afirmación correcta:",
+    "opciones": [
+      "La formación continuada es un proceso activo y permanente que constituye simultáneamente un derecho y un deber de los profesionales sanitarios, iniciándose tras los estudios de grado o especialización para actualizar conocimientos y competencias.",
+      "La formación continuada es una formación reglada que conduce a la obtención de nuevos títulos académicos oficiales.",
+      "La formación continuada tiene carácter voluntario y solo constituye un derecho del profesional sanitario.",
+      "La planificación y coordinación de la formación continuada corresponde exclusivamente al Ministerio de Educación."
+    ],
+    "correcta": 0
+  },
+  {
+    "id": 355,
+    "tipo": "Defensa 2026",
+    "numeracion": 6,
+    "pregunta": "Según la Ley 44/2003, de 21 de noviembre, de Ordenación de las Profesiones Sanitarias, en relación con las funciones de la Comisión de Formación Continuada de las Profesiones Sanitarias, señale la afirmación correcta:",
+    "opciones": [
+      "Establecer directamente la obligatoriedad de programas formativos para todos los profesionales sanitarios del Sistema Nacional de Salud.",
+      "Detectar, analizar y valorar las necesidades de formación continuada y proponer medidas para planificar, armonizar y coordinar la actuación de los agentes implicados en dicha formación.",
+      "Otorgar directamente los títulos académicos oficiales derivados de la formación continuada.",
+      "Ejercer funciones disciplinarias sobre los profesionales que no participen en actividades acreditadas."
+    ],
+    "correcta": 1
+  },
+  {
+    "id": 356,
+    "tipo": "Defensa 2026",
+    "numeracion": 7,
+    "pregunta": "Según la Ley 44/2003, de 21 de noviembre, de Ordenación de las Profesiones Sanitarias, en relación con la Comisión de Formación Continuada de las Profesiones Sanitarias, señale la afirmación correcta:",
+    "opciones": [
+      "Es el órgano encargado de acreditar individualmente a los profesionales sanitarios tras la superación de actividades formativas.",
+      "Tiene entre sus funciones proponer criterios y procedimientos de acreditación de actividades y centros de formación continuada, así como contribuir a su armonización en el Sistema Nacional de Salud.",
+      "Está integrada exclusivamente por representantes del Ministerio de Sanidad, sin participación de las comunidades autónomas.",
+      "Sus acuerdos tienen carácter normativo y son directamente vinculantes para todos los servicios de salud."
+    ],
+    "correcta": 1
+  },
+  {
+    "id": 357,
+    "tipo": "Defensa 2026",
+    "numeracion": 8,
+    "pregunta": "Según la Ley 55/2003, de 16 de diciembre, del Estatuto Marco del personal estatutario de los servicios de salud, señale cuál de los siguientes constituye un derecho del personal estatutario:",
+    "opciones": [
+      "Percibir puntualmente las retribuciones e indemnizaciones establecidas por razón del servicio.",
+      "Desobedecer instrucciones de sus superiores cuando discrepe profesionalmente sin justificación.",
+      "Negarse a actualizar sus conocimientos profesionales una vez obtenida la plaza fija.",
+      "Elegir libremente el horario sin sujeción a las necesidades del servicio."
+    ],
+    "correcta": 0
+  },
+  {
+    "id": 358,
+    "tipo": "Defensa 2026",
+    "numeracion": 9,
+    "pregunta": "Según la Ley 55/2003, de 16 de diciembre, del Estatuto Marco del personal estatutario de los servicios de salud, en relación con la formación del personal estatutario, señale la opción correcta:",
+    "opciones": [
+      "La formación continuada constituye únicamente un deber del trabajador y no un derecho reconocido.",
+      "El personal estatutario tiene derecho a la formación continuada adecuada a la función desempeñada y al reconocimiento de su cualificación profesional.",
+      "La formación continuada solo se reconoce al personal estatutario fijo.",
+      "La participación en actividades formativas depende exclusivamente de la iniciativa personal y no está contemplada en la ley."
+    ],
+    "correcta": 1
+  },
+  {
+    "id": 359,
+    "tipo": "Defensa 2026",
+    "numeracion": 10,
+    "pregunta": "Según la Ley 55/2003, de 16 de diciembre, del Estatuto Marco del personal estatutario de los servicios de salud, en relación con los deberes del personal estatutario, señale la opción correcta:",
+    "opciones": [
+      "Cumplir la Constitución, el Estatuto Marco y el resto del ordenamiento jurídico en el ejercicio de sus funciones.",
+      "Desempeñar sus funciones con lealtad, eficacia y observancia de los principios técnicos, científicos, éticos y deontológicos aplicables.",
+      "Mantener debidamente actualizados sus conocimientos y aptitudes profesionales mediante formación continuada.",
+      "Todas son correctas."
+    ],
+    "correcta": 3
+  },
+  {
+    "id": 360,
+    "tipo": "Defensa 2026",
+    "numeracion": 11,
+    "pregunta": "En el marco del Sistema Nacional de Salud y conforme a la Ley 41/2002 de autonomía del paciente, señale la afirmación CORRECTA respecto a la prestación del consentimiento por representación:",
+    "opciones": [
+      "El consentimiento por representación se otorgará siempre que el paciente sea menor de 18 años, independientemente de su capacidad intelectual o madurez.",
+      "Se otorgará el consentimiento por representación cuando el paciente, a criterio del médico responsable, no tenga capacidad para tomar decisiones debido a su estado físico o psíquico, o carezca de capacidad de entender la información.",
+      "En el caso de los 'menores maduros' (mayores de 16 años o menores emancipados), el consentimiento siempre debe ser prestado por sus representantes legales si la intervención supone un riesgo vital.",
+      "El consentimiento por representación exime al facultativo de la obligación de informar al paciente con incapacidad, debiendo dirigir toda la comunicación exclusivamente al representante legal."
+    ],
+    "correcta": 1
+  },
+  {
+    "id": 361,
+    "tipo": "Defensa 2026",
+    "numeracion": 12,
+    "pregunta": "¿Cuál de las siguientes NO es una situación administrativa del personal estatutario?",
+    "opciones": [
+      "Comisión de servicios.",
+      "Servicios bajo otro régimen jurídico.",
+      "Suspensión de funciones.",
+      "Servicios especiales."
+    ],
+    "correcta": 0
+  },
+  {
+    "id": 362,
+    "tipo": "Defensa 2026",
+    "numeracion": 13,
+    "pregunta": "Según la Resolución 400/38239/2009, de 23 de octubre, ¿qué órgano tiene delegada la competencia para el reconocimiento de trienios del personal estatutario de la Red Hospitalaria de la Defensa?",
+    "opciones": [
+      "El Subdirector General de Personal Civil.",
+      "El Supervisor de Unidad.",
+      "Los Gerentes o Directores de los hospitales de la Red Hospitalaria de la Defensa.",
+      "El Director General de Personal."
+    ],
+    "correcta": 0
+  },
+  {
+    "id": 363,
+    "tipo": "Defensa 2026",
+    "numeracion": 14,
+    "pregunta": "De acuerdo con la Ley 4/2023, de 28 de febrero, para la igualdad real y efectiva de las personas trans en España, ¿qué requisito se exige a las personas mayores de 16 años para cambiar el sexo registral en los documentos oficiales?",
+    "opciones": [
+      "Aportar informe médico de disforia de género y acreditar dos años de tratamiento hormonal.",
+      "Obtener autorización judicial previa en todos los casos.",
+      "Presentar una solicitud administrativa sin necesidad de informe médico ni tratamiento previo.",
+      "Contar con el consentimiento de los progenitores o tutores legales."
+    ],
+    "correcta": 2
+  },
+  {
+    "id": 364,
+    "tipo": "Defensa 2026",
+    "numeracion": 15,
+    "pregunta": "En relación con la aplicación del principio de igualdad efectiva entre mujeres y hombres en el ámbito de la política de salud conforme a la Ley Orgánica 3/2007, de 22 de marzo, señale la respuesta correcta:",
+    "opciones": [
+      "Las Administraciones sanitarias incorporarán la perspectiva de género únicamente en programas de salud reproductiva y planificación familiar.",
+      "El principio de igualdad no resulta aplicable al diseño de políticas sanitarias cuando existan criterios exclusivamente clínicos o epidemiológicos.",
+      "Las Administraciones públicas garantizarán la integración activa del principio de igualdad en la definición y evaluación de las políticas de salud, evitando sesgos de género en investigación, formación y atención sanitaria.",
+      "La aplicación del principio de igualdad en salud queda limitada al ámbito de la asistencia sanitaria pública, sin afectar a la investigación biomédica."
+    ],
+    "correcta": 2
+  },
+  {
+    "id": 365,
+    "tipo": "Defensa 2026",
+    "numeracion": 16,
+    "pregunta": "Señale cuál de los siguientes objetivos NO forma parte de la estrategia de mejora de la seguridad del paciente del Plan de Calidad para el Sistema Nacional de Salud:",
+    "opciones": [
+      "Diseñar y establecer sistemas de información y notificación de incidentes relacionados con la seguridad de pacientes.",
+      "Reforzar la participación de España en todos los foros sobre seguridad de pacientes de las principales organizaciones internacionales.",
+      "Implantar prácticas seguras en el Sistema Nacional de Salud.",
+      "Disponer de un sistema que permita el intercambio y acceso a la información clínica entre diferentes profesionales, dispositivos asistenciales y Comunidades Autónomas de forma habitual."
+    ],
+    "correcta": 3
+  },
+  {
+    "id": 366,
+    "tipo": "Defensa 2026",
+    "numeracion": 17,
+    "pregunta": "En la estructura metodológica de un trabajo de investigación, ¿cuál es la principal característica que define a un estudio de 'cohortes' frente a un estudio de 'casos y controles'?",
+    "opciones": [
+      "El estudio de cohortes es siempre retrospectivo, partiendo del efecto (enfermedad) para buscar la causa (exposición).",
+      "En el estudio de cohortes, la selección de los sujetos se realiza en función de la presencia o ausencia del factor de exposición, realizando un seguimiento a lo largo del tiempo.",
+      "El estudio de casos y controles permite calcular de forma directa la Incidencia y el Riesgo Relativo (RR).",
+      "El estudio de cohortes es un diseño experimental donde el investigador manipula la variable independiente mediante la aleatorización."
+    ],
+    "correcta": 1
+  },
+  {
+    "id": 367,
+    "tipo": "Defensa 2026",
+    "numeracion": 18,
+    "pregunta": "¿Cuáles son los tipos de variables según escala?",
+    "opciones": [
+      "Nominal, ordinal y cuantitativa.",
+      "Numérica, cuantitativa y nominal.",
+      "Numérica, cualitativa y nominal.",
+      "Cualitativa, cuantitativa y ordinal."
+    ],
+    "correcta": 0
+  },
+  {
+    "id": 368,
+    "tipo": "Defensa 2026",
+    "numeracion": 19,
+    "pregunta": "En relación con la estructura metodológica de un trabajo científico, señale la afirmación correcta:",
+    "opciones": [
+      "La metodología se limita a exponer la justificación del estudio y el marco teórico que lo fundamenta.",
+      "La metodología incluye exclusivamente el tipo de estudio y los resultados obtenidos, sin necesidad de detallar el proceso seguido.",
+      "La metodología describe de forma sistemática el diseño del estudio, la población y muestra, las variables, los instrumentos de recogida de datos, el procedimiento y el análisis estadístico empleado.",
+      "La metodología constituye un apartado destinado a la interpretación crítica de los resultados y a la formulación de conclusiones."
+    ],
+    "correcta": 2
+  },
+  {
+    "id": 369,
+    "tipo": "Defensa 2026",
+    "numeracion": 20,
+    "pregunta": "Según la Ley 14/1986, General de Sanidad, y la Ley 41/2002, señale la afirmación correcta sobre los derechos de los ciudadanos en el Sistema Nacional de Salud:",
+    "opciones": [
+      "Los ciudadanos tienen derecho a recibir atención sanitaria de calidad, continuada y en condiciones de igualdad.",
+      "Los derechos se limitan únicamente a la atención hospitalaria especializada.",
+      "Solo los pacientes mayores de edad tienen derecho a información sobre su estado de salud.",
+      "Los ciudadanos no tienen derecho a formular quejas o reclamaciones sobre la atención recibida."
+    ],
+    "correcta": 0
+  },
+  {
+    "id": 370,
+    "tipo": "Defensa 2026",
+    "numeracion": 21,
+    "pregunta": "Según la Ley 55/2003, de 16 de diciembre, del Estatuto Marco del personal estatutario de los servicios de salud, en relación con el régimen disciplinario y los principios de actuación profesional, señale la opción correcta:",
+    "opciones": [
+      "El personal estatutario debe guardar secreto respecto de la información confidencial conocida por razón de su trabajo, incluso después de finalizar su relación de servicio.",
+      "Está obligado a utilizar adecuadamente los medios, instalaciones y recursos públicos puestos a su disposición.",
+      "Debe respetar la dignidad, intimidad y derechos de los usuarios del sistema sanitario y de sus compañeros.",
+      "Todas son correctas."
+    ],
+    "correcta": 3
+  },
+  {
+    "id": 371,
+    "tipo": "Defensa 2026",
+    "numeracion": 22,
+    "pregunta": "En virtud de la Ley 14/1986, General de Sanidad, y la normativa vigente sobre derechos y deberes de los ciudadanos en el Sistema Nacional de Salud, ¿cuál de las siguientes opciones se define legalmente como un DEBER del ciudadano?",
+    "opciones": [
+      "Elegir libremente entre las opciones clínicas disponibles que le presente el médico responsable tras recibir la información adecuada.",
+      "Firmar el documento de alta voluntaria en caso de no aceptar el tratamiento prescrito.",
+      "Acceder a la carrera profesional sanitaria y participar en los procesos de selección de personal del servicio de salud correspondiente.",
+      "Obtener una segunda opinión médica sobre su proceso patológico en los términos que reglamentariamente se establezcan por el servicio de salud."
+    ],
+    "correcta": 1
+  },
+  {
+    "id": 372,
+    "tipo": "Defensa 2026",
+    "numeracion": 23,
+    "pregunta": "Señale la afirmación INCORRECTA respecto a los deberes de los ciudadanos en el SNS:",
+    "opciones": [
+      "Facilitar la información necesaria sobre su salud y antecedentes clínicos.",
+      "Respetar a los profesionales sanitarios y el funcionamiento del sistema.",
+      "Exigir atención inmediata sin respetar criterios de prioridad o protocolos clínicos.",
+      "Cumplir las normas y medidas de seguridad e higiene establecidas en los centros sanitarios."
+    ],
+    "correcta": 2
+  },
+  {
+    "id": 373,
+    "tipo": "Defensa 2026",
+    "numeracion": 24,
+    "pregunta": "En relación con las estrategias de mejora de la seguridad del paciente y el sistema de notificación de incidentes, ¿cuál de las siguientes afirmaciones es correcta?",
+    "opciones": [
+      "El objetivo principal del registro y notificación de incidentes relacionados con la seguridad del paciente es la identificación de los profesionales responsables para la aplicación de medidas disciplinarias.",
+      "Un 'evento adverso' se define como aquel incidente que no llega a alcanzar al paciente gracias a una intervención oportuna o al azar.",
+      "La cultura de seguridad debe evolucionar de un enfoque punitivo centrado en el error individual hacia un enfoque sistémico orientado al aprendizaje y la mejora de los procesos.",
+      "El Listado de Verificación de Seguridad de la Cirugía (Check-list) es una herramienta recomendada por la OMS cuya aplicación es exclusivamente responsabilidad del cirujano principal."
+    ],
+    "correcta": 2
+  },
+  {
+    "id": 374,
+    "tipo": "Defensa 2026",
+    "numeracion": 25,
+    "pregunta": "Dentro de las líneas estratégicas de la 'Estrategia de Seguridad del Paciente del SNS 2025-2035', ¿cuál de las siguientes acciones se considera una prioridad para fortalecer la 'Cultura de Seguridad y Factores Humanos'?",
+    "opciones": [
+      "La implementación de un sistema de incentivos económicos individuales para aquellos profesionales que no reporten incidentes de seguridad durante el año natural.",
+      "El fomento del aprendizaje continuo mediante el análisis de incidentes y la retroalimentación (feedback) a los profesionales, evitando el enfoque punitivo.",
+      "La delegación exclusiva de la responsabilidad de la identificación inequívoca del paciente al personal administrativo en el momento del ingreso.",
+      "La sustitución total de los registros manuales por sistemas de inteligencia artificial, eliminando la necesidad de verificación humana en la administración de medicamentos."
+    ],
+    "correcta": 1
+  },
+  {
+    "id": 375,
+    "tipo": "Defensa 2026",
+    "numeracion": 26,
+    "pregunta": "¿Qué significan las siglas SCACEST?",
+    "opciones": [
+      "Síndrome cardíaco con alteración del electrocardiograma sin elevación del segmento ST.",
+      "Síndrome complejo agudo con estabilización del segmento T.",
+      "Síndrome coronario anginoso con estabilización del segmento ST.",
+      "Síndrome coronario agudo con elevación del segmento ST."
+    ],
+    "correcta": 3
+  },
+  {
+    "id": 376,
+    "tipo": "Defensa 2026",
+    "numeracion": 27,
+    "pregunta": "El parapodium se utiliza sobre todo en niños con:",
+    "opciones": [
+      "Síndrome de Down.",
+      "Enfermedad de Bicheaux.",
+      "Espina bífida.",
+      "Síndrome de West."
+    ],
+    "correcta": 2
+  },
+  {
+    "id": 377,
+    "tipo": "Defensa 2026",
+    "numeracion": 28,
+    "pregunta": "La falta del reflejo de Moro en el recién nacido puede indicar:",
+    "opciones": [
+      "Hipotonía o retraso mental importante.",
+      "Diplejia espástica.",
+      "Mielomeningocele.",
+      "Hemiplejia."
+    ],
+    "correcta": 0
+  },
+  {
+    "id": 378,
+    "tipo": "Defensa 2026",
+    "numeracion": 29,
+    "pregunta": "¿Qué encontraríamos en un prolapso del compartimento medio?",
+    "opciones": [
+      "Histerocele.",
+      "Proctocele.",
+      "Cistocele.",
+      "Enterocele."
+    ],
+    "correcta": 0
+  },
+  {
+    "id": 379,
+    "tipo": "Defensa 2026",
+    "numeracion": 30,
+    "pregunta": "Señale la respuesta INCORRECTA en relación a las compresas de Kenny:",
+    "opciones": [
+      "Son húmedas.",
+      "Son un agente crioterápico que se transmite por conducción (contacto directo).",
+      "Comenzaron a usarse en pacientes poliomielíticos.",
+      "Se aplican a una temperatura de 60°."
+    ],
+    "correcta": 1
+  },
+  {
+    "id": 380,
+    "tipo": "Defensa 2026",
+    "numeracion": 31,
+    "pregunta": "¿Cuál de las siguientes afirmaciones es correcta en relación a los pares craneales?",
+    "opciones": [
+      "El nervio olfatorio corresponde al I par, el nervio óptico al II par y el nervio troclear al V par.",
+      "El nervio facial corresponde al VII par y el nervio vago al IX par.",
+      "El nervio olfatorio corresponde al I par, el nervio glosofaríngeo al IX par y el nervio accesorio al XI par.",
+      "El nervio facial corresponde al VII par y el nervio hipogloso al XI par."
+    ],
+    "correcta": 2
+  },
+  {
+    "id": 381,
+    "tipo": "Defensa 2026",
+    "numeracion": 32,
+    "pregunta": "¿Cuál de los siguientes signos o pruebas NO valora el estado de la articulación sacroilíaca?",
+    "opciones": [
+      "Signo de Mennell.",
+      "Prueba de Yeoman.",
+      "Prueba de Dreyer.",
+      "Signo de Gaenslen."
+    ],
+    "correcta": 2
+  },
+  {
+    "id": 382,
+    "tipo": "Defensa 2026",
+    "numeracion": 33,
+    "pregunta": "Las fracturas de la diáfisis del fémur se clasifican según su morfología en:",
+    "opciones": [
+      "Transversales, oblicuas y conminutas.",
+      "Subtrocantéreas o altas y centrodiafisarias o bajas.",
+      "Intra o extraarticulares, unicondíleas y bicondíleas.",
+      "Traumáticas, patológicas y mecánicas."
+    ],
+    "correcta": 0
+  },
+  {
+    "id": 383,
+    "tipo": "Defensa 2026",
+    "numeracion": 34,
+    "pregunta": "¿En qué raíces espinales se origina el nervio ulnar?",
+    "opciones": [
+      "C6 y C7.",
+      "C5 y C6.",
+      "C8 y T1.",
+      "T2 y T3."
+    ],
+    "correcta": 2
+  },
+  {
+    "id": 384,
+    "tipo": "Defensa 2026",
+    "numeracion": 35,
+    "pregunta": "La parálisis cerebral infantil relacionada con la lesión de los ganglios basales y sus conexiones con las cortezas prefrontal y premotora se denomina:",
+    "opciones": [
+      "Parálisis cerebral atáxica.",
+      "Parálisis cerebral atetósica o discinética.",
+      "Parálisis cerebral hipotónica.",
+      "Parálisis cerebral espástica."
+    ],
+    "correcta": 1
+  },
+  {
+    "id": 385,
+    "tipo": "Defensa 2026",
+    "numeracion": 36,
+    "pregunta": "Dentro de las manifestaciones clínicas del mielomeningocele NO se encuentran:",
+    "opciones": [
+      "Alteraciones de la sensibilidad superficial y profunda.",
+      "Alteraciones de los esfínteres.",
+      "Reflejos osteotendinosos aumentados.",
+      "Diversos grados de paraplejia flácida."
+    ],
+    "correcta": 2
+  },
+  {
+    "id": 386,
+    "tipo": "Defensa 2026",
+    "numeracion": 37,
+    "pregunta": "¿Por qué NO se caracterizan las corrientes de baja frecuencia?",
+    "opciones": [
+      "Los electrodos se colocan directamente sobre la piel.",
+      "Sus principales efectos son el sensitivo y el excitomotriz.",
+      "Tener una frecuencia de 0 a 250 Hz.",
+      "Poca resistencia que presenta la piel a su paso."
+    ],
+    "correcta": 3
+  },
+  {
+    "id": 387,
+    "tipo": "Defensa 2026",
+    "numeracion": 38,
+    "pregunta": "¿Cuál de las siguientes sustancias colocarías en el cátodo para su introducción en el organismo mediante iontoforesis?",
+    "opciones": [
+      "Magnesio.",
+      "Ácido acético.",
+      "Novocaína.",
+      "Calcitonina."
+    ],
+    "correcta": 1
+  },
+  {
+    "id": 388,
+    "tipo": "Defensa 2026",
+    "numeracion": 39,
+    "pregunta": "Señala el enunciado INCORRECTO:",
+    "opciones": [
+      "Debajo del ánodo se producen fenómenos de licuefacción plasmática.",
+      "Debajo del cátodo se produce una excitabilidad de las membranas celulares.",
+      "El ánodo será más adecuado colocarlo en zonas inflamadas.",
+      "Debajo del cátodo se acentúa el metabolismo celular."
+    ],
+    "correcta": 0
+  },
+  {
+    "id": 389,
+    "tipo": "Defensa 2026",
+    "numeracion": 40,
+    "pregunta": "Las corrientes cuadrangulares de 2 milisegundos de impulso y 5 milisegundos de reposo reciben el nombre de:",
+    "opciones": [
+      "Corrientes de Leduc.",
+      "Corrientes aperiódicas de Adams.",
+      "Corrientes de Le Gô.",
+      "Corrientes de Träbert."
+    ],
+    "correcta": 3
+  },
+  {
+    "id": 390,
+    "tipo": "Defensa 2026",
+    "numeracion": 41,
+    "pregunta": "Con respecto a las corrientes diadinámicas, indique la opción INCORRECTA:",
+    "opciones": [
+      "Son corrientes moduladas.",
+      "Pueden combinarse con una base galvánica.",
+      "Se utilizan tiempos de aplicación cortos.",
+      "No presentan efectos polares."
+    ],
+    "correcta": 3
+  },
+  {
+    "id": 391,
+    "tipo": "Defensa 2026",
+    "numeracion": 42,
+    "pregunta": "La cronaxia se define como:",
+    "opciones": [
+      "El tiempo de impulso que se corresponde en la gráfica I/T (Intensidad/Tiempo) con el valor de la reobase.",
+      "La intensidad que se corresponde en la gráfica I/T (Intensidad/Tiempo) con el doble del valor del umbral galvano-tétano.",
+      "El tiempo de impulso que se corresponde en la gráfica I/T (Intensidad/Tiempo) con el doble del valor de la reobase.",
+      "La intensidad mínima que se corresponde en la gráfica I/T (Intensidad/Tiempo) con el doble del valor de la reobase."
+    ],
+    "correcta": 2
+  },
+  {
+    "id": 392,
+    "tipo": "Defensa 2026",
+    "numeracion": 43,
+    "pregunta": "¿Cuál de las siguientes afirmaciones sobre la marcha en Trendelemburg es correcta?",
+    "opciones": [
+      "Es ocasionada por debilidad o parálisis del glúteo mayor.",
+      "Durante el apoyo unilateral del lado sano el tronco se inclina hacia éste.",
+      "Durante la fase de apoyo unilateral del lado afecto hay un descenso de la pelvis hacia el lado contralateral.",
+      "Durante el apoyo unilateral del lado afecto hay un descenso de la pelvis hacia el mismo lado."
+    ],
+    "correcta": 2
+  },
+  {
+    "id": 393,
+    "tipo": "Defensa 2026",
+    "numeracion": 44,
+    "pregunta": "Según el esquema de Lecrenier, ¿cuál es el peso aparente del cuerpo sumergido en el agua hasta la cintura?",
+    "opciones": [
+      "80% del peso corporal.",
+      "60% del peso corporal.",
+      "30% del peso corporal.",
+      "10% del peso corporal."
+    ],
+    "correcta": 1
+  },
+  {
+    "id": 394,
+    "tipo": "Defensa 2026",
+    "numeracion": 45,
+    "pregunta": "En los patrones de Kabat de miembro superior, ¿cuál de las siguientes afirmaciones es correcta?",
+    "opciones": [
+      "La flexión de hombro se acompaña de rotación externa del hombro, supinación del antebrazo y desviación cubital de la muñeca.",
+      "La extensión de hombro se acompaña de rotación interna del hombro, pronación del antebrazo y desviación cubital de la muñeca.",
+      "La flexión de hombro se acompaña de rotación interna del hombro, pronación del antebrazo y desviación cubital de la muñeca.",
+      "La extensión de hombro se acompaña de rotación interna del hombro, pronación del antebrazo y desviación radial de la muñeca."
+    ],
+    "correcta": 1
+  },
+  {
+    "id": 395,
+    "tipo": "Defensa 2026",
+    "numeracion": 46,
+    "pregunta": "¿Cuál de las siguientes respuestas es correcta respecto al factor térmico del agua?",
+    "opciones": [
+      "El agua no puede almacenar gran cantidad de calor.",
+      "El agua posee un alto calor específico.",
+      "El agua no es un buen conductor del calor.",
+      "Debido a su bajo calor específico el agua se enfría de forma muy rápida."
+    ],
+    "correcta": 1
+  },
+  {
+    "id": 396,
+    "tipo": "Defensa 2026",
+    "numeracion": 47,
+    "pregunta": "¿Qué tipo de estructura propioceptiva se localiza en la unión miotendinosa y se excita cuando la tensión muscular aumenta?",
+    "opciones": [
+      "Terminaciones libres.",
+      "Órganos de Golgi.",
+      "Husos musculares.",
+      "Receptores tipo I y II."
+    ],
+    "correcta": 1
+  },
+  {
+    "id": 397,
+    "tipo": "Defensa 2026",
+    "numeracion": 48,
+    "pregunta": "¿Cuál de los siguientes métodos está indicado en pacientes con ataxia cerebelosa?",
+    "opciones": [
+      "Ejercicios de Chandler.",
+      "Ejercicios de Klapp.",
+      "Ejercicios de Buerguer Allen.",
+      "Ejercicios de Frenkel."
+    ],
+    "correcta": 3
+  },
+  {
+    "id": 398,
+    "tipo": "Defensa 2026",
+    "numeracion": 49,
+    "pregunta": "La reobase se define como:",
+    "opciones": [
+      "La intensidad mínima de corriente necesaria para lograr una contracción muscular utilizando un impulso triangular de 1000 milisegundos de duración.",
+      "La intensidad mínima de corriente necesaria para lograr una contracción muscular utilizando un impulso cuadrangular de 1 milisegundo de duración.",
+      "La intensidad mínima de corriente necesaria para lograr una contracción muscular utilizando un impulso cuadrangular de 1000 milisegundos de duración.",
+      "La intensidad mínima de corriente necesaria para lograr una contracción muscular utilizando un impulso triangular de 1 milisegundo de duración."
+    ],
+    "correcta": 2
+  },
+  {
+    "id": 399,
+    "tipo": "Defensa 2026",
+    "numeracion": 50,
+    "pregunta": "De las siguientes escalas o índices, ¿cuál realiza una evaluación del grado de independencia de las personas mayores, analizando las siguientes seis funciones básicas: baño, vestido, uso del WC, movilidad, continencia y alimentación?",
+    "opciones": [
+      "Escala de la Cruz Roja.",
+      "Escala de Brody y Lawton.",
+      "Índice de Barthel.",
+      "Índice de Katz."
+    ],
+    "correcta": 3
+  },
+  {
+    "id": 400,
+    "tipo": "Defensa 2026",
+    "numeracion": 51,
+    "pregunta": "¿Cuál de los siguientes NO es un método de potenciación muscular?",
+    "opciones": [
+      "Zinovieff.",
+      "McQueen.",
+      "Spinoza.",
+      "Müller-Hettinger."
+    ],
+    "correcta": 2
+  },
+  {
+    "id": 401,
+    "tipo": "Defensa 2026",
+    "numeracion": 52,
+    "pregunta": "¿Cuál de las siguientes respuestas NO es correcta respecto a la aplicación de ultrasonidos en su uso terapéutico?",
+    "opciones": [
+      "La potencia utilizada debe sobrepasar los 3 W/cm2 para resultados de utilidad terapéutica.",
+      "La sonoforesis es una forma especial de acoplamiento que utiliza un gel medicamentoso.",
+      "La absorción de energía ultrasónica da lugar a la producción de calor.",
+      "Se utiliza el tipo de emisión pulsante en procesos agudos o inflamatorios."
+    ],
+    "correcta": 0
+  },
+  {
+    "id": 402,
+    "tipo": "Defensa 2026",
+    "numeracion": 53,
+    "pregunta": "¿Qué caracteriza a la escala MIF (Índice Funcional de Movilidad)?",
+    "opciones": [
+      "Comprende 44 ítems con valoración de 1 a 4 y su uso es básicamente extrahospitalario.",
+      "Consta de 7 niveles y 18 ítems agrupados en 6 áreas (cuidado personal, control de esfínteres, movilidad, locomoción, comunicación y conocimiento social).",
+      "Evalúa la incapacidad física según una escala de 6 grados que oscilan entre el 0 (independencia) y el 5 (incapacidad funcional total). La información se obtiene preguntando directamente al paciente o a su cuidador.",
+      "El evaluador debe clasificar al paciente en el grado funcional que más se aproxime a su situación actual."
+    ],
+    "correcta": 1
+  },
+  {
+    "id": 403,
+    "tipo": "Defensa 2026",
+    "numeracion": 54,
+    "pregunta": "¿Cuál de las siguientes afirmaciones es verdadera en relación con la hidroterapia?",
+    "opciones": [
+      "Cuando un objeto se mueve a través del agua se desarrolla entre la parte central y posterior del objeto una diferencia en la presión del agua: la presión disminuye en la parte frontal y aumenta en la posterior, ocasionando un flujo de agua conocido como estela.",
+      "La tensión superficial del agua actúa como una resistencia al movimiento cuando una extremidad es sumergida parcialmente, pues la tensión superficial ha de romperse por el movimiento.",
+      "Cualquier líquido con elevada viscosidad, como por ejemplo un aceite, fluye rápidamente. Los que tienen viscosidad baja como el agua fluirán más lentamente y ofrecerán más resistencia.",
+      "Nadar es más difícil que andar en el agua, porque el cuerpo es más aerodinámico andando."
+    ],
+    "correcta": 1
+  },
+  {
+    "id": 404,
+    "tipo": "Defensa 2026",
+    "numeracion": 55,
+    "pregunta": "¿Qué tipo de contracción se utiliza en la estabilización rítmica en las técnicas de facilitación neuromuscular propioceptiva?",
+    "opciones": [
+      "Se alternan isotónicas con isométricas.",
+      "Isométricas.",
+      "Isotónicas concéntricas.",
+      "Isotónicas excéntricas."
+    ],
+    "correcta": 1
+  },
+  {
+    "id": 405,
+    "tipo": "Defensa 2026",
+    "numeracion": 56,
+    "pregunta": "¿Cuál de las siguientes alteraciones corresponde al lado convexo de la curva escoliótica?",
+    "opciones": [
+      "Aumenta la altura del hemicuerpo vertebral.",
+      "El foramen neural se estrecha.",
+      "Los pedículos y láminas correspondientes se acortan y engrosan.",
+      "Las costillas se juntan."
+    ],
+    "correcta": 0
+  },
+  {
+    "id": 406,
+    "tipo": "Defensa 2026",
+    "numeracion": 57,
+    "pregunta": "Niño de 5 años con diagnóstico de Parálisis Cerebral que puede mantener la sedestación en silla, pero necesita soporte pélvico o del tronco para maximizar la función manual. Puede sentarse o levantarse de una silla utilizando una superficie estable para empujar o tirar con sus brazos con apoyo de los brazos. Camina en superficies regulares con un dispositivo de movilidad y sube escaleras con asistencia de un adulto; con frecuencia tiene que ser transportado en espacios abiertos o terreno irregular o en distancias largas. Según el sistema de clasificación de la función motora gruesa (GMFCS), se corresponde con:",
+    "opciones": [
+      "Nivel IV.",
+      "Nivel V.",
+      "Nivel III.",
+      "Nivel II."
+    ],
+    "correcta": 2
+  },
+  {
+    "id": 407,
+    "tipo": "Defensa 2026",
+    "numeracion": 58,
+    "pregunta": "¿Cuál de las siguientes opciones corresponde con los roncus?",
+    "opciones": [
+      "Sonidos discontinuos y suaves, que suelen escucharse al final de la inspiración, y que se asemejan a los pasos sobre la nieve. El origen es muy distal o alveolar y reflejan la presencia de exudado o edema pulmonar.",
+      "Sonidos discontinuos y gruesos, que se escuchan en inspiración, y se asemejan a las burbujas que explotan en la superficie del agua. Aumentan con la tos y reflejan congestión bronquiolo-alveolar.",
+      "Sonidos continuos y agudos, que se escuchan en inspiración y espiración, y se asemejan a un silbido. Son difusos y reflejan una disminución del calibre bronquial.",
+      "Sonidos continuos y graves, que se escuchan en inspiración y espiración y se asemejan al sonido del agua hirviendo. La tos los modifica o hace desaparecer y reflejan congestión bronquial."
+    ],
+    "correcta": 3
+  },
+  {
+    "id": 408,
+    "tipo": "Defensa 2026",
+    "numeracion": 59,
+    "pregunta": "¿Cuál de las siguientes afirmaciones es FALSA en relación con la hidroterapia?",
+    "opciones": [
+      "La presión lateral y el efecto de flotación ejercidos conjuntamente darán la sensación de una disminución del peso.",
+      "La presión ejercida por el agua de mar es mayor que la del agua dulce a una profundidad dada.",
+      "La Ley de Pascal establece que la presión del fluido se ejerce por igual en toda la superficie de un cuerpo inmerso en reposo en una profundidad dada.",
+      "La presión disminuye con la densidad del fluido y su profundidad."
+    ],
+    "correcta": 3
+  },
+  {
+    "id": 409,
+    "tipo": "Defensa 2026",
+    "numeracion": 60,
+    "pregunta": "Según la Organización Mundial de la Salud, ¿cuál de las siguientes afirmaciones es correcta?",
+    "opciones": [
+      "Si realizamos el procedimiento de higiene de manos por fricción con un preparado de base alcohólica, éste debe durar de 20 a 30 segundos; y si realizamos el procedimiento de higiene de manos con lavado de manos con agua y jabón, éste debe durar de 40 a 60 segundos.",
+      "Si realizamos el procedimiento de higiene de manos por fricción con un preparado de base alcohólica, éste debe durar de 30 a 40 segundos; y si realizamos el procedimiento de higiene de manos con lavado de manos con agua y jabón, éste debe durar de 50 a 60 segundos.",
+      "Si realizamos el procedimiento de higiene de manos por fricción con un preparado de base alcohólica, éste debe durar de 20 a 40 segundos; y si realizamos el procedimiento de higiene de manos con lavado de manos con agua y jabón, éste debe durar de 50 a 60 segundos.",
+      "Si realizamos el procedimiento de higiene de manos por fricción con un preparado de base alcohólica, éste debe durar de 20 a 40 segundos; y si realizamos el procedimiento de higiene de manos con lavado de manos con agua y jabón, éste debe durar de 40 a 60 segundos."
+    ],
+    "correcta": 0
+  },
+  {
+    "id": 410,
+    "tipo": "Defensa 2026",
+    "numeracion": 61,
+    "pregunta": "¿A qué tipo de corrientes pertenecen las interferenciales tetrapolares?",
+    "opciones": [
+      "Corrientes continuas.",
+      "Baja frecuencia.",
+      "Alta frecuencia.",
+      "Media frecuencia."
+    ],
+    "correcta": 3
+  },
+  {
+    "id": 411,
+    "tipo": "Defensa 2026",
+    "numeracion": 62,
+    "pregunta": "La fractura diafisaria del radio asociada a una luxación distal del cúbito, recibe el nombre de:",
+    "opciones": [
+      "Fractura de Montezzi.",
+      "Fractura de Monteggia.",
+      "Fractura de Galeazzi.",
+      "Fractura de Puccini."
+    ],
+    "correcta": 2
+  },
+  {
+    "id": 412,
+    "tipo": "Defensa 2026",
+    "numeracion": 63,
+    "pregunta": "En un paciente en tratamiento con anticoagulantes sería una contraindicación absoluta realizar punción seca profunda del músculo:",
+    "opciones": [
+      "Tibial posterior.",
+      "Trapecio superior.",
+      "Infraespinoso.",
+      "Oponente del pulgar."
+    ],
+    "correcta": 0
+  },
+  {
+    "id": 413,
+    "tipo": "Defensa 2026",
+    "numeracion": 64,
+    "pregunta": "¿Cuál es la inervación del músculo pronador redondo?",
+    "opciones": [
+      "Nervio musculocutáneo.",
+      "Nervio mediano.",
+      "Nervio cubital.",
+      "Nervio radial."
+    ],
+    "correcta": 1
+  },
+  {
+    "id": 414,
+    "tipo": "Defensa 2026",
+    "numeracion": 65,
+    "pregunta": "De las siguientes opciones, ¿cuál sería la técnica específica para una paciente con incontinencia urinaria de urgencia?",
+    "opciones": [
+      "Biofeedback.",
+      "Electroestimulación del nervio tibial posterior.",
+      "Ejercicios hipopresivos.",
+      "Ejercicios de Kegel."
+    ],
+    "correcta": 1
+  },
+  {
+    "id": 415,
+    "tipo": "Defensa 2026",
+    "numeracion": 66,
+    "pregunta": "¿Qué es una contractura de Volkmann?",
+    "opciones": [
+      "Un síndrome miotensivo cervical.",
+      "Un síndrome compartimental.",
+      "Una distrofia muscular.",
+      "Una afección neuromuscular dorsal."
+    ],
+    "correcta": 1
+  },
+  {
+    "id": 416,
+    "tipo": "Defensa 2026",
+    "numeracion": 67,
+    "pregunta": "En un paciente corredor de 100 metros de velocidad, ¿qué tipo de fibras musculares predominarán en la musculatura de sus miembros inferiores?",
+    "opciones": [
+      "Fibras tipo I.",
+      "Fibras oxidativas tipo C.",
+      "Fibras tipo II.",
+      "Fibras rápidas tipo D."
+    ],
+    "correcta": 2
+  },
+  {
+    "id": 417,
+    "tipo": "Defensa 2026",
+    "numeracion": 68,
+    "pregunta": "¿Cuál es el orden de progresión de las posiciones de partida de los ejercicios de Frenkel?",
+    "opciones": [
+      "Decúbito prono, decúbito supino y sedestación.",
+      "Decúbito prono, decúbito supino y decúbito lateral.",
+      "Decúbito prono, sedestación, bipedestación y marcha.",
+      "Decúbito supino, sedestación, bipedestación y marcha."
+    ],
+    "correcta": 3
+  },
+  {
+    "id": 418,
+    "tipo": "Defensa 2026",
+    "numeracion": 69,
+    "pregunta": "¿Qué es la hiperestesia?",
+    "opciones": [
+      "Reacción dolorosa anómala ante un estímulo, especialmente a un estímulo repetitivo.",
+      "Aumento de la sensibilidad a la estimulación.",
+      "Reacción dolorosa exagerada a una sensación dolorosa normal.",
+      "Sensación anómala, espontánea o provocada."
+    ],
+    "correcta": 1
+  },
+  {
+    "id": 419,
+    "tipo": "Defensa 2026",
+    "numeracion": 70,
+    "pregunta": "Indique cuál de los efectos polares de la corriente galvánica NO se produce en el polo negativo:",
+    "opciones": [
+      "Actividad metabólica alta.",
+      "Cataforesis.",
+      "Coagulación.",
+      "Vasodilatación."
+    ],
+    "correcta": 2
+  },
+  {
+    "id": 420,
+    "tipo": "Defensa 2026",
+    "numeracion": 71,
+    "pregunta": "¿Cuál de los siguientes tendones NO forma parte de la tabaquera anatómica?",
+    "opciones": [
+      "Extensor largo del pulgar.",
+      "Palmar mayor.",
+      "Extensor corto del pulgar.",
+      "Abductor largo del pulgar."
+    ],
+    "correcta": 1
+  },
+  {
+    "id": 421,
+    "tipo": "Defensa 2026",
+    "numeracion": 72,
+    "pregunta": "¿Cuál de los siguientes músculos NO forma parte de la cadena muscular de extensión del miembro inferior?",
+    "opciones": [
+      "Glúteo mayor (plano profundo).",
+      "Poplíteo.",
+      "Sóleo.",
+      "Vasto intermedio."
+    ],
+    "correcta": 1
+  },
+  {
+    "id": 422,
+    "tipo": "Defensa 2026",
+    "numeracion": 73,
+    "pregunta": "¿Cuál de los siguientes elementos anatómicos NO forma parte de uno de los bordes que delimitan el Triángulo de Scarpa?",
+    "opciones": [
+      "Músculo sartorio.",
+      "Ligamento inguinal.",
+      "Músculo obturador interno.",
+      "Músculo aductor largo del muslo."
+    ],
+    "correcta": 2
+  },
+  {
+    "id": 423,
+    "tipo": "Defensa 2026",
+    "numeracion": 74,
+    "pregunta": "Señale en qué situación estaría contraindicado el uso de corrientes interferenciales de media frecuencia:",
+    "opciones": [
+      "Distrofia simpático refleja.",
+      "Dolores de tipo neurálgico.",
+      "Sarcopenia.",
+      "Tromboflebitis."
+    ],
+    "correcta": 3
+  },
+  {
+    "id": 424,
+    "tipo": "Defensa 2026",
+    "numeracion": 75,
+    "pregunta": "¿Cuál de las siguientes respuestas es una maniobra de exploración meniscal de la rodilla?",
+    "opciones": [
+      "Prueba de Allen.",
+      "Prueba de Lachman.",
+      "Prueba de Grifka.",
+      "Prueba de McMurray."
+    ],
+    "correcta": 3
+  },
+  {
+    "id": 425,
+    "tipo": "Defensa 2026",
+    "numeracion": 76,
+    "pregunta": "¿Cuál de los siguientes músculos puede provocar una falsa pierna corta?",
+    "opciones": [
+      "Recto femoral.",
+      "Tensor de la fascia lata.",
+      "Vasto medial.",
+      "Vasto lateral."
+    ],
+    "correcta": 1
+  },
+  {
+    "id": 426,
+    "tipo": "Defensa 2026",
+    "numeracion": 77,
+    "pregunta": "¿Cuáles de los siguientes receptores son propioceptores?",
+    "opciones": [
+      "Visuales.",
+      "Táctiles.",
+      "Vestibulares.",
+      "Térmicos."
+    ],
+    "correcta": 2
+  },
+  {
+    "id": 427,
+    "tipo": "Defensa 2026",
+    "numeracion": 78,
+    "pregunta": "De acuerdo con los patrones de dolor referido de Travell y Simons, el patrón de dolor referido más habitual del punto gatillo 1 del trapecio, se extiende por:",
+    "opciones": [
+      "Base del cráneo, regiones temporal y parietal homolaterales, sien y ángulo inferior de la mandíbula.",
+      "Zona del trapecio superior, cuello y apófisis mastoides.",
+      "Zona axilar y medial del brazo.",
+      "Región del trapecio superior y borde espinal de la escápula."
+    ],
+    "correcta": 0
+  },
+  {
+    "id": 428,
+    "tipo": "Defensa 2026",
+    "numeracion": 79,
+    "pregunta": "La marcha en estepaje se produce por:",
+    "opciones": [
+      "Parálisis de los flexores dorsales del pie.",
+      "Parálisis del tríceps sural.",
+      "Parálisis del cuádriceps.",
+      "Parálisis del glúteo medio."
+    ],
+    "correcta": 0
+  },
+  {
+    "id": 429,
+    "tipo": "Defensa 2026",
+    "numeracion": 80,
+    "pregunta": "La dificultad para realizar movimientos alternantes rápidos que puede presentar un paciente con daño cerebeloso se denomina:",
+    "opciones": [
+      "Disartria.",
+      "Disdiadococinesia.",
+      "Dismetría.",
+      "Hipocinesia."
+    ],
+    "correcta": 1
+  },
+  {
+    "id": 430,
+    "tipo": "Defensa 2026",
+    "numeracion": 81,
+    "pregunta": "El reflejo de los puntos cardinales:",
+    "opciones": [
+      "Se estimula al separar los miembros superiores del niño.",
+      "Se estimula al presionar la palma de la mano del niño.",
+      "Se estimula en los labios del niño.",
+      "Se estimula al presionar el borde cubital de la mano del niño."
+    ],
+    "correcta": 2
+  },
+  {
+    "id": 431,
+    "tipo": "Defensa 2026",
+    "numeracion": 82,
+    "pregunta": "¿Cuándo aparece el reflejo de Landau?",
+    "opciones": [
+      "Aparece en el recién nacido.",
+      "Aparece sobre los 3 meses.",
+      "Aparece sobre los 12 meses.",
+      "Aparece sobre los 18 meses."
+    ],
+    "correcta": 1
+  },
+  {
+    "id": 432,
+    "tipo": "Defensa 2026",
+    "numeracion": 83,
+    "pregunta": "¿Cuál de las siguientes corrientes utilizadas en la banda de radiofrecuencias se considera microonda?",
+    "opciones": [
+      "10 MHz.",
+      "900 MHz.",
+      "27 MHz.",
+      "1 MHz."
+    ],
+    "correcta": 1
+  },
+  {
+    "id": 433,
+    "tipo": "Defensa 2026",
+    "numeracion": 84,
+    "pregunta": "¿Cuál de las siguientes opciones es INCORRECTA?",
+    "opciones": [
+      "La escala SF-36 valora la calidad de vida.",
+      "El índice de Barthel consta de 10 ítems y se emplea para valorar las actividades instrumentales de la vida diaria.",
+      "El índice de Katz sirve para evaluar las actividades básicas de la vida diaria.",
+      "La escala de Tinetti valora la marcha y el equilibrio."
+    ],
+    "correcta": 1
+  },
+  {
+    "id": 434,
+    "tipo": "Defensa 2026",
+    "numeracion": 85,
+    "pregunta": "¿Cuál es la medida de asociación que se utiliza en los estudios de casos y controles?",
+    "opciones": [
+      "Diferencia de incidencias.",
+      "Riesgo relativo.",
+      "Odds ratio.",
+      "Riesgo atribuible."
+    ],
+    "correcta": 2
+  },
+  {
+    "id": 435,
+    "tipo": "Defensa 2026",
+    "numeracion": 86,
+    "pregunta": "¿Qué es la especificidad de una prueba diagnóstica?",
+    "opciones": [
+      "La probabilidad de obtener un resultado negativo en los individuos que no tienen la enfermedad.",
+      "La probabilidad de obtener un resultado positivo en los individuos que tienen la enfermedad.",
+      "La probabilidad de que un individuo que presenta un resultado de la prueba negativo, no tenga la enfermedad.",
+      "La probabilidad de que un individuo que presenta un resultado de la prueba positivo, tenga la enfermedad."
+    ],
+    "correcta": 0
+  },
+  {
+    "id": 436,
+    "tipo": "Defensa 2026",
+    "numeracion": 87,
+    "pregunta": "¿Cuál de los siguientes cambios fisiológicos NO está asociado al envejecimiento normal a nivel pulmonar?",
+    "opciones": [
+      "Disminución de fibras de elastina.",
+      "Disminución de la capacidad vital y del volumen espiratorio forzado.",
+      "Disminución del volumen residual.",
+      "Disminución de la recuperación elástica del pulmón."
+    ],
+    "correcta": 2
+  },
+  {
+    "id": 437,
+    "tipo": "Defensa 2026",
+    "numeracion": 88,
+    "pregunta": "En pacientes con déficit de la irrigación cerebral se pueden observar alteraciones del ritmo y patrón respiratorios. ¿Qué nombre recibe esta respiración?",
+    "opciones": [
+      "Respiración de Binot.",
+      "Respiración de Kussmaul.",
+      "Respiración Biot.",
+      "Respiración de Cheyne-Stokes."
+    ],
+    "correcta": 3
+  },
+  {
+    "id": 438,
+    "tipo": "Defensa 2026",
+    "numeracion": 89,
+    "pregunta": "¿Qué signo es indicativo de bursitis subacromial?",
+    "opciones": [
+      "Signo de Dugas.",
+      "Signo de Dawbarn.",
+      "Signo de Beru.",
+      "Signo de Hueter."
+    ],
+    "correcta": 1
+  },
+  {
+    "id": 439,
+    "tipo": "Defensa 2026",
+    "numeracion": 90,
+    "pregunta": "¿Cuál de las siguientes fracturas de cadera NO se considera extraarticular?",
+    "opciones": [
+      "Pertrocantérea.",
+      "Basicervical.",
+      "Transcervical.",
+      "Intertrocantérea."
+    ],
+    "correcta": 2
+  },
+  {
+    "id": 440,
+    "tipo": "Defensa 2026",
+    "numeracion": 91,
+    "pregunta": "El método Buteyko está indicado en:",
+    "opciones": [
+      "Enfisema pulmonar.",
+      "Bronquiectasias.",
+      "Asma.",
+      "Bronquitis crónica."
+    ],
+    "correcta": 2
+  },
+  {
+    "id": 441,
+    "tipo": "Defensa 2026",
+    "numeracion": 92,
+    "pregunta": "¿Cuál de las siguientes pruebas NO sirve para valorar el estado de los meniscos de la rodilla?",
+    "opciones": [
+      "Prueba de McMurray.",
+      "Prueba de Godfrey.",
+      "Prueba de Cabot.",
+      "Prueba de Payr."
+    ],
+    "correcta": 1
+  },
+  {
+    "id": 442,
+    "tipo": "Defensa 2026",
+    "numeracion": 93,
+    "pregunta": "Según Framingham, ¿cuál de las siguientes respuestas es un criterio menor para el diagnóstico de la insuficiencia cardíaca?",
+    "opciones": [
+      "Hepatomegalia.",
+      "Estertores.",
+      "Aumento de la presión venosa.",
+      "Disnea paroxística nocturna."
+    ],
+    "correcta": 0
+  },
+  {
+    "id": 443,
+    "tipo": "Defensa 2026",
+    "numeracion": 94,
+    "pregunta": "¿Con qué otro nombre se conoce la atrofia muscular espinal tipo III?",
+    "opciones": [
+      "Enfermedad de Dubowitz.",
+      "Enfermedad de Kugelberg-Welander.",
+      "Atrofia muscular espinal del adulto.",
+      "Enfermedad de Werdning-Hoffmann."
+    ],
+    "correcta": 1
+  },
+  {
+    "id": 444,
+    "tipo": "Defensa 2026",
+    "numeracion": 95,
+    "pregunta": "¿Cuál de los siguientes músculos NO forma parte de la laringe?",
+    "opciones": [
+      "Cricotiroideo.",
+      "Estapedio.",
+      "Ariepiglótico.",
+      "Aritenoideo."
+    ],
+    "correcta": 1
+  },
+  {
+    "id": 445,
+    "tipo": "Defensa 2026",
+    "numeracion": 96,
+    "pregunta": "Para realizar un estiramiento del músculo flexor largo de los dedos del pie utilizaremos los parámetros de:",
+    "opciones": [
+      "Flexión dorsal de tobillo, aducción y supinación del pie, más extensión de las metatarsofalángicas e interfalángicas de los últimos cuatro dedos.",
+      "Flexión dorsal de tobillo, abducción y pronación del pie, más extensión de las metatarsofalángicas e interfalángicas de los últimos cuatro dedos.",
+      "Flexión dorsal de tobillo, aducción y pronación del pie, más extensión de las metatarsofalángicas e interfalángicas de los últimos cuatro dedos.",
+      "Flexión dorsal de tobillo, abducción y supinación del pie, más extensión de las metatarsofalángicas e interfalángicas de los últimos cuatro dedos."
+    ],
+    "correcta": 1
+  },
+  {
+    "id": 446,
+    "tipo": "Defensa 2026",
+    "numeracion": 97,
+    "pregunta": "Según Rodríguez Martín, ¿cuál de los siguientes fármacos utilizados en iontoforesis tiene una polaridad positiva?",
+    "opciones": [
+      "Celestone® (Betametasona).",
+      "Heparina.",
+      "Cloruro de adrenalina.",
+      "Salicilato de sosa."
+    ],
+    "correcta": 2
+  },
+  {
+    "id": 447,
+    "tipo": "Defensa 2026",
+    "numeracion": 98,
+    "pregunta": "Indique qué método de fortalecimiento muscular emplea cargas progresivamente decrecientes en cada serie de ejercicios:",
+    "opciones": [
+      "Delorme y Watkins.",
+      "Rocher.",
+      "Mac Govern y Luscombe.",
+      "Dotte."
+    ],
+    "correcta": 2
+  },
+  {
+    "id": 448,
+    "tipo": "Defensa 2026",
+    "numeracion": 99,
+    "pregunta": "La clasificación ASIA (American Spinal Injury Association), permite determinar si una lesión medular es completa o incompleta. Teniendo esto en cuenta, señale la respuesta CORRECTA:",
+    "opciones": [
+      "La afectación neurológica se clasifica en 3 grados (A, B y C). El grado B corresponde a una lesión incompleta. Más de la mitad de los músculos clave tienen un balance muscular superior a 3.",
+      "La afectación neurológica se clasifica en 5 grados (A, B, C, D y E). El grado C corresponde a una lesión incompleta, donde se conserva la función motora por debajo del nivel neurológico. Más de la mitad de los músculos clave tienen un balance muscular inferior a 3.",
+      "La afectación neurológica se clasifica en 5 grados (A, B, C, D y E). El grado E corresponde a una lesión incompleta, donde se conserva la función motora por debajo del nivel neurológico. Más de la mitad de los músculos tienen un balance muscular superior a 3.",
+      "La afectación neurológica se clasifica en 5 grados (A, B, C, D y E). El grado B corresponde a una lesión completa, donde no existe función sensitiva ni motora preservada en los segmentos sacros S4 y S5."
+    ],
+    "correcta": 1
+  },
+  {
+    "id": 449,
+    "tipo": "Defensa 2026",
+    "numeracion": 100,
+    "pregunta": "¿Cuál de estas afirmaciones es INCORRECTA?",
+    "opciones": [
+      "El reparto de energía en la superficie del cabezal de ultrasonidos es homogénea.",
+      "La diferencia fundamental entre el ultrasonido de 1 y 3 MHz es que el primero posee mayor poder de penetración en los tejidos vivos.",
+      "El ultrasonido produce reacciones en el organismo por el aumento del movimiento browniano y calor, micromasaje tisular y masaje del cabezal.",
+      "Para que las ondas emitidas consigan la mayor potencia posible, la pastilla piezoeléctrica debe tener unas dimensiones y forma acordes y en sintonía con la frecuencia aplicada."
+    ],
+    "correcta": 0
+  },
+  {
+    "id": 450,
+    "tipo": "Defensa 2026",
+    "numeracion": 101,
+    "pregunta": "En un estudio se estima la media de la presión arterial sistólica en una población y se obtiene un intervalo de confianza del 95% de 120 a 130 mmHg. ¿Cuál es la interpretación correcta de este intervalo de confianza?",
+    "opciones": [
+      "El 95% de los pacientes tiene una presión arterial entre 120 y 130 mmHg.",
+      "La probabilidad de que la media poblacional esté entre 120 y 130 mmHg es del 95%.",
+      "Si repitiéramos el estudio múltiples veces, el 95% de los intervalos calculados contendrían la media poblacional.",
+      "La media muestral está entre 120 y 130 mmHg el 95% del tiempo."
+    ],
+    "correcta": 2
+  },
+  {
+    "id": 451,
+    "tipo": "Defensa 2026",
+    "numeracion": 102,
+    "pregunta": "Según la Resolución 400/38239/2009, de 23 de octubre, de la Subsecretaría del Ministerio de Defensa, en relación con la delegación de competencias en materia de personal estatutario de su red hospitalaria, señale la respuesta INCORRECTA:",
+    "opciones": [
+      "La competencia para resolver expedientes disciplinarios graves del personal estatutario queda delegada en las direcciones de enfermería de los centros hospitalarios.",
+      "Se delegan en los directores de los centros hospitalarios determinadas facultades de gestión ordinaria de personal, como concesión de permisos, licencias y situaciones administrativas que no supongan modificación sustancial de la relación de servicio.",
+      "La resolución atribuye a los gerentes hospitalarios la competencia para conceder reducciones de jornada y permisos sin sueldo de hasta tres meses.",
+      "El órgano delegante puede avocar en cualquier momento la delegación conferida."
+    ],
+    "correcta": 0
+  },
+  {
+    "id": 452,
+    "tipo": "Defensa 2026",
+    "numeracion": 103,
+    "pregunta": "Conforme a la Ley 41/2002, de 14 de noviembre, en relación con el consentimiento informado por representación, señale la respuesta CORRECTA:",
+    "opciones": [
+      "Se otorgará por representación cuando el paciente renuncie expresamente a recibir información clínica.",
+      "Se otorgará por representación cuando el paciente no sea capaz de tomar decisiones, a criterio del médico responsable de la asistencia, o su estado físico o psíquico no le permita hacerse cargo de su situación.",
+      "Se otorgará por representación únicamente en el caso de menores de edad, cualquiera que sea su grado de madurez.",
+      "Una vez otorgado por representación, el paciente no será informado del proceso asistencial en ningún caso."
+    ],
+    "correcta": 1
+  },
+  {
+    "id": 453,
+    "tipo": "Defensa 2026",
+    "numeracion": 104,
+    "pregunta": "Según la Ley 31/1995, de 8 de noviembre, de Prevención de Riesgos Laborales, la asignación de delegados de prevención en una empresa se establece en función del número de trabajadores. Señale la respuesta CORRECTA:",
+    "opciones": [
+      "En las empresas de hasta 50 trabajadores habrá al menos 2 delegados de prevención.",
+      "En las empresas de 51 a 100 trabajadores habrá 1 delegado de prevención.",
+      "En las empresas de 101 a 500 trabajadores habrá 3 delegados de prevención.",
+      "En las empresas de más de 501 trabajadores habrá 6 delegados de prevención."
+    ],
+    "correcta": 2
+  },
+  {
+    "id": 454,
+    "tipo": "Defensa 2026",
+    "numeracion": 105,
+    "pregunta": "El principio de autonomía tiene su fundamento en:",
+    "opciones": [
+      "Evitar el daño al paciente.",
+      "Mantener informado al paciente.",
+      "Repartir en equidad los recursos.",
+      "Respetar al paciente."
+    ],
+    "correcta": 3
+  },
+  {
+    "id": 455,
+    "tipo": "Defensa 2026",
+    "numeracion": 106,
+    "pregunta": "Esta escala sirve al fisioterapeuta de mucha ayuda porque mide de manera muy exhaustiva las actividades de la vida diaria, es muy sensible a los cambios y permite predecir el mejor pronóstico rehabilitador:",
+    "opciones": [
+      "Escala de Barthel.",
+      "Escala de Beck.",
+      "Escala de Braden.",
+      "Escala de Borg."
+    ],
+    "correcta": 0
+  },
+  {
+    "id": 456,
+    "tipo": "Defensa 2026",
+    "numeracion": 107,
+    "pregunta": "Daniela es una niña de 5 años que patinando se cae al suelo y como consecuencia del golpe sufre una fractura incompleta del radio a nivel de la diáfisis por inflexión del hueso. ¿Cómo se denomina este tipo de fractura?",
+    "opciones": [
+      "Impactada.",
+      "En rodete.",
+      "En tallo verde.",
+      "Espiroidea."
+    ],
+    "correcta": 2
+  },
+  {
+    "id": 457,
+    "tipo": "Defensa 2026",
+    "numeracion": 108,
+    "pregunta": "¿Cuál de los siguientes músculos sería un antagonista de la rotación interna del hombro?",
+    "opciones": [
+      "Redondo menor.",
+      "Dorsal ancho.",
+      "Pectoral mayor.",
+      "Redondo mayor."
+    ],
+    "correcta": 0
+  },
+  {
+    "id": 458,
+    "tipo": "Defensa 2026",
+    "numeracion": 109,
+    "pregunta": "¿Qué elemento básico del vendaje funcional da firmeza y consistencia al conjunto, aumentando la fijación y la afinidad de los diferentes elementos del vendaje?",
+    "opciones": [
+      "Bandas activas.",
+      "Anclajes.",
+      "Soporte básico o prevendaje.",
+      "Encofrado o cierre."
+    ],
+    "correcta": 3
+  },
+  {
+    "id": 459,
+    "tipo": "Defensa 2026",
+    "numeracion": 110,
+    "pregunta": "La tromboangeítis obliterante también se conoce como:",
+    "opciones": [
+      "Enfermedad de Leonardo Berner.",
+      "Enfermedad de Leo Buerger.",
+      "Enfermedad de Leo Burger.",
+      "Enfermedad de Chandler."
+    ],
+    "correcta": 1
   }
 ]
