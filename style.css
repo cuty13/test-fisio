@@ -26,6 +26,7 @@ body {
   font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
   background: var(--bg);
   color: var(--text);
+  min-height: 100vh;
   min-height: 100dvh;
   display: flex;
   align-items: flex-start;
@@ -45,6 +46,18 @@ body {
 
 #screen-quiz.active {
   justify-content: flex-start;
+  min-height: calc(100dvh - 32px);
+}
+
+#screen-quiz.active .question-card {
+  flex: 1;
+  min-height: 0;
+}
+
+#screen-quiz.active .options-container {
+  flex: 1;
+  min-height: 0;
+  overflow-y: auto;
 }
 
 /* ===== SCREENS ===== */
@@ -506,6 +519,7 @@ h2 {
   padding: 10px 12px;
   text-align: left;
   font-size: 1rem;
+  flex-shrink: 0;
 }
 .review-icon {
   font-size: 1.1rem;
@@ -536,6 +550,37 @@ h2 {
 }
 .results-actions .btn {
   flex: 1;
+}
+
+.review-pagination {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  width: 100%;
+}
+
+.review-pagination.hidden {
+  display: none !important;
+}
+
+.review-pagination .btn {
+  width: auto;
+  flex: 1;
+  padding: 10px 12px;
+}
+
+#review-page-status {
+  min-width: 44px;
+  text-align: center;
+  color: var(--text-muted);
+  font-size: 0.85rem;
+  font-weight: 700;
+}
+
+.review-pagination .btn:disabled {
+  opacity: 0.4;
+  cursor: not-allowed;
 }
 
 /* ===== RESPONSIVE ===== */
@@ -591,3 +636,329 @@ h2 {
   transition: color var(--transition);
 }
 .btn-link-danger:hover { color: var(--danger); }
+
+/* ===== KINDLE / TINTA ELECTRONICA =====
+   Kindle displays are often monochrome, slower and narrower than a desktop.
+   Keep controls large and remove effects that reduce text clarity. */
+body.kindle-mode {
+  --primary: #222;
+  --primary-dk: #000;
+  --success: #111;
+  --danger: #111;
+  --warning: #333;
+  --bg: #f7f7f7;
+  --surface: #fff;
+  --text: #111;
+  --text-muted: #444;
+  --border: #999;
+  --radius: 8px;
+  --shadow: none;
+  --transition: 0s;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 12px;
+  background: #fff;
+  height: 100vh;
+  min-height: 0;
+  overflow: hidden;
+}
+
+body.kindle-mode *,
+body.kindle-mode *::before,
+body.kindle-mode *::after {
+  animation: none !important;
+  transition: none !important;
+}
+
+body.kindle-mode .timer-container {
+  display: none !important;
+}
+
+body.kindle-mode .progress-bar-wrapper {
+  display: none;
+}
+
+body.kindle-mode .quiz-meta {
+  width: 100%;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+body.kindle-mode #category-badge {
+  margin-left: auto;
+}
+
+body.kindle-mode .screen {
+    max-width: 640px;
+    animation: none;
+    height: calc(100vh - 24px);
+    min-height: 0;
+    overflow: hidden;
+}
+
+body.kindle-mode .card {
+    border: 1px solid #777;
+    padding: 24px 20px;
+    min-height: 0;
+}
+
+body.kindle-mode .home-icon,
+  body.kindle-mode .result-emoji {
+    display: none;
+}
+
+body.kindle-mode h1 {
+    font-size: 2.1rem;
+}
+
+body.kindle-mode .subtitle,
+  body.kindle-mode label,
+  body.kindle-mode #question-counter {
+    color: #333;
+}
+
+body.kindle-mode select,
+  body.kindle-mode .btn,
+  body.kindle-mode .option-btn {
+    min-height: 48px;
+    font-size: 1.05rem;
+    border-radius: 6px;
+}
+
+body.kindle-mode select {
+    background-image: none;
+    border-color: #555;
+    background-color: #fff;
+}
+
+body.kindle-mode .btn {
+    border: 2px solid #222;
+    box-shadow: none;
+}
+
+  body.kindle-mode .btn-primary,
+  body.kindle-mode .btn-primary:hover,
+  body.kindle-mode .btn-failed,
+  body.kindle-mode .btn-failed:hover:not(:disabled) {
+    background: #222;
+    color: #fff;
+    border-color: #222;
+  }
+
+  body.kindle-mode .btn-secondary {
+    background: #fff;
+    color: #111;
+    border-color: #222;
+  }
+
+  body.kindle-mode .option-btn {
+    color: #111;
+    background: #fff;
+    border-color: #777;
+    line-height: 1.4;
+    padding: 10px 12px;
+  }
+
+  body.kindle-mode .option-btn:hover:not(:disabled) {
+    background: #fff;
+    border-color: #111;
+    transform: none;
+  }
+
+  body.kindle-mode .option-letter {
+    background: #ddd;
+    color: #111;
+  }
+
+  body.kindle-mode .option-btn.correct,
+  body.kindle-mode .option-btn.selected-wrong {
+    background: #eee;
+    border-color: #111;
+  }
+
+  body.kindle-mode .option-btn.correct {
+    border-width: 3px;
+    border-style: solid;
+  }
+
+  body.kindle-mode .option-btn.selected-wrong {
+    border-width: 3px;
+    border-style: dashed;
+  }
+
+  body.kindle-mode .option-btn.correct .option-letter,
+  body.kindle-mode .option-btn.selected-wrong .option-letter {
+    background: #111;
+    color: #fff;
+  }
+
+  body.kindle-mode .option-btn.correct::after,
+  body.kindle-mode .option-btn.selected-wrong::after {
+    margin-left: auto;
+    padding-left: 8px;
+    font-size: 0.72rem;
+    font-weight: 700;
+    white-space: nowrap;
+  }
+
+  body.kindle-mode .option-btn.correct::after {
+    content: 'CORRECTA';
+  }
+
+  body.kindle-mode .option-btn.selected-wrong::after {
+    content: 'INCORRECTA';
+  }
+
+  body.kindle-mode .progress-bar {
+    background: #222;
+  }
+
+  body.kindle-mode .timer-arc {
+    stroke: #222;
+  }
+
+  body.kindle-mode .badge {
+    background: #e5e5e5;
+    color: #111;
+    border: 1px solid #777;
+  }
+
+  body.kindle-mode .explanation-box,
+  body.kindle-mode .review-item {
+    background: #f1f1f1;
+    border-color: #222;
+  }
+
+  body.kindle-mode .review-wrong,
+  body.kindle-mode .review-correct,
+  body.kindle-mode .btn-link-danger {
+    color: #111;
+  }
+
+  body.kindle-mode .results-actions {
+    flex-direction: row;
+  }
+
+  body.kindle-mode .card {
+    overflow: visible;
+  }
+
+  body.kindle-mode #screen-quiz.active {
+    overflow: hidden;
+    min-height: calc(100vh - 24px);
+  }
+
+  body.kindle-mode #screen-quiz .question-card {
+    flex: 1;
+    gap: 8px;
+    padding: 16px 14px;
+    min-height: 0;
+  }
+
+  body.kindle-mode #screen-quiz .question-text {
+    font-size: 0.98rem;
+    line-height: 1.3;
+  }
+
+  body.kindle-mode #screen-quiz .options-container {
+    flex: 1;
+    gap: 6px;
+    min-height: 0;
+    overflow-y: auto;
+  }
+
+  body.kindle-mode #screen-quiz .option-btn {
+    min-height: 0;
+    padding: 7px 9px;
+    font-size: 0.88rem;
+    line-height: 1.25;
+  }
+
+  body.kindle-mode #screen-quiz .option-letter {
+    min-width: 24px;
+    width: 24px;
+    height: 24px;
+    font-size: 0.75rem;
+  }
+
+  body.kindle-mode #screen-quiz .option-btn::after {
+    font-size: 0.62rem;
+    padding-left: 4px;
+  }
+
+  body.kindle-mode #screen-quiz .btn-next {
+    flex-shrink: 0;
+    min-height: 44px;
+    padding: 9px 16px;
+  }
+
+  body.kindle-mode #screen-results.active,
+  body.kindle-mode #screen-results .results-card {
+    overflow: hidden;
+  }
+
+  body.kindle-mode #screen-results .review-container {
+    overflow-y: auto;
+    overflow-x: hidden;
+  }
+
+  body.kindle-mode #screen-results .results-card {
+    gap: 10px;
+    padding: 16px 14px;
+  }
+
+  body.kindle-mode #screen-results .review-container {
+    flex: 1 1 0;
+    min-height: 0;
+  }
+
+  body.kindle-mode #screen-results .review-item {
+    font-size: 0.9rem;
+    line-height: 1.3;
+    padding: 8px 10px;
+  }
+
+  body.kindle-mode #screen-results .review-pagination .btn {
+    min-height: 40px;
+    padding: 7px 8px;
+    font-size: 0.85rem;
+  }
+}
+
+/* Printable reading copy: useful when sending the quiz/results to a Kindle. */
+@media print {
+  body {
+    display: block;
+    padding: 0;
+    background: #fff;
+    color: #000;
+    font-family: Georgia, 'Times New Roman', serif;
+  }
+
+  .screen.active {
+    display: block;
+    max-width: none;
+  }
+
+  .card {
+    border: 0;
+    box-shadow: none;
+    padding: 0;
+  }
+
+  .btn,
+  .toggle,
+  .timer-container,
+  .progress-bar-wrapper,
+  .results-actions {
+    display: none !important;
+  }
+
+  .option-btn,
+  .review-item {
+    break-inside: avoid;
+    color: #000;
+    background: #fff;
+    border-color: #000;
+  }
+}

@@ -37,6 +37,10 @@ const scoreArc        = document.getElementById('score-arc');
 const reviewContainer = document.getElementById('review-container');
 const btnRestart      = document.getElementById('btn-restart');
 const btnHome         = document.getElementById('btn-home');
+const reviewPagination= document.getElementById('review-pagination');
+const btnReviewPrev   = document.getElementById('btn-review-prev');
+const btnReviewNext   = document.getElementById('btn-review-next');
+const reviewPageStatus= document.getElementById('review-page-status');
 
 // ── State ────────────────────────────────────────────
 let allQuestions   = [];
@@ -48,6 +52,9 @@ let timerInterval  = null;
 let timerRemaining = TIMER_SECONDS;
 let useTimer       = true;
 let failedMode     = false;
+let failedAnswers  = [];
+let reviewPage     = 0;
+let reviewPageSize = 1;
 
 // ── Historial de fallos (localStorage) ───────────────
 const FAILED_KEY = 'quiz_failed_ids';
@@ -117,7 +124,7 @@ function showScreen(name) {
 btnStart.addEventListener('click', () => { failedMode = false; startQuiz(); });
 
 function startQuiz() {
-  useTimer = timerToggle.checked;
+  useTimer = !document.body.classList.contains('kindle-mode') && timerToggle.checked;
 
   let pool;
   if (failedMode) {
@@ -179,6 +186,7 @@ function renderQuestion() {
     optionsContainer.appendChild(btn);
   });
 
+  btnNext.textContent = num === tot ? 'Ver resultados' : 'Siguiente →';
   btnNext.classList.add('hidden');
 
   // Timer
@@ -334,26 +342,76 @@ function showResults() {
     scoreArc.style.stroke = pct >= 0.6 ? 'var(--success)' : pct >= 0.4 ? 'var(--warning)' : 'var(--danger)';
   });
 
-  // Review list
+  failedAnswers = answers
+    .map((answer, index) => ({ ...answer, number: index + 1 }))
+    .filter(answer => !answer.isRight);
+  reviewPage = 0;
+  renderReviewPage();
+}
+
+function renderReviewPage() {
   reviewContainer.innerHTML = '';
-  answers.forEach((a, i) => {
-    if (a.isRight) return;
+
+  if (failedAnswers.length === 0) {
+    reviewPagination.classList.add('hidden');
+    return;
+  }
+
+  // Reserve the space for pagination before measuring the review area.
+  reviewPagination.classList.remove('hidden');
+  const createReviewItem = answer => {
     const item = document.createElement('div');
     item.className = 'review-item';
     item.innerHTML = `
       <div>
-        <div class="review-q">${i + 1}. ${a.question}</div>
+        <div class="review-q">${answer.number}. ${answer.question}</div>
         <div class="review-a">
-          Tu respuesta: <strong class="review-wrong">${a.chosen ?? 'Sin respuesta'}</strong><br>Correcta: <strong class="review-correct">${a.correct}</strong>
+          Tu respuesta: <strong class="review-wrong">${answer.chosen ?? 'Sin respuesta'}</strong><br>Correcta: <strong class="review-correct">${answer.correct}</strong>
         </div>
       </div>`;
-    reviewContainer.appendChild(item);
-  });
+    return item;
+  };
+
+  // Measure every card in the visible area, then keep only the cards that fit.
+  const measuredItems = failedAnswers.map(createReviewItem);
+  measuredItems.forEach(item => reviewContainer.appendChild(item));
+  const availableHeight = reviewContainer.clientHeight;
+  let usedHeight = 0;
+  reviewPageSize = measuredItems.reduce((count, item) => {
+    const nextHeight = item.offsetHeight + (count > 0 ? 8 : 0);
+    if (usedHeight + nextHeight > availableHeight && count > 0) return count;
+    usedHeight += nextHeight;
+    return count + 1;
+  }, 0) || 1;
+
+  const totalPages = Math.ceil(failedAnswers.length / reviewPageSize);
+  reviewPage = Math.min(reviewPage, totalPages - 1);
+  reviewContainer.innerHTML = '';
+  failedAnswers
+    .slice(reviewPage * reviewPageSize, (reviewPage + 1) * reviewPageSize)
+    .forEach(answer => reviewContainer.appendChild(createReviewItem(answer)));
+
+  reviewPagination.classList.toggle('hidden', totalPages <= 1);
+  reviewPageStatus.textContent = `${reviewPage + 1} / ${totalPages}`;
+  btnReviewPrev.disabled = reviewPage === 0;
+  btnReviewNext.disabled = reviewPage === totalPages - 1;
 }
 
 // ── Restart & Home ────────────────────────────────────
 btnRestart.addEventListener('click', startQuiz);
 btnHome.addEventListener('click', () => { refreshFailedBadge(); showScreen('home'); });
+btnReviewPrev.addEventListener('click', () => {
+  if (reviewPage > 0) {
+    reviewPage--;
+    renderReviewPage();
+  }
+});
+btnReviewNext.addEventListener('click', () => {
+  if (reviewPage < Math.ceil(failedAnswers.length / reviewPageSize) - 1) {
+    reviewPage++;
+    renderReviewPage();
+  }
+});
 
 document.getElementById('btn-start-failed').addEventListener('click', () => {
   failedMode = true;
