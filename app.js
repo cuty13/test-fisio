@@ -18,6 +18,7 @@ const questionCount   = document.getElementById('question-count');
 const timerToggle     = document.getElementById('timer-toggle');
 const btnStart        = document.getElementById('btn-start');
 const btnStartFailed  = document.getElementById('btn-start-failed');
+const examButtons     = document.getElementById('exam-buttons');
 
 const questionCounter = document.getElementById('question-counter');
 const categoryBadge   = document.getElementById('category-badge');
@@ -56,6 +57,7 @@ let failedMode     = false;
 let failedAnswers  = [];
 let reviewPage     = 0;
 let reviewPageSize = 1;
+let selectedCategory = 'all';
 
 // ── Historial de fallos (localStorage) ───────────────
 const FAILED_KEY = 'quiz_failed_ids';
@@ -84,7 +86,7 @@ function refreshFailedBadge() {
 
 // ── Boot ─────────────────────────────────────────────
 async function loadQuestions() {
-  btnStart.disabled = true;
+  if (btnStart) btnStart.disabled = true;
   btnStartFailed.disabled = true;
   try {
     const response = await fetch('questions.json');
@@ -104,7 +106,7 @@ async function loadQuestions() {
     return;
   }
   populateCategories();
-  btnStart.disabled = false;
+  if (btnStart) btnStart.disabled = false;
   refreshFailedBadge();
 }
 
@@ -112,6 +114,22 @@ loadQuestions();
 
 function populateCategories() {
   const cats = [...new Set(allQuestions.map(q => q.category))];
+  if (examButtons) {
+    examButtons.innerHTML = '';
+    cats.forEach(cat => {
+      const button = document.createElement('button');
+      button.type = 'button';
+      button.className = 'btn btn-primary exam-button';
+      button.textContent = cat;
+      button.addEventListener('click', () => {
+        selectedCategory = cat;
+        failedMode = false;
+        startQuiz();
+      });
+      examButtons.appendChild(button);
+    });
+    return;
+  }
   cats.forEach(cat => {
     const opt = document.createElement('option');
     opt.value = cat;
@@ -127,10 +145,10 @@ function showScreen(name) {
 }
 
 // ── Start ─────────────────────────────────────────────
-btnStart.addEventListener('click', () => { failedMode = false; startQuiz(); });
+btnStart?.addEventListener('click', () => { failedMode = false; startQuiz(); });
 
 function startQuiz() {
-  useTimer = !document.body.classList.contains('kindle-mode') && timerToggle.checked;
+  useTimer = !document.body.classList.contains('kindle-mode') && timerToggle?.checked;
 
   let pool;
   if (failedMode) {
@@ -142,8 +160,8 @@ function startQuiz() {
       return;
     }
   } else {
-    const cat   = categorySelect.value;
-    const count = questionCount.value;
+    const cat   = examButtons ? selectedCategory : categorySelect.value;
+    const count = examButtons ? 'all' : questionCount.value;
     pool = cat === 'all'
       ? [...allQuestions]
       : allQuestions.filter(q => q.category === cat);

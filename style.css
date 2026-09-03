@@ -113,12 +113,24 @@ h1 {
 }
 
 .category-section,
-.options-section {
+.options-section,
+.exam-buttons-section {
   width: 100%;
   display: flex;
   flex-direction: column;
   gap: 6px;
   text-align: left;
+}
+
+.exam-buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 100%;
+}
+
+.exam-button {
+  text-align: center;
 }
 
 label {

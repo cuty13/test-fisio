@@ -11,20 +11,10 @@
     <div class="card home-card">
       <h1>Test Fisio</h1>
       <p class="subtitle">Pon a prueba tus conocimientos</p>
-      <div class="category-section">
-        <label for="category-select">Examen</label>
-        <select id="category-select"><option value="all">Todos los exámenes</option></select>
+      <div class="exam-buttons-section">
+        <label>Elige un examen</label>
+        <div id="exam-buttons" class="exam-buttons"></div>
       </div>
-      <div class="options-section">
-        <label for="question-count">Número de preguntas</label>
-        <select id="question-count">
-          <option value="5">5 preguntas</option>
-          <option value="10" selected>10 preguntas</option>
-          <option value="15">15 preguntas</option>
-          <option value="all">Todas</option>
-        </select>
-      </div>
-      <button id="btn-start" class="btn btn-primary" disabled>Empezar</button>
       <button id="btn-start-failed" class="btn btn-failed" disabled>
         Repasar falladas &nbsp;<span id="failed-count-badge" class="failed-badge">0</span>
       </button>
