@@ -726,9 +726,13 @@ body.kindle-mode select,
 }
 
 body.kindle-mode select {
+    appearance: auto;
+    -webkit-appearance: menulist;
     background-image: none;
     border-color: #555;
     background-color: #fff;
+    color: #111;
+    padding-right: 8px;
 }
 
 body.kindle-mode .btn {

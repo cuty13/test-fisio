@@ -17,6 +17,7 @@ const categorySelect  = document.getElementById('category-select');
 const questionCount   = document.getElementById('question-count');
 const timerToggle     = document.getElementById('timer-toggle');
 const btnStart        = document.getElementById('btn-start');
+const btnStartFailed  = document.getElementById('btn-start-failed');
 
 const questionCounter = document.getElementById('question-counter');
 const categoryBadge   = document.getElementById('category-badge');
@@ -83,8 +84,11 @@ function refreshFailedBadge() {
 
 // ── Boot ─────────────────────────────────────────────
 async function loadQuestions() {
+  btnStart.disabled = true;
+  btnStartFailed.disabled = true;
   try {
     const response = await fetch('questions.json');
+    if (!response.ok) throw new Error(`HTTP ${response.status}`);
     const data = await response.json();
     allQuestions = data.map(q => ({
       id:         q.id,
@@ -97,8 +101,10 @@ async function loadQuestions() {
   } catch (e) {
     console.error('Error cargando questions.json:', e);
     alert('No se pudo cargar questions.json. Abre la app desde un servidor local (ej. Live Server).');
+    return;
   }
   populateCategories();
+  btnStart.disabled = false;
   refreshFailedBadge();
 }
 
