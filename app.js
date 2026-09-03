@@ -89,9 +89,7 @@ async function loadQuestions() {
   if (btnStart) btnStart.disabled = true;
   btnStartFailed.disabled = true;
   try {
-    const response = await fetch('questions.json');
-    if (!response.ok) throw new Error(`HTTP ${response.status}`);
-    const data = await response.json();
+    const data = await loadQuestionData();
     allQuestions = data.map(q => ({
       id:         q.id,
       numeracion: q.numeracion,
@@ -108,6 +106,27 @@ async function loadQuestions() {
   populateCategories();
   if (btnStart) btnStart.disabled = false;
   refreshFailedBadge();
+}
+
+function loadQuestionData() {
+  return new Promise((resolve, reject) => {
+    const request = new XMLHttpRequest();
+    request.open('GET', 'questions.json', true);
+    request.onreadystatechange = () => {
+      if (request.readyState !== XMLHttpRequest.DONE) return;
+      if ((request.status >= 200 && request.status < 300) || request.status === 0) {
+        try {
+          resolve(JSON.parse(request.responseText));
+        } catch (error) {
+          reject(error);
+        }
+      } else {
+        reject(new Error(`HTTP ${request.status}`));
+      }
+    };
+    request.onerror = () => reject(new Error('No se pudo leer questions.json'));
+    request.send();
+  });
 }
 
 loadQuestions();
