@@ -7034,6 +7034,10 @@ function renderQuestion() {
         btn.innerHTML = "\n      <span class=\"option-letter\">".concat(letters[i], "</span>\n      <span>").concat(opt, "</span>");
         btn.addEventListener('click', function (event) {
             event.stopPropagation();
+            if (questionAnswered) {
+                advanceAfterAnswer();
+                return;
+            }
             selectOption(i, btn);
         });
         optionsContainer.appendChild(btn);
@@ -7082,6 +7086,8 @@ function selectOption(chosenIndex, btn) {
     btnNext.classList.remove('hidden');
 }
 function disableOptions() {
+    if (document.body.classList.contains('kindle-mode'))
+        return;
     __spreadArray([], optionsContainer.querySelectorAll('.option-btn'), true).forEach(function (b) { return (b.disabled = true); });
 }
 // ── Next button ───────────────────────────────────────

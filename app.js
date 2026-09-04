@@ -241,6 +241,10 @@ function renderQuestion() {
       <span>${opt}</span>`;
     btn.addEventListener('click', event => {
       event.stopPropagation();
+      if (questionAnswered) {
+        advanceAfterAnswer();
+        return;
+      }
       selectOption(i, btn);
     });
     optionsContainer.appendChild(btn);
@@ -295,6 +299,7 @@ function selectOption(chosenIndex, btn) {
 }
 
 function disableOptions() {
+  if (document.body.classList.contains('kindle-mode')) return;
   [...optionsContainer.querySelectorAll('.option-btn')].forEach(b => (b.disabled = true));
 }
 
