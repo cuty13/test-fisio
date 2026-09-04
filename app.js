@@ -68,7 +68,12 @@ function getFailedIds() {
 }
 
 function saveFailedIds(set) {
-  localStorage.setItem(FAILED_KEY, JSON.stringify([...set]));
+  try {
+    localStorage.setItem(FAILED_KEY, JSON.stringify([...set]));
+  } catch (error) {
+    // Algunos navegadores Kindle bloquean localStorage; el test sigue siendo usable.
+    console.warn('No se pudo guardar el historial de fallos:', error);
+  }
 }
 
 function updateFailedStorage(id, isRight) {
@@ -109,6 +114,9 @@ async function loadQuestions() {
 }
 
 function loadQuestionData() {
+  if (window.KINDLE_QUESTIONS) {
+    return Promise.resolve(window.KINDLE_QUESTIONS);
+  }
   return new Promise((resolve, reject) => {
     const request = new XMLHttpRequest();
     request.open('GET', 'questions.json', true);
