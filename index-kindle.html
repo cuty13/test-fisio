@@ -7094,7 +7094,7 @@ btnNext.addEventListener('click', function () {
         showResults();
     }
 });
-screens.quiz.addEventListener('click', function () {
+function advanceAfterAnswer() {
     if (!questionAnswered)
         return;
     currentIndex++;
@@ -7104,6 +7104,22 @@ screens.quiz.addEventListener('click', function () {
     else {
         showResults();
     }
+}
+function isOptionTarget(target) {
+    while (target && target !== document) {
+        if (target.className && String(target.className).indexOf('option-btn') !== -1) {
+            return true;
+        }
+        target = target.parentNode;
+    }
+    return false;
+}
+document.addEventListener('click', function (event) {
+    if (!screens.quiz.classList.contains('active'))
+        return;
+    if (isOptionTarget(event.target))
+        return;
+    advanceAfterAnswer();
 });
 // ── Timer ─────────────────────────────────────────────
 function startTimer() {

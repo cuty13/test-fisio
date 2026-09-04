@@ -308,7 +308,7 @@ btnNext.addEventListener('click', () => {
   }
 });
 
-screens.quiz.addEventListener('click', () => {
+function advanceAfterAnswer() {
   if (!questionAnswered) return;
   currentIndex++;
   if (currentIndex < quizQuestions.length) {
@@ -316,6 +316,22 @@ screens.quiz.addEventListener('click', () => {
   } else {
     showResults();
   }
+}
+
+function isOptionTarget(target) {
+  while (target && target !== document) {
+    if (target.className && String(target.className).indexOf('option-btn') !== -1) {
+      return true;
+    }
+    target = target.parentNode;
+  }
+  return false;
+}
+
+document.addEventListener('click', event => {
+  if (!screens.quiz.classList.contains('active')) return;
+  if (isOptionTarget(event.target)) return;
+  advanceAfterAnswer();
 });
 
 // ── Timer ─────────────────────────────────────────────
