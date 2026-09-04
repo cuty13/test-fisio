@@ -652,9 +652,16 @@ body.kindle-mode {
   font-family: Arial, Helvetica, sans-serif;
   padding: 12px;
   background: #fff;
-  height: 100vh;
+  width: 758px;
+  max-width: 100%;
+  height: 899px;
+  max-height: 100vh;
   min-height: 0;
   overflow: hidden;
+}
+
+body.kindle-mode .screen {
+  max-width: 758px;
 }
 
 body.kindle-mode *,
@@ -682,7 +689,7 @@ body.kindle-mode #category-badge {
 }
 
 body.kindle-mode .screen {
-    max-width: 640px;
+    max-width: 758px;
     height: calc(100vh - 24px);
     min-height: 0;
     overflow: hidden;
