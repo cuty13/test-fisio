@@ -652,17 +652,18 @@ body.kindle-mode {
   font-family: Arial, Helvetica, sans-serif;
   padding: 12px;
   background: #fff;
-  width: 758px;
-  max-width: 100%;
-  height: 899px;
-  max-height: 100vh;
+  width: 100%;
+  max-width: 100vw;
+  min-height: 100vh;
+  height: auto;
   min-height: 0;
   overflow-x: hidden;
   overflow-y: auto;
 }
 
 body.kindle-mode .screen {
-  max-width: 758px;
+  width: 100%;
+  max-width: 100%;
 }
 
 body.kindle-mode *,
@@ -690,8 +691,10 @@ body.kindle-mode #category-badge {
 }
 
 body.kindle-mode .screen {
-    max-width: 758px;
-    height: calc(100vh - 24px);
+    width: 100%;
+    max-width: 100%;
+    min-height: calc(100vh - 24px);
+    height: auto;
     min-height: 0;
     overflow: hidden;
 }
