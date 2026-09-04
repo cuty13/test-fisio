@@ -821,7 +821,7 @@ body.kindle-mode .btn {
 
   body.kindle-mode .explanation-box,
   body.kindle-mode .review-item {
-    background: #f1f1f1;
+    background: transparent;
     border-color: #222;
   }
 
@@ -914,7 +914,31 @@ body.kindle-mode .btn {
   body.kindle-mode #screen-results .review-item {
     font-size: 0.9rem;
     line-height: 1.3;
-    padding: 8px 10px;
+    padding: 4px 0;
+  }
+
+  body.kindle-mode #screen-results .score-circle {
+    width: auto;
+    height: auto;
+  }
+
+  body.kindle-mode #screen-results .score-circle svg {
+    display: none;
+  }
+
+  body.kindle-mode #screen-results .score-text {
+    position: static;
+    flex-direction: row;
+    gap: 4px;
+    white-space: nowrap;
+  }
+
+  body.kindle-mode #screen-results #score-value {
+    font-size: 1.35rem;
+  }
+
+  body.kindle-mode #screen-results .score-total {
+    font-size: 1rem;
   }
 
   body.kindle-mode #screen-results .review-pagination .btn {
