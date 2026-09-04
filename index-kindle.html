@@ -657,7 +657,8 @@ body.kindle-mode {
   height: 899px;
   max-height: 100vh;
   min-height: 0;
-  overflow: hidden;
+  overflow-x: hidden;
+  overflow-y: auto;
 }
 
 body.kindle-mode .screen {
@@ -847,12 +848,13 @@ body.kindle-mode .btn {
   }
 
   body.kindle-mode #screen-quiz.active {
-    overflow: hidden;
-    min-height: calc(100vh - 24px);
+    height: auto;
+    min-height: 0;
+    overflow: visible;
   }
 
   body.kindle-mode #screen-quiz .question-card {
-    flex: 1;
+    flex: 0 0 auto;
     gap: 8px;
     padding: 16px 14px;
     min-height: 0;
@@ -866,10 +868,10 @@ body.kindle-mode .btn {
   }
 
   body.kindle-mode #screen-quiz .options-container {
-    flex: 1;
+    flex: 0 0 auto;
     gap: 6px;
     min-height: 0;
-    overflow-y: auto;
+    overflow: visible;
   }
 
   body.kindle-mode #screen-quiz .option-btn {
