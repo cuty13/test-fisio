@@ -6945,6 +6945,7 @@ function populateCategories() {
         if (cats.indexOf(q.category) === -1)
             cats.push(q.category);
     });
+    cats.sort(function (a, b) { return a.localeCompare(b, 'es'); });
     if (examButtons) {
         examButtons.innerHTML = '';
         cats.forEach(function (cat) {

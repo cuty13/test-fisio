@@ -144,6 +144,7 @@ function populateCategories() {
   allQuestions.forEach(q => {
     if (cats.indexOf(q.category) === -1) cats.push(q.category);
   });
+  cats.sort((a, b) => a.localeCompare(b, 'es'));
   if (examButtons) {
     examButtons.innerHTML = '';
     cats.forEach(cat => {
