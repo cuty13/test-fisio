@@ -6732,487 +6732,526 @@ body.kindle-mode .btn {
 /* ===================================================
    Quiz App – app.js
    =================================================== */
-
-const TIMER_SECONDS = 49;
-const CIRCUMFERENCE_SMALL = 2 * Math.PI * 18; // r=18  → 113.1
-const CIRCUMFERENCE_LARGE = 2 * Math.PI * 54; // r=54  → 339.3
-
-// ── DOM references ──────────────────────────────────
-const screens = {
-  home:    document.getElementById('screen-home'),
-  quiz:    document.getElementById('screen-quiz'),
-  results: document.getElementById('screen-results'),
-};
-
-const categorySelect  = document.getElementById('category-select');
-const questionCount   = document.getElementById('question-count');
-const timerToggle     = document.getElementById('timer-toggle');
-const btnStart        = document.getElementById('btn-start');
-const btnStartFailed  = document.getElementById('btn-start-failed');
-const examButtons     = document.getElementById('exam-buttons');
-
-const questionCounter = document.getElementById('question-counter');
-const categoryBadge   = document.getElementById('category-badge');
-const timerContainer  = document.getElementById('timer-container');
-const timerCircle     = document.getElementById('timer-circle');
-const timerText       = document.getElementById('timer-text');
-const progressBar     = document.getElementById('progress-bar');
-const questionText    = document.getElementById('question-text');
-const optionsContainer= document.getElementById('options-container');
-const btnNext         = document.getElementById('btn-next');
-
-const resultEmoji     = document.getElementById('result-emoji');
-const resultTitle     = document.getElementById('result-title');
-const resultSubtitle  = document.getElementById('result-subtitle');
-const scoreValue      = document.getElementById('score-value');
-const scoreTotal      = document.getElementById('score-total');
-const scoreArc        = document.getElementById('score-arc');
-const reviewContainer = document.getElementById('review-container');
-const btnRestart      = document.getElementById('btn-restart');
-const btnHome         = document.getElementById('btn-home');
-const reviewPagination= document.getElementById('review-pagination');
-const btnReviewPrev   = document.getElementById('btn-review-prev');
-const btnReviewNext   = document.getElementById('btn-review-next');
-const reviewPageStatus= document.getElementById('review-page-status');
-
-// ── State ────────────────────────────────────────────
-let allQuestions   = [];
-let quizQuestions  = [];
-let currentIndex   = 0;
-let score          = 0;
-let answers        = [];   // { question, correct, chosen, isRight }
-let timerInterval  = null;
-let timerRemaining = TIMER_SECONDS;
-let useTimer       = true;
-let failedMode     = false;
-let failedAnswers  = [];
-let reviewPage     = 0;
-let reviewPageSize = 1;
-let selectedCategory = 'all';
-
-// ── Historial de fallos (localStorage) ───────────────
-const FAILED_KEY = 'quiz_failed_ids';
-
-function getFailedIds() {
-  try { return new Set(JSON.parse(localStorage.getItem(FAILED_KEY) || '[]')); }
-  catch { return new Set(); }
-}
-
-function saveFailedIds(set) {
-  try {
-    localStorage.setItem(FAILED_KEY, JSON.stringify([...set]));
-  } catch (error) {
-    // Algunos navegadores Kindle bloquean localStorage; el test sigue siendo usable.
-    console.warn('No se pudo guardar el historial de fallos:', error);
-  }
-}
-
-function updateFailedStorage(id, isRight) {
-  const failed = getFailedIds();
-  isRight ? failed.delete(id) : failed.add(id);
-  saveFailedIds(failed);
-  refreshFailedBadge();
-}
-
-function refreshFailedBadge() {
-  const count = getFailedIds().size;
-  document.getElementById('failed-count-badge').textContent = count;
-  document.getElementById('btn-start-failed').disabled = count === 0;
-}
-
-// ── Boot ─────────────────────────────────────────────
-async function loadQuestions() {
-  if (btnStart) btnStart.disabled = true;
-  btnStartFailed.disabled = true;
-  try {
-    const data = await loadQuestionData();
-    allQuestions = data.map(q => ({
-      id:         q.id,
-      numeracion: q.numeracion,
-      category:   q.tipo,
-      question:   q.pregunta,
-      options:    q.opciones,
-      correct:    q.correcta,
-    }));
-  } catch (e) {
-    console.error('Error cargando questions.json:', e);
-    alert('No se pudo cargar questions.json. Abre la app desde un servidor local (ej. Live Server).');
-    return;
-  }
-  populateCategories();
-  if (btnStart) btnStart.disabled = false;
-  refreshFailedBadge();
-}
-
-function loadQuestionData() {
-  if (window.KINDLE_QUESTIONS) {
-    return Promise.resolve(window.KINDLE_QUESTIONS);
-  }
-  return new Promise((resolve, reject) => {
-    const request = new XMLHttpRequest();
-    request.open('GET', 'questions.json', true);
-    request.onreadystatechange = () => {
-      if (request.readyState !== XMLHttpRequest.DONE) return;
-      if ((request.status >= 200 && request.status < 300) || request.status === 0) {
-        try {
-          resolve(JSON.parse(request.responseText));
-        } catch (error) {
-          reject(error);
+var __assign = (this && this.__assign) || function () {
+    __assign = Object.assign || function(t) {
+        for (var s, i = 1, n = arguments.length; i < n; i++) {
+            s = arguments[i];
+            for (var p in s) if (Object.prototype.hasOwnProperty.call(s, p))
+                t[p] = s[p];
         }
-      } else {
-        reject(new Error(`HTTP ${request.status}`));
-      }
+        return t;
     };
-    request.onerror = () => reject(new Error('No se pudo leer questions.json'));
-    request.send();
-  });
-}
-
-loadQuestions();
-
-function populateCategories() {
-  const cats = [...new Set(allQuestions.map(q => q.category))];
-  if (examButtons) {
-    examButtons.innerHTML = '';
-    cats.forEach(cat => {
-      const button = document.createElement('button');
-      button.type = 'button';
-      button.className = 'btn btn-primary exam-button';
-      button.textContent = cat;
-      button.addEventListener('click', () => {
-        selectedCategory = cat;
-        failedMode = false;
-        startQuiz();
-      });
-      examButtons.appendChild(button);
+    return __assign.apply(this, arguments);
+};
+var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, generator) {
+    function adopt(value) { return value instanceof P ? value : new P(function (resolve) { resolve(value); }); }
+    return new (P || (P = Promise))(function (resolve, reject) {
+        function fulfilled(value) { try { step(generator.next(value)); } catch (e) { reject(e); } }
+        function rejected(value) { try { step(generator["throw"](value)); } catch (e) { reject(e); } }
+        function step(result) { result.done ? resolve(result.value) : adopt(result.value).then(fulfilled, rejected); }
+        step((generator = generator.apply(thisArg, _arguments || [])).next());
     });
-    return;
-  }
-  cats.forEach(cat => {
-    const opt = document.createElement('option');
-    opt.value = cat;
-    opt.textContent = cat;
-    categorySelect.appendChild(opt);
-  });
+};
+var __generator = (this && this.__generator) || function (thisArg, body) {
+    var _ = { label: 0, sent: function() { if (t[0] & 1) throw t[1]; return t[1]; }, trys: [], ops: [] }, f, y, t, g;
+    return g = { next: verb(0), "throw": verb(1), "return": verb(2) }, typeof Symbol === "function" && (g[Symbol.iterator] = function() { return this; }), g;
+    function verb(n) { return function (v) { return step([n, v]); }; }
+    function step(op) {
+        if (f) throw new TypeError("Generator is already executing.");
+        while (g && (g = 0, op[0] && (_ = 0)), _) try {
+            if (f = 1, y && (t = op[0] & 2 ? y["return"] : op[0] ? y["throw"] || ((t = y["return"]) && t.call(y), 0) : y.next) && !(t = t.call(y, op[1])).done) return t;
+            if (y = 0, t) op = [op[0] & 2, t.value];
+            switch (op[0]) {
+                case 0: case 1: t = op; break;
+                case 4: _.label++; return { value: op[1], done: false };
+                case 5: _.label++; y = op[1]; op = [0]; continue;
+                case 7: op = _.ops.pop(); _.trys.pop(); continue;
+                default:
+                    if (!(t = _.trys, t = t.length > 0 && t[t.length - 1]) && (op[0] === 6 || op[0] === 2)) { _ = 0; continue; }
+                    if (op[0] === 3 && (!t || (op[1] > t[0] && op[1] < t[3]))) { _.label = op[1]; break; }
+                    if (op[0] === 6 && _.label < t[1]) { _.label = t[1]; t = op; break; }
+                    if (t && _.label < t[2]) { _.label = t[2]; _.ops.push(op); break; }
+                    if (t[2]) _.ops.pop();
+                    _.trys.pop(); continue;
+            }
+            op = body.call(thisArg, _);
+        } catch (e) { op = [6, e]; y = 0; } finally { f = t = 0; }
+        if (op[0] & 5) throw op[1]; return { value: op[0] ? op[1] : void 0, done: true };
+    }
+};
+var __spreadArray = (this && this.__spreadArray) || function (to, from, pack) {
+    if (pack || arguments.length === 2) for (var i = 0, l = from.length, ar; i < l; i++) {
+        if (ar || !(i in from)) {
+            if (!ar) ar = Array.prototype.slice.call(from, 0, i);
+            ar[i] = from[i];
+        }
+    }
+    return to.concat(ar || Array.prototype.slice.call(from));
+};
+var TIMER_SECONDS = 49;
+var CIRCUMFERENCE_SMALL = 2 * Math.PI * 18; // r=18  → 113.1
+var CIRCUMFERENCE_LARGE = 2 * Math.PI * 54; // r=54  → 339.3
+// ── DOM references ──────────────────────────────────
+var screens = {
+    home: document.getElementById('screen-home'),
+    quiz: document.getElementById('screen-quiz'),
+    results: document.getElementById('screen-results'),
+};
+var categorySelect = document.getElementById('category-select');
+var questionCount = document.getElementById('question-count');
+var timerToggle = document.getElementById('timer-toggle');
+var btnStart = document.getElementById('btn-start');
+var btnStartFailed = document.getElementById('btn-start-failed');
+var examButtons = document.getElementById('exam-buttons');
+var questionCounter = document.getElementById('question-counter');
+var categoryBadge = document.getElementById('category-badge');
+var timerContainer = document.getElementById('timer-container');
+var timerCircle = document.getElementById('timer-circle');
+var timerText = document.getElementById('timer-text');
+var progressBar = document.getElementById('progress-bar');
+var questionText = document.getElementById('question-text');
+var optionsContainer = document.getElementById('options-container');
+var btnNext = document.getElementById('btn-next');
+var resultEmoji = document.getElementById('result-emoji');
+var resultTitle = document.getElementById('result-title');
+var resultSubtitle = document.getElementById('result-subtitle');
+var scoreValue = document.getElementById('score-value');
+var scoreTotal = document.getElementById('score-total');
+var scoreArc = document.getElementById('score-arc');
+var reviewContainer = document.getElementById('review-container');
+var btnRestart = document.getElementById('btn-restart');
+var btnHome = document.getElementById('btn-home');
+var reviewPagination = document.getElementById('review-pagination');
+var btnReviewPrev = document.getElementById('btn-review-prev');
+var btnReviewNext = document.getElementById('btn-review-next');
+var reviewPageStatus = document.getElementById('review-page-status');
+// ── State ────────────────────────────────────────────
+var allQuestions = [];
+var quizQuestions = [];
+var currentIndex = 0;
+var score = 0;
+var answers = []; // { question, correct, chosen, isRight }
+var timerInterval = null;
+var timerRemaining = TIMER_SECONDS;
+var useTimer = true;
+var failedMode = false;
+var failedAnswers = [];
+var reviewPage = 0;
+var reviewPageSize = 1;
+var selectedCategory = 'all';
+// ── Historial de fallos (localStorage) ───────────────
+var FAILED_KEY = 'quiz_failed_ids';
+function getFailedIds() {
+    try {
+        return new Set(JSON.parse(localStorage.getItem(FAILED_KEY) || '[]'));
+    }
+    catch (_a) {
+        return new Set();
+    }
 }
-
+function saveFailedIds(set) {
+    try {
+        localStorage.setItem(FAILED_KEY, JSON.stringify(__spreadArray([], set, true)));
+    }
+    catch (error) {
+        // Algunos navegadores Kindle bloquean localStorage; el test sigue siendo usable.
+        console.warn('No se pudo guardar el historial de fallos:', error);
+    }
+}
+function updateFailedStorage(id, isRight) {
+    var failed = getFailedIds();
+    isRight ? failed.delete(id) : failed.add(id);
+    saveFailedIds(failed);
+    refreshFailedBadge();
+}
+function refreshFailedBadge() {
+    var count = getFailedIds().size;
+    document.getElementById('failed-count-badge').textContent = count;
+    document.getElementById('btn-start-failed').disabled = count === 0;
+}
+// ── Boot ─────────────────────────────────────────────
+function loadQuestions() {
+    return __awaiter(this, void 0, void 0, function () {
+        var data, e_1;
+        return __generator(this, function (_a) {
+            switch (_a.label) {
+                case 0:
+                    if (btnStart)
+                        btnStart.disabled = true;
+                    btnStartFailed.disabled = true;
+                    _a.label = 1;
+                case 1:
+                    _a.trys.push([1, 3, , 4]);
+                    return [4 /*yield*/, loadQuestionData()];
+                case 2:
+                    data = _a.sent();
+                    allQuestions = data.map(function (q) { return ({
+                        id: q.id,
+                        numeracion: q.numeracion,
+                        category: q.tipo,
+                        question: q.pregunta,
+                        options: q.opciones,
+                        correct: q.correcta,
+                    }); });
+                    return [3 /*break*/, 4];
+                case 3:
+                    e_1 = _a.sent();
+                    console.error('Error cargando questions.json:', e_1);
+                    alert('No se pudo cargar questions.json. Abre la app desde un servidor local (ej. Live Server).');
+                    return [2 /*return*/];
+                case 4:
+                    populateCategories();
+                    if (btnStart)
+                        btnStart.disabled = false;
+                    refreshFailedBadge();
+                    return [2 /*return*/];
+            }
+        });
+    });
+}
+function loadQuestionData() {
+    if (window.KINDLE_QUESTIONS) {
+        return Promise.resolve(window.KINDLE_QUESTIONS);
+    }
+    return new Promise(function (resolve, reject) {
+        var request = new XMLHttpRequest();
+        request.open('GET', 'questions.json', true);
+        request.onreadystatechange = function () {
+            if (request.readyState !== XMLHttpRequest.DONE)
+                return;
+            if ((request.status >= 200 && request.status < 300) || request.status === 0) {
+                try {
+                    resolve(JSON.parse(request.responseText));
+                }
+                catch (error) {
+                    reject(error);
+                }
+            }
+            else {
+                reject(new Error("HTTP ".concat(request.status)));
+            }
+        };
+        request.onerror = function () { return reject(new Error('No se pudo leer questions.json')); };
+        request.send();
+    });
+}
+loadQuestions();
+function populateCategories() {
+    var cats = [];
+    allQuestions.forEach(function (q) {
+        if (cats.indexOf(q.category) === -1)
+            cats.push(q.category);
+    });
+    if (examButtons) {
+        examButtons.innerHTML = '';
+        cats.forEach(function (cat) {
+            var button = document.createElement('button');
+            button.type = 'button';
+            button.className = 'btn btn-primary exam-button';
+            button.textContent = cat;
+            button.addEventListener('click', function () {
+                selectedCategory = cat;
+                failedMode = false;
+                startQuiz();
+            });
+            examButtons.appendChild(button);
+        });
+        return;
+    }
+    cats.forEach(function (cat) {
+        var opt = document.createElement('option');
+        opt.value = cat;
+        opt.textContent = cat;
+        categorySelect.appendChild(opt);
+    });
+}
 // ── Navigation ───────────────────────────────────────
 function showScreen(name) {
-  Object.values(screens).forEach(s => s.classList.remove('active'));
-  screens[name].classList.add('active');
+    Object.values(screens).forEach(function (s) { return s.classList.remove('active'); });
+    screens[name].classList.add('active');
 }
-
 // ── Start ─────────────────────────────────────────────
-btnStart?.addEventListener('click', () => { failedMode = false; startQuiz(); });
-
+btnStart === null || btnStart === void 0 ? void 0 : btnStart.addEventListener('click', function () { failedMode = false; startQuiz(); });
 function startQuiz() {
-  useTimer = !document.body.classList.contains('kindle-mode') && timerToggle?.checked;
-
-  let pool;
-  if (failedMode) {
-    const failedIds = getFailedIds();
-    pool = allQuestions.filter(q => failedIds.has(q.id));
-    if (pool.length === 0) {
-      alert('No tienes preguntas falladas guardadas.');
-      failedMode = false;
-      return;
+    useTimer = !document.body.classList.contains('kindle-mode') && (timerToggle === null || timerToggle === void 0 ? void 0 : timerToggle.checked);
+    var pool;
+    if (failedMode) {
+        var failedIds_1 = getFailedIds();
+        pool = allQuestions.filter(function (q) { return failedIds_1.has(q.id); });
+        if (pool.length === 0) {
+            alert('No tienes preguntas falladas guardadas.');
+            failedMode = false;
+            return;
+        }
     }
-  } else {
-    const cat   = examButtons ? selectedCategory : categorySelect.value;
-    const count = examButtons ? 'all' : questionCount.value;
-    pool = cat === 'all'
-      ? [...allQuestions]
-      : allQuestions.filter(q => q.category === cat);
-    if (pool.length === 0) {
-      alert('No hay preguntas para esta categoría. Selecciona otra.');
-      return;
+    else {
+        var cat_1 = examButtons ? selectedCategory : categorySelect.value;
+        var count = examButtons ? 'all' : questionCount.value;
+        pool = cat_1 === 'all'
+            ? __spreadArray([], allQuestions, true) : allQuestions.filter(function (q) { return q.category === cat_1; });
+        if (pool.length === 0) {
+            alert('No hay preguntas para esta categoría. Selecciona otra.');
+            return;
+        }
+        shuffle(pool);
+        if (count !== 'all')
+            pool = pool.slice(0, Number(count));
     }
     shuffle(pool);
-    if (count !== 'all') pool = pool.slice(0, Number(count));
-  }
-
-  shuffle(pool);
-  quizQuestions = pool;
-  currentIndex  = 0;
-  score         = 0;
-  answers       = [];
-
-  showScreen('quiz');
-  renderQuestion();
+    quizQuestions = pool;
+    currentIndex = 0;
+    score = 0;
+    answers = [];
+    showScreen('quiz');
+    renderQuestion();
 }
-
 // ── Question render ───────────────────────────────────
 function renderQuestion() {
-  const q   = quizQuestions[currentIndex];
-  const num = currentIndex + 1;
-  const tot = quizQuestions.length;
-
-  // Header
-  questionCounter.textContent = `${num} / ${tot}`;
-  categoryBadge.textContent   = q.category;
-  progressBar.style.width     = `${((num - 1) / tot) * 100}%`;
-
-  // Question
-  questionText.textContent = q.question;
-
-  // Options
-  optionsContainer.innerHTML = '';
-  const letters = ['A', 'B', 'C', 'D'];
-  q.options.forEach((opt, i) => {
-    const btn = document.createElement('button');
-    btn.className = 'option-btn';
-    btn.innerHTML = `
-      <span class="option-letter">${letters[i]}</span>
-      <span>${opt}</span>`;
-    btn.addEventListener('click', () => selectOption(i, btn));
-    optionsContainer.appendChild(btn);
-  });
-
-  btnNext.textContent = num === tot ? 'Ver resultados' : 'Siguiente →';
-  btnNext.classList.add('hidden');
-
-  // Timer
-  timerContainer.style.display = useTimer ? 'flex' : 'none';
-  if (useTimer) startTimer();
+    var q = quizQuestions[currentIndex];
+    var num = currentIndex + 1;
+    var tot = quizQuestions.length;
+    // Header
+    questionCounter.textContent = "".concat(num, " / ").concat(tot);
+    categoryBadge.textContent = q.category;
+    progressBar.style.width = "".concat(((num - 1) / tot) * 100, "%");
+    // Question
+    questionText.textContent = q.question;
+    // Options
+    optionsContainer.innerHTML = '';
+    var letters = ['A', 'B', 'C', 'D'];
+    q.options.forEach(function (opt, i) {
+        var btn = document.createElement('button');
+        btn.className = 'option-btn';
+        btn.innerHTML = "\n      <span class=\"option-letter\">".concat(letters[i], "</span>\n      <span>").concat(opt, "</span>");
+        btn.addEventListener('click', function () { return selectOption(i, btn); });
+        optionsContainer.appendChild(btn);
+    });
+    btnNext.textContent = num === tot ? 'Ver resultados' : 'Siguiente →';
+    btnNext.classList.add('hidden');
+    // Timer
+    timerContainer.style.display = useTimer ? 'flex' : 'none';
+    if (useTimer)
+        startTimer();
 }
-
 // ── Option selection ──────────────────────────────────
 function selectOption(chosenIndex, btn) {
-  stopTimer();
-  disableOptions();
-
-  const q            = quizQuestions[currentIndex];
-  const correctIndex = q.correct;
-  const isRight      = chosenIndex === correctIndex;
-
-  if (isRight) {
-    score++;
-    btn.classList.add('correct');
-  } else {
-    btn.classList.add('selected-wrong');
-    // Highlight the correct one
-    optionsContainer.children[correctIndex].classList.add('correct');
-  }
-
-  // Show explanation
-  if (q.explanation) {
-    const box = document.createElement('div');
-    box.className   = 'explanation-box';
-    box.textContent = '💡 ' + q.explanation;
-    optionsContainer.appendChild(box);
-  }
-
-  answers.push({
-    question: q.question,
-    correct:  q.options[correctIndex],
-    chosen:   q.options[chosenIndex],
-    isRight,
-  });
-  updateFailedStorage(q.id, isRight);
-
-  progressBar.style.width = `${(currentIndex + 1) / quizQuestions.length * 100}%`;
-  btnNext.classList.remove('hidden');
+    stopTimer();
+    disableOptions();
+    var q = quizQuestions[currentIndex];
+    var correctIndex = q.correct;
+    var isRight = chosenIndex === correctIndex;
+    if (isRight) {
+        score++;
+        btn.classList.add('correct');
+    }
+    else {
+        btn.classList.add('selected-wrong');
+        // Highlight the correct one
+        optionsContainer.children[correctIndex].classList.add('correct');
+    }
+    // Show explanation
+    if (q.explanation) {
+        var box = document.createElement('div');
+        box.className = 'explanation-box';
+        box.textContent = '💡 ' + q.explanation;
+        optionsContainer.appendChild(box);
+    }
+    answers.push({
+        question: q.question,
+        correct: q.options[correctIndex],
+        chosen: q.options[chosenIndex],
+        isRight: isRight,
+    });
+    updateFailedStorage(q.id, isRight);
+    progressBar.style.width = "".concat((currentIndex + 1) / quizQuestions.length * 100, "%");
+    btnNext.classList.remove('hidden');
 }
-
 function disableOptions() {
-  [...optionsContainer.querySelectorAll('.option-btn')].forEach(b => (b.disabled = true));
+    __spreadArray([], optionsContainer.querySelectorAll('.option-btn'), true).forEach(function (b) { return (b.disabled = true); });
 }
-
 // ── Next button ───────────────────────────────────────
-btnNext.addEventListener('click', () => {
-  currentIndex++;
-  if (currentIndex < quizQuestions.length) {
-    renderQuestion();
-  } else {
-    showResults();
-  }
+btnNext.addEventListener('click', function () {
+    currentIndex++;
+    if (currentIndex < quizQuestions.length) {
+        renderQuestion();
+    }
+    else {
+        showResults();
+    }
 });
-
 // ── Timer ─────────────────────────────────────────────
 function startTimer() {
-  timerRemaining = TIMER_SECONDS;
-  updateTimerUI(TIMER_SECONDS);
-
-  timerInterval = setInterval(() => {
-    timerRemaining--;
-    updateTimerUI(timerRemaining);
-
-    if (timerRemaining <= 0) {
-      stopTimer();
-      timeOut();
-    }
-  }, 1000);
+    timerRemaining = TIMER_SECONDS;
+    updateTimerUI(TIMER_SECONDS);
+    timerInterval = setInterval(function () {
+        timerRemaining--;
+        updateTimerUI(timerRemaining);
+        if (timerRemaining <= 0) {
+            stopTimer();
+            timeOut();
+        }
+    }, 1000);
 }
-
 function stopTimer() {
-  clearInterval(timerInterval);
-  timerInterval = null;
+    clearInterval(timerInterval);
+    timerInterval = null;
 }
-
 function updateTimerUI(secs) {
-  timerText.textContent = secs;
-  const offset = CIRCUMFERENCE_SMALL * (1 - secs / TIMER_SECONDS);
-  timerCircle.style.strokeDashoffset = offset;
-
-  if (secs <= 10) {
-    timerCircle.style.stroke = 'var(--danger)';
-    timerText.style.color    = 'var(--danger)';
-  } else if (secs <= 20) {
-    timerCircle.style.stroke = 'var(--warning)';
-    timerText.style.color    = 'var(--warning)';
-  } else {
-    timerCircle.style.stroke = 'var(--primary)';
-    timerText.style.color    = 'var(--text)';
-  }
+    timerText.textContent = secs;
+    var offset = CIRCUMFERENCE_SMALL * (1 - secs / TIMER_SECONDS);
+    timerCircle.style.strokeDashoffset = offset;
+    if (secs <= 10) {
+        timerCircle.style.stroke = 'var(--danger)';
+        timerText.style.color = 'var(--danger)';
+    }
+    else if (secs <= 20) {
+        timerCircle.style.stroke = 'var(--warning)';
+        timerText.style.color = 'var(--warning)';
+    }
+    else {
+        timerCircle.style.stroke = 'var(--primary)';
+        timerText.style.color = 'var(--text)';
+    }
 }
-
 function timeOut() {
-  disableOptions();
-  const q = quizQuestions[currentIndex];
-  optionsContainer.children[q.correct].classList.add('correct');
-
-  if (q.explanation) {
-    const box = document.createElement('div');
-    box.className   = 'explanation-box';
-    box.textContent = '⏰ Tiempo agotado. ' + q.explanation;
-    optionsContainer.appendChild(box);
-  }
-
-  answers.push({
-    question: q.question,
-    correct:  q.options[q.correct],
-    chosen:   null,
-    isRight:  false,
-  });
-  updateFailedStorage(q.id, false);
-
-  progressBar.style.width = `${(currentIndex + 1) / quizQuestions.length * 100}%`;
-  btnNext.classList.remove('hidden');
+    disableOptions();
+    var q = quizQuestions[currentIndex];
+    optionsContainer.children[q.correct].classList.add('correct');
+    if (q.explanation) {
+        var box = document.createElement('div');
+        box.className = 'explanation-box';
+        box.textContent = '⏰ Tiempo agotado. ' + q.explanation;
+        optionsContainer.appendChild(box);
+    }
+    answers.push({
+        question: q.question,
+        correct: q.options[q.correct],
+        chosen: null,
+        isRight: false,
+    });
+    updateFailedStorage(q.id, false);
+    progressBar.style.width = "".concat((currentIndex + 1) / quizQuestions.length * 100, "%");
+    btnNext.classList.remove('hidden');
 }
-
 // ── Results ───────────────────────────────────────────
 function showResults() {
-  const total   = quizQuestions.length;
-  const pct     = score / total;
-
-  // Emoji & message
-  let emoji, title, subtitle;
-  if (pct === 1) {
-    emoji = '🏆'; title = '¡Perfecto!';      subtitle = '¡Has acertado todas las preguntas!';
-  } else if (pct >= 0.8) {
-    emoji = '🎉'; title = '¡Excelente!';     subtitle = 'Casi lo bordas. ¡Gran resultado!';
-  } else if (pct >= 0.6) {
-    emoji = '😊'; title = '¡Bien hecho!';    subtitle = 'Buen trabajo, sigue practicando.';
-  } else if (pct >= 0.4) {
-    emoji = '🙂'; title = 'Puedes mejorar';  subtitle = 'Un poco más de práctica y lo tendrás.';
-  } else {
-    emoji = '📚'; title = '¡Sigue estudiando!'; subtitle = 'Repasa los temas y vuelve a intentarlo.';
-  }
-
-  resultEmoji.textContent   = emoji;
-  resultTitle.textContent   = title;
-  resultSubtitle.textContent= subtitle;
-  scoreValue.textContent    = score;
-  scoreTotal.textContent    = `/ ${total}`;
-
-  showScreen('results');
-
-  // Animate donut after screen transition
-  requestAnimationFrame(() => {
-    const offset = CIRCUMFERENCE_LARGE * (1 - pct);
-    scoreArc.style.strokeDashoffset = offset;
-    scoreArc.style.stroke = pct >= 0.6 ? 'var(--success)' : pct >= 0.4 ? 'var(--warning)' : 'var(--danger)';
-  });
-
-  failedAnswers = answers
-    .map((answer, index) => ({ ...answer, number: index + 1 }))
-    .filter(answer => !answer.isRight);
-  reviewPage = 0;
-  renderReviewPage();
+    var total = quizQuestions.length;
+    var pct = score / total;
+    // Emoji & message
+    var emoji, title, subtitle;
+    if (pct === 1) {
+        emoji = '🏆';
+        title = '¡Perfecto!';
+        subtitle = '¡Has acertado todas las preguntas!';
+    }
+    else if (pct >= 0.8) {
+        emoji = '🎉';
+        title = '¡Excelente!';
+        subtitle = 'Casi lo bordas. ¡Gran resultado!';
+    }
+    else if (pct >= 0.6) {
+        emoji = '😊';
+        title = '¡Bien hecho!';
+        subtitle = 'Buen trabajo, sigue practicando.';
+    }
+    else if (pct >= 0.4) {
+        emoji = '🙂';
+        title = 'Puedes mejorar';
+        subtitle = 'Un poco más de práctica y lo tendrás.';
+    }
+    else {
+        emoji = '📚';
+        title = '¡Sigue estudiando!';
+        subtitle = 'Repasa los temas y vuelve a intentarlo.';
+    }
+    resultEmoji.textContent = emoji;
+    resultTitle.textContent = title;
+    resultSubtitle.textContent = subtitle;
+    scoreValue.textContent = score;
+    scoreTotal.textContent = "/ ".concat(total);
+    showScreen('results');
+    // Animate donut after screen transition
+    requestAnimationFrame(function () {
+        var offset = CIRCUMFERENCE_LARGE * (1 - pct);
+        scoreArc.style.strokeDashoffset = offset;
+        scoreArc.style.stroke = pct >= 0.6 ? 'var(--success)' : pct >= 0.4 ? 'var(--warning)' : 'var(--danger)';
+    });
+    failedAnswers = answers
+        .map(function (answer, index) { return (__assign(__assign({}, answer), { number: index + 1 })); })
+        .filter(function (answer) { return !answer.isRight; });
+    reviewPage = 0;
+    renderReviewPage();
 }
-
 function renderReviewPage() {
-  reviewContainer.innerHTML = '';
-
-  if (failedAnswers.length === 0) {
-    reviewPagination.classList.add('hidden');
-    return;
-  }
-
-  // Reserve the space for pagination before measuring the review area.
-  reviewPagination.classList.remove('hidden');
-  const createReviewItem = answer => {
-    const item = document.createElement('div');
-    item.className = 'review-item';
-    item.innerHTML = `
-      <div>
-        <div class="review-q">${answer.number}. ${answer.question}</div>
-        <div class="review-a">
-          Tu respuesta: <strong class="review-wrong">${answer.chosen ?? 'Sin respuesta'}</strong><br>Correcta: <strong class="review-correct">${answer.correct}</strong>
-        </div>
-      </div>`;
-    return item;
-  };
-
-  // Measure every card in the visible area, then keep only the cards that fit.
-  const measuredItems = failedAnswers.map(createReviewItem);
-  measuredItems.forEach(item => reviewContainer.appendChild(item));
-  const availableHeight = reviewContainer.clientHeight;
-  let usedHeight = 0;
-  reviewPageSize = measuredItems.reduce((count, item) => {
-    const nextHeight = item.offsetHeight + (count > 0 ? 8 : 0);
-    if (usedHeight + nextHeight > availableHeight && count > 0) return count;
-    usedHeight += nextHeight;
-    return count + 1;
-  }, 0) || 1;
-
-  const totalPages = Math.ceil(failedAnswers.length / reviewPageSize);
-  reviewPage = Math.min(reviewPage, totalPages - 1);
-  reviewContainer.innerHTML = '';
-  failedAnswers
-    .slice(reviewPage * reviewPageSize, (reviewPage + 1) * reviewPageSize)
-    .forEach(answer => reviewContainer.appendChild(createReviewItem(answer)));
-
-  reviewPagination.classList.toggle('hidden', totalPages <= 1);
-  reviewPageStatus.textContent = `${reviewPage + 1} / ${totalPages}`;
-  btnReviewPrev.disabled = reviewPage === 0;
-  btnReviewNext.disabled = reviewPage === totalPages - 1;
+    reviewContainer.innerHTML = '';
+    if (failedAnswers.length === 0) {
+        reviewPagination.classList.add('hidden');
+        return;
+    }
+    // Reserve the space for pagination before measuring the review area.
+    reviewPagination.classList.remove('hidden');
+    var createReviewItem = function (answer) {
+        var _a;
+        var item = document.createElement('div');
+        item.className = 'review-item';
+        item.innerHTML = "\n      <div>\n        <div class=\"review-q\">".concat(answer.number, ". ").concat(answer.question, "</div>\n        <div class=\"review-a\">\n          Tu respuesta: <strong class=\"review-wrong\">").concat((_a = answer.chosen) !== null && _a !== void 0 ? _a : 'Sin respuesta', "</strong><br>Correcta: <strong class=\"review-correct\">").concat(answer.correct, "</strong>\n        </div>\n      </div>");
+        return item;
+    };
+    // Measure every card in the visible area, then keep only the cards that fit.
+    var measuredItems = failedAnswers.map(createReviewItem);
+    measuredItems.forEach(function (item) { return reviewContainer.appendChild(item); });
+    var availableHeight = reviewContainer.clientHeight;
+    var usedHeight = 0;
+    reviewPageSize = measuredItems.reduce(function (count, item) {
+        var nextHeight = item.offsetHeight + (count > 0 ? 8 : 0);
+        if (usedHeight + nextHeight > availableHeight && count > 0)
+            return count;
+        usedHeight += nextHeight;
+        return count + 1;
+    }, 0) || 1;
+    var totalPages = Math.ceil(failedAnswers.length / reviewPageSize);
+    reviewPage = Math.min(reviewPage, totalPages - 1);
+    reviewContainer.innerHTML = '';
+    failedAnswers
+        .slice(reviewPage * reviewPageSize, (reviewPage + 1) * reviewPageSize)
+        .forEach(function (answer) { return reviewContainer.appendChild(createReviewItem(answer)); });
+    reviewPagination.classList.toggle('hidden', totalPages <= 1);
+    reviewPageStatus.textContent = "".concat(reviewPage + 1, " / ").concat(totalPages);
+    btnReviewPrev.disabled = reviewPage === 0;
+    btnReviewNext.disabled = reviewPage === totalPages - 1;
 }
-
 // ── Restart & Home ────────────────────────────────────
 btnRestart.addEventListener('click', startQuiz);
-btnHome.addEventListener('click', () => { refreshFailedBadge(); showScreen('home'); });
-btnReviewPrev.addEventListener('click', () => {
-  if (reviewPage > 0) {
-    reviewPage--;
-    renderReviewPage();
-  }
+btnHome.addEventListener('click', function () { refreshFailedBadge(); showScreen('home'); });
+btnReviewPrev.addEventListener('click', function () {
+    if (reviewPage > 0) {
+        reviewPage--;
+        renderReviewPage();
+    }
 });
-btnReviewNext.addEventListener('click', () => {
-  if (reviewPage < Math.ceil(failedAnswers.length / reviewPageSize) - 1) {
-    reviewPage++;
-    renderReviewPage();
-  }
+btnReviewNext.addEventListener('click', function () {
+    if (reviewPage < Math.ceil(failedAnswers.length / reviewPageSize) - 1) {
+        reviewPage++;
+        renderReviewPage();
+    }
 });
-
-document.getElementById('btn-start-failed').addEventListener('click', () => {
-  failedMode = true;
-  startQuiz();
+document.getElementById('btn-start-failed').addEventListener('click', function () {
+    failedMode = true;
+    startQuiz();
 });
-
-document.getElementById('btn-clear-failed').addEventListener('click', () => {
-  if (confirm('¿Borrar todo el historial de preguntas falladas?')) {
-    saveFailedIds(new Set());
-    refreshFailedBadge();
-  }
+document.getElementById('btn-clear-failed').addEventListener('click', function () {
+    if (confirm('¿Borrar todo el historial de preguntas falladas?')) {
+        saveFailedIds(new Set());
+        refreshFailedBadge();
+    }
 });
-
 // ── Utils ─────────────────────────────────────────────
 function shuffle(arr) {
-  for (let i = arr.length - 1; i > 0; i--) {
-    const j = Math.floor(Math.random() * (i + 1));
-    [arr[i], arr[j]] = [arr[j], arr[i]];
-  }
+    var _a;
+    for (var i = arr.length - 1; i > 0; i--) {
+        var j = Math.floor(Math.random() * (i + 1));
+        _a = [arr[j], arr[i]], arr[i] = _a[0], arr[j] = _a[1];
+    }
 }
 
   </script>

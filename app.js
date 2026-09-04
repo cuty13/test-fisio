@@ -140,7 +140,10 @@ function loadQuestionData() {
 loadQuestions();
 
 function populateCategories() {
-  const cats = [...new Set(allQuestions.map(q => q.category))];
+  const cats = [];
+  allQuestions.forEach(q => {
+    if (cats.indexOf(q.category) === -1) cats.push(q.category);
+  });
   if (examButtons) {
     examButtons.innerHTML = '';
     cats.forEach(cat => {
