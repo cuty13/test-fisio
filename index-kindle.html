@@ -876,7 +876,7 @@ body.kindle-mode .btn {
 
   body.kindle-mode #screen-quiz .options-container {
     flex: 0 0 auto;
-    gap: 10px;
+    gap: 0;
     min-height: 0;
     overflow: visible;
   }
@@ -888,6 +888,11 @@ body.kindle-mode .btn {
     font-size: 0.98rem;
     line-height: 1.25;
     text-align: justify;
+    margin-bottom: 10px;
+  }
+
+  body.kindle-mode #screen-quiz .option-btn:last-child {
+    margin-bottom: 0;
   }
 
   body.kindle-mode #screen-quiz .option-letter {
