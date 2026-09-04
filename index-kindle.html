@@ -25,7 +25,6 @@
   --border:     #e2e8f0;
   --radius:     16px;
   --shadow:     0 4px 24px rgba(108,99,255,0.12);
-  --transition: 0.25s ease;
 }
 
 
@@ -72,7 +71,6 @@ body {
   display: none;
   width: 100%;
   max-width: 560px;
-  animation: fadeUp 0.35s ease;
 }
 .screen.active {
   display: flex;
@@ -80,10 +78,6 @@ body {
   align-items: center;
 }
 
-@keyframes fadeUp {
-  from { opacity: 0; transform: translateY(20px); }
-  to   { opacity: 1; transform: translateY(0); }
-}
 
 /* ===== CARD ===== */
 .card {
@@ -166,7 +160,6 @@ select {
   background-repeat: no-repeat;
   background-position: right 12px center;
   cursor: pointer;
-  transition: border-color var(--transition);
 }
 select:focus {
   outline: none;
@@ -196,7 +189,6 @@ select:focus {
   background: var(--border);
   border-radius: 999px;
   cursor: pointer;
-  transition: background var(--transition);
 }
 .slider::before {
   content: '';
@@ -207,7 +199,6 @@ select:focus {
   top: 3px;
   background: #fff;
   border-radius: 50%;
-  transition: transform var(--transition);
   box-shadow: 0 1px 4px rgba(0,0,0,.2);
 }
 .toggle input:checked + .slider { background: var(--primary); }
@@ -225,7 +216,6 @@ select:focus {
   font-size: 1rem;
   font-weight: 700;
   cursor: pointer;
-  transition: transform var(--transition), box-shadow var(--transition), background var(--transition);
   width: 100%;
 }
 .btn:active { transform: scale(0.97); }
@@ -302,7 +292,6 @@ select:focus {
   stroke-linecap: round;
   stroke-dasharray: 113.1;
   stroke-dashoffset: 0;
-  transition: stroke-dashoffset 1s linear, stroke var(--transition);
 }
 #timer-text {
   position: absolute;
@@ -324,7 +313,6 @@ select:focus {
   height: 100%;
   background: linear-gradient(90deg, var(--primary), #a78bfa);
   border-radius: 999px;
-  transition: width 0.4s ease;
   width: 0%;
 }
 
@@ -363,7 +351,6 @@ select:focus {
   display: flex;
   align-items: center;
   gap: 12px;
-  transition: border-color var(--transition), background var(--transition), transform var(--transition);
 }
 .option-btn:hover:not(:disabled) {
   border-color: var(--primary);
@@ -382,7 +369,6 @@ select:focus {
   font-weight: 700;
   font-size: 0.85rem;
   color: var(--text-muted);
-  transition: background var(--transition), color var(--transition);
 }
 
 /* Option states */
@@ -405,18 +391,12 @@ select:focus {
 .option-btn.selected-wrong {
   border-color: var(--danger);
   background: #fef2f2;
-  animation: shake 0.4s ease;
 }
 .option-btn.selected-wrong .option-letter {
   background: var(--danger);
   color: #fff;
 }
 
-@keyframes shake {
-  0%,100% { transform: translateX(0); }
-  25%      { transform: translateX(-6px); }
-  75%      { transform: translateX(6px); }
-}
 
 /* Explanation box */
 .explanation-box {
@@ -427,7 +407,6 @@ select:focus {
   font-size: 0.88rem;
   color: var(--text-muted);
   line-height: 1.5;
-  animation: fadeUp 0.3s ease;
 }
 
 .btn-next {
@@ -447,11 +426,6 @@ select:focus {
 
 .result-emoji {
   display: none;
-}
-@keyframes pop {
-  0%   { transform: scale(0); }
-  70%  { transform: scale(1.2); }
-  100% { transform: scale(1); }
 }
 
 h2 {
@@ -498,7 +472,6 @@ h2 {
   stroke-linecap: round;
   stroke-dasharray: 339.3;
   stroke-dashoffset: 339.3;
-  transition: stroke-dashoffset 1.2s cubic-bezier(.4,0,.2,1);
 }
 
 .score-text {
@@ -657,7 +630,6 @@ h2 {
   padding: 2px 0;
   width: auto;
   align-self: center;
-  transition: color var(--transition);
 }
 .btn-link-danger:hover { color: var(--danger); }
 
@@ -677,7 +649,6 @@ body.kindle-mode {
   --border: #999;
   --radius: 8px;
   --shadow: none;
-  --transition: 0s;
   font-family: Arial, Helvetica, sans-serif;
   padding: 12px;
   background: #fff;
@@ -689,8 +660,6 @@ body.kindle-mode {
 body.kindle-mode *,
 body.kindle-mode *::before,
 body.kindle-mode *::after {
-  animation: none !important;
-  transition: none !important;
 }
 
 body.kindle-mode .timer-container {
@@ -714,7 +683,6 @@ body.kindle-mode #category-badge {
 
 body.kindle-mode .screen {
     max-width: 640px;
-    animation: none;
     height: calc(100vh - 24px);
     min-height: 0;
     overflow: hidden;
@@ -7174,12 +7142,9 @@ function showResults() {
     scoreValue.textContent = score;
     scoreTotal.textContent = "/ ".concat(total);
     showScreen('results');
-    // Animate donut after screen transition
-    requestAnimationFrame(function () {
-        var offset = CIRCUMFERENCE_LARGE * (1 - pct);
-        scoreArc.style.strokeDashoffset = offset;
-        scoreArc.style.stroke = pct >= 0.6 ? 'var(--success)' : pct >= 0.4 ? 'var(--warning)' : 'var(--danger)';
-    });
+    var offset = CIRCUMFERENCE_LARGE * (1 - pct);
+    scoreArc.style.strokeDashoffset = offset;
+    scoreArc.style.stroke = pct >= 0.6 ? 'var(--success)' : pct >= 0.4 ? 'var(--warning)' : 'var(--danger)';
     failedAnswers = answers
         .map(function (answer, index) { return (__assign(__assign({}, answer), { number: index + 1 })); })
         .filter(function (answer) { return !answer.isRight; });

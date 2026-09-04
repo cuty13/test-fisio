@@ -390,12 +390,9 @@ function showResults() {
 
   showScreen('results');
 
-  // Animate donut after screen transition
-  requestAnimationFrame(() => {
-    const offset = CIRCUMFERENCE_LARGE * (1 - pct);
-    scoreArc.style.strokeDashoffset = offset;
-    scoreArc.style.stroke = pct >= 0.6 ? 'var(--success)' : pct >= 0.4 ? 'var(--warning)' : 'var(--danger)';
-  });
+  const offset = CIRCUMFERENCE_LARGE * (1 - pct);
+  scoreArc.style.strokeDashoffset = offset;
+  scoreArc.style.stroke = pct >= 0.6 ? 'var(--success)' : pct >= 0.4 ? 'var(--warning)' : 'var(--danger)';
 
   failedAnswers = answers
     .map((answer, index) => ({ ...answer, number: index + 1 }))
