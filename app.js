@@ -58,6 +58,7 @@ let failedAnswers  = [];
 let reviewPage     = 0;
 let reviewPageSize = 1;
 let selectedCategory = 'all';
+let questionAnswered = false;
 
 // ── Historial de fallos (localStorage) ───────────────
 const FAILED_KEY = 'quiz_failed_ids';
@@ -219,6 +220,7 @@ function renderQuestion() {
   const q   = quizQuestions[currentIndex];
   const num = currentIndex + 1;
   const tot = quizQuestions.length;
+  questionAnswered = false;
 
   // Header
   questionCounter.textContent = `${num} / ${tot}`;
@@ -237,7 +239,10 @@ function renderQuestion() {
     btn.innerHTML = `
       <span class="option-letter">${letters[i]}</span>
       <span>${opt}</span>`;
-    btn.addEventListener('click', () => selectOption(i, btn));
+    btn.addEventListener('click', event => {
+      event.stopPropagation();
+      selectOption(i, btn);
+    });
     optionsContainer.appendChild(btn);
   });
 
@@ -251,6 +256,8 @@ function renderQuestion() {
 
 // ── Option selection ──────────────────────────────────
 function selectOption(chosenIndex, btn) {
+  if (questionAnswered) return;
+  questionAnswered = true;
   stopTimer();
   disableOptions();
 
@@ -293,6 +300,16 @@ function disableOptions() {
 
 // ── Next button ───────────────────────────────────────
 btnNext.addEventListener('click', () => {
+  currentIndex++;
+  if (currentIndex < quizQuestions.length) {
+    renderQuestion();
+  } else {
+    showResults();
+  }
+});
+
+screens.quiz.addEventListener('click', () => {
+  if (!questionAnswered) return;
   currentIndex++;
   if (currentIndex < quizQuestions.length) {
     renderQuestion();

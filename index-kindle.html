@@ -896,9 +896,7 @@ body.kindle-mode .btn {
   }
 
   body.kindle-mode #screen-quiz .btn-next {
-    flex-shrink: 0;
-    min-height: 44px;
-    padding: 9px 16px;
+    display: none !important;
   }
 
   body.kindle-mode #screen-results.active,
@@ -6844,6 +6842,7 @@ var failedAnswers = [];
 var reviewPage = 0;
 var reviewPageSize = 1;
 var selectedCategory = 'all';
+var questionAnswered = false;
 // ── Historial de fallos (localStorage) ───────────────
 var FAILED_KEY = 'quiz_failed_ids';
 function getFailedIds() {
@@ -7016,6 +7015,7 @@ function renderQuestion() {
     var q = quizQuestions[currentIndex];
     var num = currentIndex + 1;
     var tot = quizQuestions.length;
+    questionAnswered = false;
     // Header
     questionCounter.textContent = "".concat(num, " / ").concat(tot);
     categoryBadge.textContent = q.category;
@@ -7029,7 +7029,10 @@ function renderQuestion() {
         var btn = document.createElement('button');
         btn.className = 'option-btn';
         btn.innerHTML = "\n      <span class=\"option-letter\">".concat(letters[i], "</span>\n      <span>").concat(opt, "</span>");
-        btn.addEventListener('click', function () { return selectOption(i, btn); });
+        btn.addEventListener('click', function (event) {
+            event.stopPropagation();
+            selectOption(i, btn);
+        });
         optionsContainer.appendChild(btn);
     });
     btnNext.textContent = num === tot ? 'Ver resultados' : 'Siguiente →';
@@ -7041,6 +7044,9 @@ function renderQuestion() {
 }
 // ── Option selection ──────────────────────────────────
 function selectOption(chosenIndex, btn) {
+    if (questionAnswered)
+        return;
+    questionAnswered = true;
     stopTimer();
     disableOptions();
     var q = quizQuestions[currentIndex];
@@ -7077,6 +7083,17 @@ function disableOptions() {
 }
 // ── Next button ───────────────────────────────────────
 btnNext.addEventListener('click', function () {
+    currentIndex++;
+    if (currentIndex < quizQuestions.length) {
+        renderQuestion();
+    }
+    else {
+        showResults();
+    }
+});
+screens.quiz.addEventListener('click', function () {
+    if (!questionAnswered)
+        return;
     currentIndex++;
     if (currentIndex < quizQuestions.length) {
         renderQuestion();
