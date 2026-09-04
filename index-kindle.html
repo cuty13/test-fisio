@@ -220,15 +220,12 @@ select:focus {
   color: #fff;
   box-shadow: 0 4px 14px rgba(0,0,0,0.35);
 }
-.btn-primary:hover { background: var(--primary-dk); box-shadow: 0 6px 18px rgba(0,0,0,0.45); }
-
 .btn-secondary {
   background: var(--bg);
   color: var(--primary);
   border: 2px solid var(--primary);
   box-shadow: none;
 }
-.btn-secondary:hover { background: #eee; }
 
 .hidden { display: none !important; }
 
@@ -296,11 +293,6 @@ select:focus {
   cursor: pointer;
   display: flex;
   align-items: center;
-}
-.option-btn:hover:not(:disabled) {
-  border-color: var(--primary);
-  background: #f5f5f5;
-  transform: translateX(4px);
 }
 .option-btn:disabled { cursor: default; }
 
@@ -542,7 +534,6 @@ h2 {
   border: 2px solid var(--danger);
   box-shadow: none;
 }
-.btn-failed:hover:not(:disabled) { background: #e2e2e2; }
 .btn-failed:disabled { opacity: 0.38; cursor: not-allowed; transform: none !important; box-shadow: none; }
 
 .failed-badge {
@@ -568,7 +559,6 @@ h2 {
   width: auto;
   align-self: center;
 }
-.btn-link-danger:hover { color: var(--danger); }
 
 /* ===== KINDLE / TINTA ELECTRONICA =====
    Kindle displays are often monochrome, slower and narrower than a desktop.
@@ -687,9 +677,7 @@ body.kindle-mode #btn-start-failed {
 }
 
   body.kindle-mode .btn-primary,
-  body.kindle-mode .btn-primary:hover,
-  body.kindle-mode .btn-failed,
-  body.kindle-mode .btn-failed:hover:not(:disabled) {
+  body.kindle-mode .btn-failed {
     background: #222;
     color: #fff;
     border-color: #222;
@@ -705,11 +693,6 @@ body.kindle-mode #btn-start-failed {
     border-color: #777;
     line-height: 1.4;
     padding: 10px 12px;
-  }
-
-  body.kindle-mode .option-btn:hover:not(:disabled) {
-    border-color: #111;
-    transform: none;
   }
 
   body.kindle-mode .option-letter {
