@@ -225,7 +225,7 @@ function renderQuestion() {
   // Header
   questionCounter.textContent = `${num} / ${tot}`;
   categoryBadge.textContent   = q.category;
-  progressBar.style.width     = `${((num - 1) / tot) * 100}%`;
+  if (progressBar) progressBar.style.width = `${((num - 1) / tot) * 100}%`;
 
   // Question
   questionText.textContent = q.question;
@@ -254,8 +254,10 @@ function renderQuestion() {
   btnNext.classList.add('hidden');
 
   // Timer
-  timerContainer.style.display = useTimer ? 'flex' : 'none';
-  if (useTimer) startTimer();
+  if (timerContainer) {
+    timerContainer.style.display = useTimer ? 'flex' : 'none';
+    if (useTimer) startTimer();
+  }
 }
 
 // ── Option selection ──────────────────────────────────
@@ -294,7 +296,7 @@ function selectOption(chosenIndex, btn) {
   });
   updateFailedStorage(q.id, isRight);
 
-  progressBar.style.width = `${(currentIndex + 1) / quizQuestions.length * 100}%`;
+  if (progressBar) progressBar.style.width = `${(currentIndex + 1) / quizQuestions.length * 100}%`;
   btnNext.classList.remove('hidden');
 }
 
@@ -397,7 +399,7 @@ function timeOut() {
   });
   updateFailedStorage(q.id, false);
 
-  progressBar.style.width = `${(currentIndex + 1) / quizQuestions.length * 100}%`;
+  if (progressBar) progressBar.style.width = `${(currentIndex + 1) / quizQuestions.length * 100}%`;
   btnNext.classList.remove('hidden');
 }
 

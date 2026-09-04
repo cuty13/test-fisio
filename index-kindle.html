@@ -265,52 +265,6 @@ select:focus {
   letter-spacing: 0.04em;
 }
 
-/* Timer ring */
-.timer-container {
-  position: relative;
-  width: 52px;
-  height: 52px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-.timer-ring {
-  width: 52px;
-  height: 52px;
-  transform: rotate(-90deg);
-}
-.timer-bg  { fill: none; stroke: var(--border); stroke-width: 3; }
-.timer-arc {
-  fill: none;
-  stroke: var(--primary);
-  stroke-width: 3;
-  stroke-linecap: round;
-  stroke-dasharray: 113.1;
-  stroke-dashoffset: 0;
-}
-#timer-text {
-  position: absolute;
-  font-size: 0.85rem;
-  font-weight: 700;
-  color: var(--text);
-}
-
-/* ===== PROGRESS BAR ===== */
-.progress-bar-wrapper {
-  width: 100%;
-  height: 6px;
-  background: var(--border);
-  border-radius: 999px;
-  margin-bottom: 14px;
-  overflow: hidden;
-}
-.progress-bar {
-  height: 100%;
-  background: linear-gradient(90deg, var(--primary), #a78bfa);
-  border-radius: 999px;
-  width: 0%;
-}
-
 /* ===== QUESTION CARD ===== */
 .question-card {
   display: flex;
@@ -655,14 +609,6 @@ body.kindle-mode *::before,
 body.kindle-mode *::after {
 }
 
-body.kindle-mode .timer-container {
-  display: none !important;
-}
-
-body.kindle-mode .progress-bar-wrapper {
-  display: none;
-}
-
 body.kindle-mode .quiz-meta {
   width: 100%;
   flex-direction: row;
@@ -814,14 +760,6 @@ body.kindle-mode #btn-start-failed {
 
   body.kindle-mode .option-btn.selected-wrong::after {
     content: 'INCORRECTA';
-  }
-
-  body.kindle-mode .progress-bar {
-    background: #222;
-  }
-
-  body.kindle-mode .timer-arc {
-    stroke: #222;
   }
 
   body.kindle-mode .badge {
@@ -983,8 +921,6 @@ body.kindle-mode #btn-start-failed {
 
   .btn,
   .toggle,
-  .timer-container,
-  .progress-bar-wrapper,
   .results-actions {
     display: none !important;
   }
@@ -1021,12 +957,7 @@ body.kindle-mode #btn-start-failed {
   <div id="screen-quiz" class="screen">
     <div class="quiz-header">
       <div class="quiz-meta"><span id="question-counter">1 / 10</span><span id="category-badge" class="badge">Historia</span></div>
-      <div id="timer-container" class="timer-container">
-        <svg class="timer-ring" viewBox="0 0 44 44"><circle class="timer-bg" cx="22" cy="22" r="18"/><circle id="timer-circle" class="timer-arc" cx="22" cy="22" r="18"/></svg>
-        <span id="timer-text">30</span>
-      </div>
     </div>
-    <div class="progress-bar-wrapper"><div id="progress-bar" class="progress-bar"></div></div>
     <div class="card question-card">
       <p id="question-text" class="question-text"></p>
       <div id="options-container" class="options-container"></div>
@@ -7023,7 +6954,8 @@ function renderQuestion() {
     // Header
     questionCounter.textContent = "".concat(num, " / ").concat(tot);
     categoryBadge.textContent = q.category;
-    progressBar.style.width = "".concat(((num - 1) / tot) * 100, "%");
+    if (progressBar)
+        progressBar.style.width = "".concat(((num - 1) / tot) * 100, "%");
     // Question
     questionText.textContent = q.question;
     // Options
@@ -7046,9 +6978,11 @@ function renderQuestion() {
     btnNext.textContent = num === tot ? 'Ver resultados' : 'Siguiente →';
     btnNext.classList.add('hidden');
     // Timer
-    timerContainer.style.display = useTimer ? 'flex' : 'none';
-    if (useTimer)
-        startTimer();
+    if (timerContainer) {
+        timerContainer.style.display = useTimer ? 'flex' : 'none';
+        if (useTimer)
+            startTimer();
+    }
 }
 // ── Option selection ──────────────────────────────────
 function selectOption(chosenIndex, btn) {
@@ -7083,7 +7017,8 @@ function selectOption(chosenIndex, btn) {
         isRight: isRight,
     });
     updateFailedStorage(q.id, isRight);
-    progressBar.style.width = "".concat((currentIndex + 1) / quizQuestions.length * 100, "%");
+    if (progressBar)
+        progressBar.style.width = "".concat((currentIndex + 1) / quizQuestions.length * 100, "%");
     btnNext.classList.remove('hidden');
 }
 function disableOptions() {
@@ -7179,7 +7114,8 @@ function timeOut() {
         isRight: false,
     });
     updateFailedStorage(q.id, false);
-    progressBar.style.width = "".concat((currentIndex + 1) / quizQuestions.length * 100, "%");
+    if (progressBar)
+        progressBar.style.width = "".concat((currentIndex + 1) / quizQuestions.length * 100, "%");
     btnNext.classList.remove('hidden');
 }
 // ── Results ───────────────────────────────────────────
