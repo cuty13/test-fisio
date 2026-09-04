@@ -92,7 +92,6 @@ body {
 .home-card {
   display: flex;
   flex-direction: column;
-  gap: 20px;
   align-items: center;
   text-align: center;
 }
@@ -119,14 +118,12 @@ h1 {
   width: 100%;
   display: flex;
   flex-direction: column;
-  gap: 6px;
   text-align: left;
 }
 
 .exam-buttons {
   display: flex;
   flex-direction: column;
-  gap: 10px;
   width: 100%;
 }
 
@@ -209,7 +206,6 @@ select:focus {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  gap: 8px;
   border: none;
   border-radius: 12px;
   padding: 14px 28px;
@@ -249,7 +245,6 @@ select:focus {
 .quiz-meta {
   display: flex;
   flex-direction: column;
-  gap: 6px;
 }
 
 #question-counter {
@@ -320,7 +315,6 @@ select:focus {
 .question-card {
   display: flex;
   flex-direction: column;
-  gap: 20px;
 }
 
 .question-text {
@@ -334,7 +328,6 @@ select:focus {
 .options-container {
   display: flex;
   flex-direction: column;
-  gap: 10px;
 }
 
 .option-btn {
@@ -350,7 +343,6 @@ select:focus {
   cursor: pointer;
   display: flex;
   align-items: center;
-  gap: 12px;
 }
 .option-btn:hover:not(:disabled) {
   border-color: var(--primary);
@@ -418,7 +410,6 @@ select:focus {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 20px;
   text-align: center;
   flex: 1;
   min-height: 0;
@@ -442,7 +433,6 @@ h2 {
   flex-direction: row;
   align-items: center;
   width: 100%;
-  gap: 12px;
 }
 .result-header-row h2 {
   flex: 1;
@@ -499,7 +489,6 @@ h2 {
   width: 100%;
   display: flex;
   flex-direction: column;
-  gap: 8px;
   flex: 1;
   overflow-y: auto;
   padding-right: 4px;
@@ -510,7 +499,6 @@ h2 {
 .review-item {
   display: flex;
   align-items: flex-start;
-  gap: 10px;
   background: var(--bg);
   border-radius: 10px;
   padding: 10px 12px;
@@ -540,7 +528,6 @@ h2 {
 
 .results-actions {
   display: flex;
-  gap: 12px;
   width: 100%;
   margin-top: auto;
   padding-top: 4px;
@@ -553,7 +540,6 @@ h2 {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  gap: 10px;
   width: 100%;
 }
 
@@ -594,8 +580,6 @@ h2 {
   .option-btn { padding: 10px 12px; font-size: 0.88rem; }
   .option-letter { min-width: 26px; height: 26px; font-size: 0.78rem; }
   .quiz-header { padding-bottom: 8px; }
-  .question-card { gap: 14px; }
-  .options-container { gap: 7px; }
 }
 
 /* ===== MODO REPASO DE FALLADAS ===== */
@@ -862,7 +846,6 @@ body.kindle-mode .btn {
 
   body.kindle-mode #screen-quiz .question-card {
     flex: 0 0 auto;
-    gap: 8px;
     padding: 8px 14px 16px;
     min-height: 0;
     border: none;
@@ -876,7 +859,6 @@ body.kindle-mode .btn {
 
   body.kindle-mode #screen-quiz .options-container {
     flex: 0 0 auto;
-    gap: 0;
     min-height: 0;
     overflow: visible;
   }
@@ -884,7 +866,6 @@ body.kindle-mode .btn {
   body.kindle-mode #screen-quiz .option-btn {
     min-height: 0;
     padding: 7px 6px 7px 4px;
-    gap: 6px;
     font-size: 0.98rem;
     line-height: 1.25;
     text-align: justify;
@@ -922,7 +903,6 @@ body.kindle-mode .btn {
   }
 
   body.kindle-mode #screen-results .results-card {
-    gap: 10px;
     padding: 16px 14px;
   }
 
@@ -949,7 +929,6 @@ body.kindle-mode .btn {
   body.kindle-mode #screen-results .score-text {
     position: static;
     flex-direction: row;
-    gap: 4px;
     white-space: nowrap;
   }
 
