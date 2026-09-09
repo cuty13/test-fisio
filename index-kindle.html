@@ -8184,7 +8184,6 @@ function saveFailedIds(set) {
     var serialized = JSON.stringify(Array.from(memoryFailedIds));
     try {
         localStorage.setItem(FAILED_KEY, serialized);
-        return;
     }
     catch (error) {
         console.warn('localStorage no disponible; se usará el almacenamiento alternativo.', error);
@@ -8194,6 +8193,21 @@ function saveFailedIds(set) {
     }
     catch (error) {
         console.warn('No se pudo guardar el historial alternativo:', error);
+    }
+}
+function clearFailedStorage() {
+    memoryFailedIds = new Set();
+    try {
+        localStorage.removeItem(FAILED_KEY);
+    }
+    catch (error) {
+        console.warn('No se pudo limpiar localStorage.', error);
+    }
+    try {
+        document.cookie = "".concat(FAILED_KEY, "=; path=/; max-age=0");
+    }
+    catch (error) {
+        console.warn('No se pudo limpiar el almacenamiento alternativo.', error);
     }
 }
 function updateFailedStorage(id, isRight) {
@@ -8621,10 +8635,8 @@ document.getElementById('btn-start-failed').addEventListener('click', function (
     startQuiz();
 });
 document.getElementById('btn-clear-failed').addEventListener('click', function () {
-    if (confirm('¿Borrar todo el historial de preguntas falladas?')) {
-        saveFailedIds(new Set());
-        refreshFailedBadge();
-    }
+    clearFailedStorage();
+    refreshFailedBadge();
 });
 // ── Utils ─────────────────────────────────────────────
 function shuffle(arr) {

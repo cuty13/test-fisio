@@ -103,7 +103,6 @@ function saveFailedIds(set) {
 
   try {
     localStorage.setItem(FAILED_KEY, serialized);
-    return;
   } catch (error) {
     console.warn('localStorage no disponible; se usará el almacenamiento alternativo.', error);
   }
@@ -112,6 +111,20 @@ function saveFailedIds(set) {
     document.cookie = `${FAILED_KEY}=${encodeURIComponent(serialized)}; path=/; max-age=31536000`;
   } catch (error) {
     console.warn('No se pudo guardar el historial alternativo:', error);
+  }
+}
+
+function clearFailedStorage() {
+  memoryFailedIds = new Set();
+  try {
+    localStorage.removeItem(FAILED_KEY);
+  } catch (error) {
+    console.warn('No se pudo limpiar localStorage.', error);
+  }
+  try {
+    document.cookie = `${FAILED_KEY}=; path=/; max-age=0`;
+  } catch (error) {
+    console.warn('No se pudo limpiar el almacenamiento alternativo.', error);
   }
 }
 
@@ -549,10 +562,8 @@ document.getElementById('btn-start-failed').addEventListener('click', () => {
 });
 
 document.getElementById('btn-clear-failed').addEventListener('click', () => {
-  if (confirm('¿Borrar todo el historial de preguntas falladas?')) {
-    saveFailedIds(new Set());
-    refreshFailedBadge();
-  }
+  clearFailedStorage();
+  refreshFailedBadge();
 });
 
 // ── Utils ─────────────────────────────────────────────
