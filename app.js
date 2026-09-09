@@ -62,18 +62,56 @@ let questionAnswered = false;
 
 // ── Historial de fallos (localStorage) ───────────────
 const FAILED_KEY = 'quiz_failed_ids';
+let memoryFailedIds = null;
+
+function parseFailedIds(raw) {
+  const parsed = JSON.parse(raw);
+  if (!Array.isArray(parsed)) throw new Error('Formato de historial no válido');
+  return new Set(parsed);
+}
+
+function getFailedCookie() {
+  const prefix = `${FAILED_KEY}=`;
+  const cookie = document.cookie.split('; ').find(item => item.startsWith(prefix));
+  return cookie ? decodeURIComponent(cookie.slice(prefix.length)) : null;
+}
 
 function getFailedIds() {
-  try { return new Set(JSON.parse(localStorage.getItem(FAILED_KEY) || '[]')); }
-  catch { return new Set(); }
+  if (memoryFailedIds) return new Set(memoryFailedIds);
+
+  try {
+    const raw = localStorage.getItem(FAILED_KEY);
+    if (raw !== null) return (memoryFailedIds = parseFailedIds(raw), new Set(memoryFailedIds));
+  } catch (error) {
+    console.warn('localStorage no disponible; se probará el almacenamiento alternativo.', error);
+  }
+
+  try {
+    const raw = getFailedCookie();
+    if (raw !== null) return (memoryFailedIds = parseFailedIds(raw), new Set(memoryFailedIds));
+  } catch (error) {
+    console.warn('No se pudo leer el historial alternativo.', error);
+  }
+
+  memoryFailedIds = new Set();
+  return new Set();
 }
 
 function saveFailedIds(set) {
+  memoryFailedIds = new Set(set);
+  const serialized = JSON.stringify(Array.from(memoryFailedIds));
+
   try {
-    localStorage.setItem(FAILED_KEY, JSON.stringify([...set]));
+    localStorage.setItem(FAILED_KEY, serialized);
+    return;
   } catch (error) {
-    // Algunos navegadores Kindle bloquean localStorage; el test sigue siendo usable.
-    console.warn('No se pudo guardar el historial de fallos:', error);
+    console.warn('localStorage no disponible; se usará el almacenamiento alternativo.', error);
+  }
+
+  try {
+    document.cookie = `${FAILED_KEY}=${encodeURIComponent(serialized)}; path=/; max-age=31536000`;
+  } catch (error) {
+    console.warn('No se pudo guardar el historial alternativo:', error);
   }
 }
 
