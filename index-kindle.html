@@ -1079,7 +1079,9 @@ var selectedCategory = 'all';
 var questionAnswered = false;
 // ── Historial de fallos (localStorage) ───────────────
 var FAILED_KEY = 'quiz_failed_ids';
+var PROGRESS_KEY = 'quiz_progress';
 var memoryFailedIds = null;
+var restoredTimerRemaining = null;
 function parseFailedIds(raw) {
     var parsed = JSON.parse(raw);
     if (!Array.isArray(parsed))
@@ -1155,6 +1157,88 @@ function refreshFailedBadge() {
     document.getElementById('failed-count-badge').textContent = count;
     document.getElementById('btn-start-failed').disabled = count === 0;
 }
+function getSavedProgress() {
+    try {
+        var raw = localStorage.getItem(PROGRESS_KEY);
+        return raw ? JSON.parse(raw) : null;
+    }
+    catch (error) {
+        console.warn('No se pudo leer el progreso guardado.', error);
+        return null;
+    }
+}
+function saveQuizProgress() {
+    if (!quizQuestions.length || screens.results.classList.contains('active'))
+        return;
+    var progress = {
+        questionIds: quizQuestions.map(function (q) { return q.id; }),
+        currentIndex: currentIndex,
+        score: score,
+        answers: answers,
+        questionAnswered: questionAnswered,
+        useTimer: useTimer,
+        timerRemaining: timerRemaining,
+        savedAt: Date.now(),
+    };
+    try {
+        localStorage.setItem(PROGRESS_KEY, JSON.stringify(progress));
+    }
+    catch (error) {
+        console.warn('No se pudo guardar el progreso del test.', error);
+    }
+}
+function clearQuizProgress() {
+    try {
+        localStorage.removeItem(PROGRESS_KEY);
+    }
+    catch (error) {
+        console.warn('No se pudo limpiar el progreso del test.', error);
+    }
+}
+function restoreQuizProgress() {
+    var saved = getSavedProgress();
+    if (!saved || !Array.isArray(saved.questionIds) || !saved.questionIds.length)
+        return false;
+    var questionsById = new Map(allQuestions.map(function (q) { return [q.id, q]; }));
+    var restoredQuestions = saved.questionIds.map(function (id) { return questionsById.get(id); });
+    if (restoredQuestions.some(function (q) { return !q; }) || saved.currentIndex < 0 || saved.currentIndex >= restoredQuestions.length) {
+        clearQuizProgress();
+        return false;
+    }
+    quizQuestions = restoredQuestions;
+    currentIndex = saved.currentIndex;
+    score = Number.isFinite(saved.score) ? saved.score : 0;
+    answers = Array.isArray(saved.answers) ? saved.answers : [];
+    questionAnswered = saved.questionAnswered === true;
+    useTimer = saved.useTimer === true;
+    restoredTimerRemaining = useTimer && Number.isFinite(saved.timerRemaining)
+        ? Math.max(0, saved.timerRemaining - Math.floor((Date.now() - (saved.savedAt || Date.now())) / 1000))
+        : null;
+    var shouldRestoreAnswered = questionAnswered;
+    showScreen('quiz');
+    renderQuestion();
+    if (shouldRestoreAnswered) {
+        questionAnswered = true;
+        restoreAnsweredQuestion();
+    }
+    saveQuizProgress();
+    return true;
+}
+function restoreAnsweredQuestion() {
+    var answer = answers[currentIndex];
+    if (!answer) {
+        questionAnswered = false;
+        return;
+    }
+    stopTimer();
+    var chosenIndex = quizQuestions[currentIndex].options.indexOf(answer.chosen);
+    if (chosenIndex >= 0)
+        optionsContainer.children[chosenIndex].classList.add(answer.isRight ? 'correct' : 'selected-wrong');
+    if (!answer.isRight)
+        optionsContainer.children[quizQuestions[currentIndex].correct].classList.add('correct');
+    disableOptions();
+    btnNext.classList.remove('hidden');
+}
 // ── Boot ─────────────────────────────────────────────
 function loadQuestions() {
     return __awaiter(this, void 0, void 0, function () {
@@ -1190,6 +1274,7 @@ function loadQuestions() {
                     if (btnStart)
                         btnStart.disabled = false;
                     refreshFailedBadge();
+                    restoreQuizProgress();
                     return [2 /*return*/];
             }
         });
@@ -1289,8 +1374,10 @@ function startQuiz() {
     currentIndex = 0;
     score = 0;
     answers = [];
+    clearQuizProgress();
     showScreen('quiz');
     renderQuestion();
+    saveQuizProgress();
 }
 // ── Question render ───────────────────────────────────
 function renderQuestion() {
@@ -1330,6 +1417,7 @@ function renderQuestion() {
         if (useTimer)
             startTimer();
     }
+    saveQuizProgress();
 }
 // ── Option selection ──────────────────────────────────
 function selectOption(chosenIndex, btn) {
@@ -1364,6 +1452,7 @@ function selectOption(chosenIndex, btn) {
         isRight: isRight,
     });
     updateFailedStorage(q.id, isRight);
+    saveQuizProgress();
     if (progressBar)
         progressBar.style.width = "".concat((currentIndex + 1) / quizQuestions.length * 100, "%");
     btnNext.classList.remove('hidden');
@@ -1380,6 +1469,7 @@ btnNext.addEventListener('click', function () {
         renderQuestion();
     }
     else {
+        clearQuizProgress();
         showResults();
     }
 });
@@ -1391,6 +1481,7 @@ function advanceAfterAnswer() {
         renderQuestion();
     }
     else {
+        clearQuizProgress();
         showResults();
     }
 }
@@ -1412,8 +1503,9 @@ document.addEventListener('click', function (event) {
 });
 // ── Timer ─────────────────────────────────────────────
 function startTimer() {
-    timerRemaining = TIMER_SECONDS;
-    updateTimerUI(TIMER_SECONDS);
+    timerRemaining = restoredTimerRemaining !== null ? restoredTimerRemaining : TIMER_SECONDS;
+    restoredTimerRemaining = null;
+    updateTimerUI(timerRemaining);
     timerInterval = setInterval(function () {
         timerRemaining--;
         updateTimerUI(timerRemaining);
@@ -1461,6 +1553,7 @@ function timeOut() {
         isRight: false,
     });
     updateFailedStorage(q.id, false);
+    saveQuizProgress();
     if (progressBar)
         progressBar.style.width = "".concat((currentIndex + 1) / quizQuestions.length * 100, "%");
     btnNext.classList.remove('hidden');
@@ -1551,7 +1644,7 @@ function renderReviewPage() {
 }
 // ── Restart & Home ────────────────────────────────────
 btnRestart.addEventListener('click', startQuiz);
-btnHome.addEventListener('click', function () { refreshFailedBadge(); showScreen('home'); });
+btnHome.addEventListener('click', function () { clearQuizProgress(); refreshFailedBadge(); showScreen('home'); });
 btnReviewPrev.addEventListener('click', function () {
     if (reviewPage > 0) {
         reviewPage--;
@@ -1572,6 +1665,7 @@ document.getElementById('btn-clear-failed').addEventListener('click', function (
     clearFailedStorage();
     refreshFailedBadge();
 });
+window.addEventListener('pagehide', saveQuizProgress);
 // ── Utils ─────────────────────────────────────────────
 function shuffle(arr) {
     var _a;
@@ -1584,4 +1678,3 @@ function shuffle(arr) {
   </script>
 </body>
 </html>
-

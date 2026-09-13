@@ -62,7 +62,9 @@ let questionAnswered = false;
 
 // ── Historial de fallos (localStorage) ───────────────
 const FAILED_KEY = 'quiz_failed_ids';
+const PROGRESS_KEY = 'quiz_progress';
 let memoryFailedIds = null;
+let restoredTimerRemaining = null;
 
 function parseFailedIds(raw) {
   const parsed = JSON.parse(raw);
@@ -135,6 +137,88 @@ function updateFailedStorage(id, isRight) {
   refreshFailedBadge();
 }
 
+function getSavedProgress() {
+  try {
+    const raw = localStorage.getItem(PROGRESS_KEY);
+    return raw ? JSON.parse(raw) : null;
+  } catch (error) {
+    console.warn('No se pudo leer el progreso guardado.', error);
+    return null;
+  }
+}
+
+function saveQuizProgress() {
+  if (!quizQuestions.length || screens.results.classList.contains('active')) return;
+  const progress = {
+    questionIds: quizQuestions.map(q => q.id),
+    currentIndex,
+    score,
+    answers,
+    questionAnswered,
+    useTimer,
+    timerRemaining,
+    savedAt: Date.now(),
+  };
+  try {
+    localStorage.setItem(PROGRESS_KEY, JSON.stringify(progress));
+  } catch (error) {
+    console.warn('No se pudo guardar el progreso del test.', error);
+  }
+}
+
+function clearQuizProgress() {
+  try {
+    localStorage.removeItem(PROGRESS_KEY);
+  } catch (error) {
+    console.warn('No se pudo limpiar el progreso del test.', error);
+  }
+}
+
+function restoreQuizProgress() {
+  const saved = getSavedProgress();
+  if (!saved || !Array.isArray(saved.questionIds) || !saved.questionIds.length) return false;
+
+  const questionsById = new Map(allQuestions.map(q => [q.id, q]));
+  const restoredQuestions = saved.questionIds.map(id => questionsById.get(id));
+  if (restoredQuestions.some(q => !q) || saved.currentIndex < 0 || saved.currentIndex >= restoredQuestions.length) {
+    clearQuizProgress();
+    return false;
+  }
+
+  quizQuestions = restoredQuestions;
+  currentIndex = saved.currentIndex;
+  score = Number.isFinite(saved.score) ? saved.score : 0;
+  answers = Array.isArray(saved.answers) ? saved.answers : [];
+  questionAnswered = saved.questionAnswered === true;
+  useTimer = saved.useTimer === true;
+  restoredTimerRemaining = useTimer && Number.isFinite(saved.timerRemaining)
+    ? Math.max(0, saved.timerRemaining - Math.floor((Date.now() - (saved.savedAt || Date.now())) / 1000))
+    : null;
+  const shouldRestoreAnswered = questionAnswered;
+  showScreen('quiz');
+  renderQuestion();
+  if (shouldRestoreAnswered) {
+    questionAnswered = true;
+    restoreAnsweredQuestion();
+  }
+  saveQuizProgress();
+  return true;
+}
+
+function restoreAnsweredQuestion() {
+  const answer = answers[currentIndex];
+  if (!answer) {
+    questionAnswered = false;
+    return;
+  }
+  stopTimer();
+  const chosenIndex = quizQuestions[currentIndex].options.indexOf(answer.chosen);
+  if (chosenIndex >= 0) optionsContainer.children[chosenIndex].classList.add(answer.isRight ? 'correct' : 'selected-wrong');
+  if (!answer.isRight) optionsContainer.children[quizQuestions[currentIndex].correct].classList.add('correct');
+  disableOptions();
+  btnNext.classList.remove('hidden');
+}
+
 function refreshFailedBadge() {
   const count = getFailedIds().size;
   document.getElementById('failed-count-badge').textContent = count;
@@ -163,6 +247,7 @@ async function loadQuestions() {
   populateCategories();
   if (btnStart) btnStart.disabled = false;
   refreshFailedBadge();
+  restoreQuizProgress();
 }
 
 function loadQuestionData() {
@@ -261,9 +346,11 @@ function startQuiz() {
   currentIndex  = 0;
   score         = 0;
   answers       = [];
+  clearQuizProgress();
 
   showScreen('quiz');
   renderQuestion();
+  saveQuizProgress();
 }
 
 // ── Question render ───────────────────────────────────
@@ -309,6 +396,7 @@ function renderQuestion() {
     timerContainer.style.display = useTimer ? 'flex' : 'none';
     if (useTimer) startTimer();
   }
+  saveQuizProgress();
 }
 
 // ── Option selection ──────────────────────────────────
@@ -346,6 +434,7 @@ function selectOption(chosenIndex, btn) {
     isRight,
   });
   updateFailedStorage(q.id, isRight);
+  saveQuizProgress();
 
   if (progressBar) progressBar.style.width = `${(currentIndex + 1) / quizQuestions.length * 100}%`;
   btnNext.classList.remove('hidden');
@@ -362,6 +451,7 @@ btnNext.addEventListener('click', () => {
   if (currentIndex < quizQuestions.length) {
     renderQuestion();
   } else {
+    clearQuizProgress();
     showResults();
   }
 });
@@ -372,6 +462,7 @@ function advanceAfterAnswer() {
   if (currentIndex < quizQuestions.length) {
     renderQuestion();
   } else {
+    clearQuizProgress();
     showResults();
   }
 }
@@ -394,8 +485,9 @@ document.addEventListener('click', event => {
 
 // ── Timer ─────────────────────────────────────────────
 function startTimer() {
-  timerRemaining = TIMER_SECONDS;
-  updateTimerUI(TIMER_SECONDS);
+  timerRemaining = restoredTimerRemaining ?? TIMER_SECONDS;
+  restoredTimerRemaining = null;
+  updateTimerUI(timerRemaining);
 
   timerInterval = setInterval(() => {
     timerRemaining--;
@@ -449,6 +541,7 @@ function timeOut() {
     isRight:  false,
   });
   updateFailedStorage(q.id, false);
+  saveQuizProgress();
 
   if (progressBar) progressBar.style.width = `${(currentIndex + 1) / quizQuestions.length * 100}%`;
   btnNext.classList.remove('hidden');
@@ -542,7 +635,7 @@ function renderReviewPage() {
 
 // ── Restart & Home ────────────────────────────────────
 btnRestart.addEventListener('click', startQuiz);
-btnHome.addEventListener('click', () => { refreshFailedBadge(); showScreen('home'); });
+btnHome.addEventListener('click', () => { clearQuizProgress(); refreshFailedBadge(); showScreen('home'); });
 btnReviewPrev.addEventListener('click', () => {
   if (reviewPage > 0) {
     reviewPage--;
@@ -565,6 +658,8 @@ document.getElementById('btn-clear-failed').addEventListener('click', () => {
   clearFailedStorage();
   refreshFailedBadge();
 });
+
+window.addEventListener('pagehide', saveQuizProgress);
 
 // ── Utils ─────────────────────────────────────────────
 function shuffle(arr) {
